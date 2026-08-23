@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PlayaOS Monitor Update",
+  "type": "object",
+  "required": ["id", "event_id", "type", "submitted_at", "status"],
+  "properties": {
+    "id": {"type":"string"},
+    "event_id": {"type":"string"},
+    "type": {"enum":["time_change","location_change","cancelled","artist_change","new_event","correction","field_report","other"]},
+    "message": {"type":"string"},
+    "submitted_at": {"type":"string","format":"date-time"},
+    "status": {"enum":["pending","corroborated","verified","rejected"]},
+    "confidence": {"enum":["low","medium","high"]},
+    "source": {"type":"string"},
+    "reporter": {"type":"string"}
+  }
+}
