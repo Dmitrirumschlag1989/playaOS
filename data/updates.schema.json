@@ -1,0 +1,20 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"PlayaOS Community Update",
+  "type":"object",
+  "required":["id","event_id","type","submitted_at","status","claim"],
+  "properties":{
+    "id":{"type":"string"},
+    "event_id":{"type":"string"},
+    "type":{"enum":["correction","schedule_change","cancellation","location_change","dj_update","artist_update","new_event","rumor","field_report","other"]},
+    "submitted_at":{"type":"string","format":"date-time"},
+    "submitted_by":{"type":"string"},
+    "claim":{"type":"string"},
+    "evidence_url":{"type":"string","format":"uri"},
+    "evidence_note":{"type":"string"},
+    "status":{"enum":["pending","corroborating","accepted","rejected","superseded"]},
+    "confidence":{"enum":["low","medium","high"]},
+    "observed_at":{"type":"string","format":"date-time"},
+    "source_type":{"enum":["official","camp","participant","community","social","field_report","unknown"]}
+  }
+}
