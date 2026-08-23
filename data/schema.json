@@ -1,0 +1,27 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"PlayaOS Activity",
+  "type":"object",
+  "required":["id","date","start","end","title","category","status"],
+  "properties":{
+    "id":{"type":"string"},
+    "date":{"type":"string","format":"date"},
+    "start":{"type":"string","pattern":"^([01]\\d|2[0-3]):[0-5]\\d$"},
+    "end":{"type":"string","pattern":"^([01]\\d|2[0-3]):[0-5]\\d$"},
+    "title":{"type":"string"},
+    "camp":{"type":"string"},
+    "category":{"enum":["food","wellness","workshop","art","music","performance","mutant_vehicle","fire","social","games","couples","costume","photography","exploration","service","other"]},
+    "priority":{"enum":["must","high","maybe","discovery"]},
+    "status":{"enum":["verified","maybe","rumor","removed"]},
+    "source_url":{"type":"string","format":"uri"},
+    "description":{"type":"string"},
+    "location":{"type":"string"},
+    "lat":{"type":"number"},
+    "lng":{"type":"number"},
+    "overnight":{"type":"boolean"},
+    "allow_late_arrival":{"type":"boolean"},
+    "allow_early_departure":{"type":"boolean"},
+    "tags":{"type":"array","items":{"type":"string"}},
+    "artists":{"type":"array","items":{"type":"string"}}
+  }
+}
