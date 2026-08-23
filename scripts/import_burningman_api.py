@@ -2,16 +2,17 @@
 """Fetch official Burning Man 2026 API data into PlayaOS.
 
 The API key is read only from BURNING_MAN_API_KEY. Never commit the key.
-The current Burning Man Public API 2.x uses query parameters such as
+The current Burning Man Public API 2.x uses endpoints such as
 /api/event?year=2026 rather than the legacy /api/0.1/{year}/... paths.
 """
 import json, os, sys
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 BASE = os.getenv('BURNING_MAN_API_BASE', 'https://api.burningman.org').rstrip('/')
-KEY = os.getenv('BURNING_MAN_API_KEY')
+KEY = (os.getenv('BURNING_MAN_API_KEY') or '').strip()
 YEAR = int(os.getenv('BURNING_MAN_YEAR', '2026'))
 OUT = Path('data/api')
 
@@ -35,10 +36,16 @@ def get(kind, path):
     })
     try:
         with urlopen(req, timeout=60) as response:
-            status = getattr(response, 'status', 200)
-            if status != 200:
-                raise RuntimeError(f'HTTP {status}')
             return json.load(response)
+    except HTTPError as exc:
+        if exc.code == 401:
+            print(f'{kind}: HTTP 401 Unauthorized. The endpoint is reachable, but Burning Man rejected the API key.', file=sys.stderr)
+            print('Check that the GitHub secret contains the current key issued for PlayaOS and has no extra characters.', file=sys.stderr)
+        elif exc.code == 403:
+            print(f'{kind}: HTTP 403 Forbidden. The key was recognized but access was denied.', file=sys.stderr)
+        elif exc.code == 429:
+            print(f'{kind}: HTTP 429 Rate limited. Try again later.', file=sys.stderr)
+        raise
     except Exception as exc:
         print(f'{kind}: request failed: {url}: {exc}', file=sys.stderr)
         raise
