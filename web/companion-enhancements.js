@@ -24,20 +24,30 @@ function switchView(v){
  document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.view===v));
  ['explore','itinerary','map','monitor'].forEach(x=>{const el=document.getElementById(x+'View');if(el)el.hidden=x!==v});
  if(v==='map')syncMap();
+ if(v==='itinerary'){window.scrollTo({top:0,behavior:'smooth'});setTimeout(()=>window.dispatchEvent(new Event('resize')),0)}
+}
+
+function goToMyPlaya(){
+ // Use the real navigation tab rather than relying on the enhancement script's
+ // global switchView binding. This makes My Playa reliable even if app.js
+ // defines its own navigation function.
+ const tab=document.querySelector('.tab[data-view="itinerary"]');
+ if(tab){tab.click();window.scrollTo({top:0,behavior:'smooth'});return}
+ switchView('itinerary');
 }
 
 function syncMap(){
  const ids=[...selectedIds()],frame=document.getElementById('playaMapFrame'),stat=document.getElementById('mapStat');
- if(frame)frame.src=`map.html?selected=${encodeURIComponent(ids.join(','))}&v=20260823-6`;
+ if(frame)frame.src=`map.html?selected=${encodeURIComponent(ids.join(','))}&v=20260823-7`;
  if(stat)stat.textContent=ids.length?`${ids.length} selected event${ids.length===1?'':'s'} shown on the map.`:'Select events from Explore to see them on the map.';
 }
 
 function buildMap(){
  const section=document.getElementById('mapView');if(!section)return;
  section.className='mapView';
- section.innerHTML=`<div class="sectionHead"><div><h2>Playa Map</h2><p>Your selected events and approximate Playa locations.</p></div></div><div class="mapToolbar"><span class="mapStat" id="mapStat">Select events from Explore to see them on the map.</span><button class="ghost" id="mapFit">Fit Playa</button><button class="primary" id="mapMyPlaya">My Playa</button></div><div class="mapShell"><iframe id="playaMapFrame" title="Approximate Black Rock City map" src="map.html?v=20260823-6"></iframe></div>`;
+ section.innerHTML=`<div class="sectionHead"><div><h2>Playa Map</h2><p>Your selected events and approximate Playa locations.</p></div></div><div class="mapToolbar"><span class="mapStat" id="mapStat">Select events from Explore to see them on the map.</span><button class="ghost" id="mapFit">Fit Playa</button><button class="primary" id="mapMyPlaya">My Playa</button></div><div class="mapShell"><iframe id="playaMapFrame" title="Approximate Black Rock City map" src="map.html?v=20260823-7"></iframe></div>`;
  document.getElementById('mapFit')?.addEventListener('click',()=>document.getElementById('playaMapFrame')?.contentWindow?.postMessage({type:'fit'},'*'));
- document.getElementById('mapMyPlaya')?.addEventListener('click',()=>switchView('itinerary'));
+ document.getElementById('mapMyPlaya')?.addEventListener('click',goToMyPlaya);
 }
 
 function addDetail(){
