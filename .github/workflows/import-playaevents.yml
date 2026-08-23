@@ -1,0 +1,27 @@
+name: Import PlayaEvents
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 12 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - run: python scripts/import_playaevents.py
+      - name: Commit dataset
+        run: |
+          git config user.name 'PlayaOS Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/events.json
+          git diff --cached --quiet || git commit -m 'Update 2026 PlayaEvents dataset'
+          git push
