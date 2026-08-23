@@ -6,6 +6,7 @@ function addStyles(){
  const s=document.createElement('style');
  s.textContent=`
  .tabs{grid-template-columns:repeat(4,1fr)}
+ .nextHead,.nextUp{display:none!important}
  .mapView{padding-top:4px}
  .mapShell{position:relative;height:min(72vh,680px);min-height:460px;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--paper);box-shadow:0 6px 24px #6b58420d}
  .mapShell iframe{width:100%;height:100%;border:0;display:block}
@@ -19,84 +20,13 @@ function addStyles(){
  @media(max-width:640px){.tabs{grid-template-columns:repeat(4,1fr)}.tab{padding:0 6px;font-size:12px}.detailGrid{grid-template-columns:1fr}.mapShell{height:64vh;min-height:440px}}
  `;document.head.appendChild(s);
 }
-
-function switchView(v){
- document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.view===v));
- ['explore','itinerary','map','monitor'].forEach(x=>{const el=document.getElementById(x+'View');if(el)el.hidden=x!==v});
- if(v==='map')syncMap();
- if(v==='itinerary'){window.scrollTo({top:0,behavior:'smooth'});setTimeout(()=>window.dispatchEvent(new Event('resize')),0)}
-}
-
-function goToMyPlaya(){
- // Use the real navigation tab rather than relying on the enhancement script's
- // global switchView binding. This makes My Playa reliable even if app.js
- // defines its own navigation function.
- const tab=document.querySelector('.tab[data-view="itinerary"]');
- if(tab){tab.click();window.scrollTo({top:0,behavior:'smooth'});return}
- switchView('itinerary');
-}
-
-function syncMap(){
- const ids=[...selectedIds()],frame=document.getElementById('playaMapFrame'),stat=document.getElementById('mapStat');
- if(frame)frame.src=`map.html?selected=${encodeURIComponent(ids.join(','))}&v=20260823-7`;
- if(stat)stat.textContent=ids.length?`${ids.length} selected event${ids.length===1?'':'s'} shown on the map.`:'Select events from Explore to see them on the map.';
-}
-
-function buildMap(){
- const section=document.getElementById('mapView');if(!section)return;
- section.className='mapView';
- section.innerHTML=`<div class="sectionHead"><div><h2>Playa Map</h2><p>Your selected events and approximate Playa locations.</p></div></div><div class="mapToolbar"><span class="mapStat" id="mapStat">Select events from Explore to see them on the map.</span><button class="ghost" id="mapFit">Fit Playa</button><button class="primary" id="mapMyPlaya">My Playa</button></div><div class="mapShell"><iframe id="playaMapFrame" title="Approximate Black Rock City map" src="map.html?v=20260823-7"></iframe></div>`;
- document.getElementById('mapFit')?.addEventListener('click',()=>document.getElementById('playaMapFrame')?.contentWindow?.postMessage({type:'fit'},'*'));
- document.getElementById('mapMyPlaya')?.addEventListener('click',goToMyPlaya);
-}
-
-function addDetail(){
- if(document.getElementById('detailDialog'))return;
- const d=document.createElement('dialog');d.id='detailDialog';d.className='detailDialog';
- d.innerHTML=`<div class="detailHero"><div class="eyebrow">PLAYA EVENT</div><div class="detailTitle"></div><div class="detailTime"></div></div><div class="detailGrid" style="margin:16px 0"><div class="detailFact" data-f="location"></div><div class="detailFact" data-f="category"></div><div class="detailFact" data-f="source"></div><div class="detailFact" data-f="status"></div></div><div class="detailBody"></div><div class="detailActions" style="margin-top:18px"><button class="ghost" value="cancel">Close</button><button class="ghost" id="detailMap">Show on Map</button><button class="primary" id="detailAdd">＋ Add to My Playa</button></div>`;
- document.body.appendChild(d);
-}
-
-function showDetail(card){
- const id=card.querySelector('[data-add]')?.dataset.add;if(!id)return;
- const title=card.querySelector('.title')?.textContent||'Playa Event';
- const meta=card.querySelector('.meta')?.textContent||'Location TBD';
- const tags=[...card.querySelectorAll('.tag')].map(x=>x.textContent.trim()).filter(Boolean);
- const time=card.querySelector('.time')?.innerText?.replace(/\n/g,'–')||'';
- const d=document.getElementById('detailDialog');if(!d)return;
- d.querySelector('.detailTitle').textContent=title;
- d.querySelector('.detailTime').textContent=`${time} · ${meta}`;
- d.querySelector('[data-f="location"]').innerHTML=`<small>Location</small><strong>📍 ${esc(meta.split(' · ')[0]||'Location TBD')}</strong>`;
- d.querySelector('[data-f="category"]').innerHTML=`<small>Category</small><strong>${esc(tags[0]||'Event')}</strong>`;
- d.querySelector('[data-f="source"]').innerHTML='<small>Source</small><strong>Playa Companion dataset</strong>';
- d.querySelector('[data-f="status"]').innerHTML='<small>Status</small><strong>Verified</strong>';
- d.querySelector('.detailBody').textContent='Tap Add to My Playa to save this event to your itinerary. If a grid location is available, Show on Map will plot it on the Playa map.';
- const add=d.querySelector('#detailAdd'),map=d.querySelector('#detailMap');
- const ids=selectedIds();add.textContent=ids.has(id)?'Added to My Playa':'＋ Add to My Playa';
- add.onclick=()=>{const next=selectedIds();next.add(id);localStorage.setItem('playa_selected',JSON.stringify([...next]));const count=document.getElementById('count');if(count)count.textContent=next.size;add.textContent='Added to My Playa';syncMap()};
- map.onclick=()=>{const next=selectedIds();next.add(id);localStorage.setItem('playa_selected',JSON.stringify([...next]));d.close();switchView('map')};
- d.showModal();
-}
-
-function wireCards(){
- document.querySelectorAll('#events .event').forEach(card=>{
-  if(card.dataset.detailWired)return;
-  card.dataset.detailWired='1';
-  card.addEventListener('click',ev=>{if(ev.target.closest('button'))return;showDetail(card)});
- });
-}
-
-function init(){
- addStyles();buildMap();addDetail();
- document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>switchView(b.dataset.view)));
- const events=document.getElementById('events');
- if(events)new MutationObserver(wireCards).observe(events,{childList:true,subtree:true});
- wireCards();
- window.addEventListener('storage',syncMap);
- window.addEventListener('playa:events-loaded',wireCards);
- let last=selectedIds().size;
- setInterval(()=>{const n=selectedIds().size;if(n!==last){last=n;syncMap()}},500);
-}
-
+function switchView(v){document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.view===v));['explore','itinerary','map','monitor'].forEach(x=>{const el=document.getElementById(x+'View');if(el)el.hidden=x!==v});if(v==='map')syncMap();if(v==='itinerary'){window.scrollTo({top:0,behavior:'smooth'});setTimeout(()=>window.dispatchEvent(new Event('resize')),0)}}
+function goToMyPlaya(){const tab=document.querySelector('.tab[data-view="itinerary"]');if(tab){tab.click();window.scrollTo({top:0,behavior:'smooth'});return}switchView('itinerary')}
+function syncMap(){const ids=[...selectedIds()],frame=document.getElementById('playaMapFrame'),stat=document.getElementById('mapStat');if(frame)frame.src=`map.html?selected=${encodeURIComponent(ids.join(','))}&v=20260823-9`;if(stat)stat.textContent=ids.length?`${ids.length} selected event${ids.length===1?'':'s'} shown on the map.`:'Select events from Explore to see them on the map.'}
+function buildMap(){const section=document.getElementById('mapView');if(!section)return;section.className='mapView';section.innerHTML=`<div class="sectionHead"><div><h2>Playa Map</h2><p>Your selected events and approximate Playa locations.</p></div></div><div class="mapToolbar"><span class="mapStat" id="mapStat">Select events from Explore to see them on the map.</span><button class="ghost" id="mapFit">Fit Playa</button><button class="primary" id="mapMyPlaya">My Playa</button></div><div class="mapShell"><iframe id="playaMapFrame" title="Approximate Black Rock City map" src="map.html?v=20260823-9"></iframe></div>`;document.getElementById('mapFit')?.addEventListener('click',()=>document.getElementById('playaMapFrame')?.contentWindow?.postMessage({type:'fit'},'*'));document.getElementById('mapMyPlaya')?.addEventListener('click',goToMyPlaya)}
+function addDetail(){if(document.getElementById('detailDialog'))return;const d=document.createElement('dialog');d.id='detailDialog';d.className='detailDialog';d.innerHTML=`<div class="detailHero"><div class="eyebrow">PLAYA EVENT</div><div class="detailTitle"></div><div class="detailTime"></div></div><div class="detailGrid" style="margin:16px 0"><div class="detailFact" data-f="location"></div><div class="detailFact" data-f="category"></div><div class="detailFact" data-f="source"></div><div class="detailFact" data-f="status"></div></div><div class="detailBody"></div><div class="detailActions" style="margin-top:18px"><button class="ghost" value="cancel">Close</button><button class="ghost" id="detailMap">Show on Map</button><button class="primary" id="detailAdd">＋ Add to My Playa</button></div>`;document.body.appendChild(d)}
+function showDetail(card){const id=card.querySelector('[data-add]')?.dataset.add;if(!id)return;const title=card.querySelector('.title')?.textContent||'Playa Event';const meta=card.querySelector('.meta')?.textContent||'Location TBD';const tags=[...card.querySelectorAll('.tag')].map(x=>x.textContent.trim()).filter(Boolean);const time=card.querySelector('.time')?.innerText?.replace(/\n/g,'–')||'';const d=document.getElementById('detailDialog');if(!d)return;d.querySelector('.detailTitle').textContent=title;d.querySelector('.detailTime').textContent=`${time} · ${meta}`;d.querySelector('[data-f="location"]').innerHTML=`<small>Location</small><strong>📍 ${esc(meta.split(' · ')[0]||'Location TBD')}</strong>`;d.querySelector('[data-f="category"]').innerHTML=`<small>Category</small><strong>${esc(tags[0]||'Event')}</strong>`;d.querySelector('[data-f="source"]').innerHTML='<small>Source</small><strong>Playa Companion dataset</strong>';d.querySelector('[data-f="status"]').innerHTML='<small>Status</small><strong>Verified</strong>';d.querySelector('.detailBody').textContent='Tap Add to My Playa to save this event to your itinerary. If a grid location is available, Show on Map will plot it on the Playa map.';const add=d.querySelector('#detailAdd'),map=d.querySelector('#detailMap');const ids=selectedIds();add.textContent=ids.has(id)?'Added to My Playa':'＋ Add to My Playa';add.onclick=()=>{const next=selectedIds();next.add(id);localStorage.setItem('playa_selected',JSON.stringify([...next]));const count=document.getElementById('count');if(count)count.textContent=next.size;add.textContent='Added to My Playa';syncMap()};map.onclick=()=>{const next=selectedIds();next.add(id);localStorage.setItem('playa_selected',JSON.stringify([...next]));d.close();switchView('map')};d.showModal()}
+function wireCards(){document.querySelectorAll('#events .event').forEach(card=>{if(card.dataset.detailWired)return;card.dataset.detailWired='1';card.addEventListener('click',ev=>{if(ev.target.closest('button'))return;showDetail(card)})})}
+function init(){addStyles();buildMap();addDetail();document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>switchView(b.dataset.view)));const events=document.getElementById('events');if(events)new MutationObserver(wireCards).observe(events,{childList:true,subtree:true});wireCards();window.addEventListener('storage',syncMap);window.addEventListener('playa:events-loaded',wireCards);let last=selectedIds().size;setInterval(()=>{const n=selectedIds().size;if(n!==last){last=n;syncMap()}},500)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
