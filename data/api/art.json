@@ -10203,5 +10203,36 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003H0wP2AS",
+    "name": "Buho",
+    "year": 2026,
+    "url": null,
+    "contact_email": "npalmer240@gmail.com",
+    "hometown": "South Lake Tahoe, CA, United States",
+    "description": "Buho is a mixed metal, 8 foot tall owl created out of a used, deconstructed trailer axle. Effectively, its head and body can rotate a full 360 degrees in either direction, mimicking an owl in the wild. The feet are made of rebar, connected to old flywheels and brake rotors, which gives stability and support to the piece.  Body and head are comprised of copper and steel with the eyes being from old bike gear and dyed acrylic. Owls represent wisdom and inner knowing in ancient cultures. Buho, with its ever spinning gaze, encourages us to use our intuition to bring light to some situation in our lives that may need guidance.",
+    "artist": "Nicholas Palmer",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [
+      {
+        "thumbnail_url": "https://burningman.widen.net/content/o2fcwfnmov/jpeg/a2IVI000003H0wP2AS-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "gallery_ref": null
+      }
+    ],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
