@@ -1333,6 +1333,37 @@
     "needs_volunteers": true
   },
   {
+    "uid": "a2IVI000002ciN32AI",
+    "name": "#MUXALOVE",
+    "year": 2026,
+    "url": "https://Libertee.art/muxalove",
+    "contact_email": "misha@libertee.art",
+    "hometown": "Yerevan, Armenia",
+    "description": "#MUXALOVE stands as a monumental 25-meter (82-foot) tall Venus Flytrap, reimagining the Axis Mundi as a biological pillar of transformation. This surreal installation features a massive kinetic head with jaws that rhythmically open and close, establishing a living presence against the desert horizon. The entire structure is internally illuminated with vibrant LED systems, casting a striking silhouette across the Playa. Representing a \"Divine Devourer,\" the piece symbolizes a portal connecting the terrestrial and celestial through the process of consumption. It embodies the death of the ego as a prerequisite for spiritual rebirth, exploring the raw power of nature and the cyclic necessity of shedding the old self.",
+    "artist": "Misha Libertee",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 2,
+      "minute": 9,
+      "distance": 2300,
+      "category": "Open Playa",
+      "gps_latitude": 40.78115386222659,
+      "gps_longitude": -119.20002459793193
+    },
+    "location_string": "2:09 2300', Open Playa",
+    "images": [
+      {
+        "thumbnail_url": "https://burningman.widen.net/content/jmqsr3lntk/jpeg/a2IVI000002ciN32AI-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "gallery_ref": null
+      }
+    ],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
     "uid": "a2IVI000002cklR2AQ",
     "name": "Iron Butterfly of Love",
     "year": 2026,
