@@ -32,7 +32,7 @@ jobs:
           mkdir -p _site
           cp -R web/. _site/
           cp -R data _site/data
-          sed -i 's/api-bridge.js?v=20260823-2/api-bridge.js?v=20260824-3/g' _site/map.html
+          sed -i 's/api-bridge.js?v=20260823-2/api-bridge.js?v=20260824-4/g' _site/map.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
