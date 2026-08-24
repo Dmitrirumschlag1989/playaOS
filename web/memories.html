@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#f4eee5">
   <title>Playa Memory Depot</title>
-  <link rel="stylesheet" href="styles.css?v=20260823-8">
+  <link rel="stylesheet" href="styles.css?v=20260824-9">
 </head>
 <body>
   <main>
@@ -57,10 +57,18 @@
       </form>
     </dialog>
 
+    <dialog id="memoryViewer" class="memoryViewer">
+      <button type="button" class="viewerClose" id="closeViewer" aria-label="Close">×</button>
+      <button type="button" class="viewerNav viewerPrev" id="viewerPrev" aria-label="Previous memory">‹</button>
+      <div id="viewerMedia" class="viewerMedia"></div>
+      <button type="button" class="viewerNav viewerNext" id="viewerNext" aria-label="Next memory">›</button>
+      <div id="viewerInfo" class="viewerInfo"></div>
+    </dialog>
+
     <footer>Playa Companion · shared memories</footer>
   </main>
 
   <script src="api-config.js?v=20260823-1"></script>
-  <script src="memory-depot.js?v=20260824-1"></script>
+  <script src="memory-depot.js?v=20260824-2"></script>
 </body>
 </html>
