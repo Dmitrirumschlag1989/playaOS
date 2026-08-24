@@ -9,16 +9,36 @@
   const cleanString=v=>typeof v==='string'?v.trim():'';
   const idString=v=>{if(v==null)return '';if(typeof v==='string'||typeof v==='number')return String(v).trim();if(typeof v==='object')return String(v.uid||v.id||v.camp_uid||v.hosted_by_camp||'').trim();return ''};
   const campName=camp=>cleanString(camp?.name||camp?.title||camp?.camp_name);
-  const campLocation=camp=>{if(!camp)return '';if(cleanString(camp.location_string))return cleanString(camp.location_string);const l=camp.location;if(typeof l==='string')return l.trim();if(l&&typeof l==='object'){if(cleanString(l.location_string))return cleanString(l.location_string);const front=l.frontage||l.street||'',inter=l.intersection||l.cross_street||'',type=l.intersection_type||'&';if(front&&inter)return `${front} ${type} ${inter}`}return ''};
+  const normalizeLocation=v=>{
+    let s=cleanString(v);
+    if(!s)return '';
+    s=s.replace(/[–—]/g,'-').replace(/\s+/g,' ').trim();
+    s=s.replace(/\b(?:ESP|ESPL|ESPLANADE ST)\b/ig,'Esplanade');
+    let m=s.match(/(?:^|\b)(\d{1,2}(?::\d{2})?)\s*(?:&|and|at|@)\s*(Esplanade|[A-K])\b/i)||s.match(/(?:^|\b)(Esplanade|[A-K])\s*(?:&|and|at|@)\s*(\d{1,2}(?::\d{2})?)(?:\b|$)/i);
+    if(m){const time=/^\d/.test(m[1])?m[1]:m[2],street=/^\d/.test(m[1])?m[2]:m[1];return `${time.includes(':')?time:`${Number(time)}:00`} & ${street}`}
+    return s;
+  };
+  const campLocation=camp=>{
+    if(!camp)return '';
+    if(cleanString(camp.location_string))return normalizeLocation(camp.location_string);
+    const l=camp.location;
+    if(typeof l==='string')return normalizeLocation(l);
+    if(l&&typeof l==='object'){
+      if(cleanString(l.location_string))return normalizeLocation(l.location_string);
+      const front=l.frontage||l.street||'',inter=l.intersection||l.cross_street||'',type=l.intersection_type||'&';
+      if(front&&inter)return normalizeLocation(`${front} ${type} ${inter}`);
+    }
+    return '';
+  };
   const eventLocation=e=>{
     const candidates=[e?.location,e?.location_string,e?.location_data,e?.other_location];
     for(const v of candidates){
-      if(cleanString(v))return cleanString(v);
+      if(cleanString(v))return normalizeLocation(v);
       if(v&&typeof v==='object'){
-        if(cleanString(v.location_string))return cleanString(v.location_string);
-        if(cleanString(v.location))return cleanString(v.location);
+        if(cleanString(v.location_string))return normalizeLocation(v.location_string);
+        if(cleanString(v.location))return normalizeLocation(v.location);
         const front=v.frontage||v.street||'',inter=v.intersection||v.cross_street||'',type=v.intersection_type||'&';
-        if(front&&inter)return `${front} ${type} ${inter}`;
+        if(front&&inter)return normalizeLocation(`${front} ${type} ${inter}`);
       }
     }
     return '';
@@ -35,13 +55,13 @@
       for(let i=0;i<occurrences.length;i++){
         const o=occurrences[i]||{},start=timeParts(o.start_time),end=timeParts(o.end_time),date=dateParts(o.start_time);if(!date||!start)continue;
         const key=`${String(e.title||'').trim().toLowerCase()}|${date}|${start}`,seed=seedMap.get(key);
-        const seedLocation=seed?.location||seed?.location_string||'';
-        const resolvedLocation=location||cleanString(seedLocation);
+        const seedLocation=normalizeLocation(seed?.location||seed?.location_string||'');
+        const resolvedLocation=location||seedLocation;
         out.push({id:seed?.id||`api-${e.uid||e.event_id||e.slug||e.title||'event'}-${date}-${start}-${i}`,date,start,end:end||start,title:e.title||'Untitled event',description:e.description||e.print_description||'',camp:campName(camp)||e.other_location||'Location TBD',location:resolvedLocation,location_source:camp?'official_camp_api':resolvedLocation?'event_or_seed':'unresolved',category:e.event_type?.abbr||e.category||'other',priority:seed?.priority||'normal',status:'verified',source_url:e.url||'https://playaevents.burningman.org/',source_type:'burningman_public_api',source_id:e.uid||e.event_id,hosted_by_camp:e.hosted_by_camp||null,location_data:camp?.location||null,official_api:true});
       }
     }return out;
   };
-  const enrichSeed=payload=>{const copy=JSON.parse(JSON.stringify(payload)),events=asArray(copy);for(const e of events){if(eventLocation(e))continue;const hint=seedLocations[e.camp];if(hint){e.location=hint;e.location_source='approximate_camp_directory'}}if(copy&&Array.isArray(copy.events))copy.events=events;else if(Array.isArray(copy))return events;else if(copy&&Array.isArray(copy.data))copy.data=events;return copy};
+  const enrichSeed=payload=>{const copy=JSON.parse(JSON.stringify(payload)),events=asArray(copy);for(const e of events){if(eventLocation(e))continue;const hint=normalizeLocation(seedLocations[e.camp]);if(hint){e.location=hint;e.location_source='approximate_camp_directory'}}if(copy&&Array.isArray(copy.events))copy.events=events;else if(Array.isArray(copy))return events;else if(copy&&Array.isArray(copy.data))copy.data=events;return copy};
   window.fetch=async(input,init)=>{
     const url=typeof input==='string'?input:(input?.url||'');if(!/data\/events\.json(?:\?|$)/.test(url))return originalFetch(input,init);
     try{
@@ -49,7 +69,7 @@
       if(!er.ok||!cr.ok)throw new Error('official cache unavailable');
       const [events,camps,seedPayload]=await Promise.all([er.json(),cr.json(),sr.ok?sr.json():Promise.resolve({events:[]})]);
       const seedMap=new Map(asArray(seedPayload).map(e=>[`${String(e.title||'').trim().toLowerCase()}|${e.date}|${e.start}`,e]));
-      const normalized=normalize(events,asArray(camps),seedMap);if(normalized.length)return new Response(JSON.stringify({schema_version:'2.1.0',source:'Burning Man Public API',events:normalized}),{status:200,headers:{'Content-Type':'application/json'}});
+      const normalized=normalize(events,asArray(camps),seedMap);if(normalized.length)return new Response(JSON.stringify({schema_version:'2.2.0',source:'Burning Man Public API',events:normalized}),{status:200,headers:{'Content-Type':'application/json'}});
     }catch(_){/* use seed dataset */}
     const response=await originalFetch(input,init);if(!response.ok)return response;try{return new Response(JSON.stringify(enrichSeed(await response.json())),{status:response.status,statusText:response.statusText,headers:{'Content-Type':'application/json'}})}catch(_){return response}
   };
