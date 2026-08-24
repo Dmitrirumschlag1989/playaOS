@@ -1,0 +1,22 @@
+[
+  {
+    "AllowedOrigins": [
+      "https://dmitrirumschlag1989.github.io"
+    ],
+    "AllowedMethods": [
+      "GET",
+      "PUT",
+      "HEAD"
+    ],
+    "AllowedHeaders": [
+      "Content-Type",
+      "Accept",
+      "X-Upload-Token"
+    ],
+    "ExposeHeaders": [
+      "ETag",
+      "Content-Length"
+    ],
+    "MaxAgeSeconds": 3600
+  }
+]

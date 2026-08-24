@@ -1,50 +1,56 @@
-// Memory Depot R2 routes for the existing playa-companion-api Worker.
-// Requires an R2 binding named MEMORIES pointing at your Memories bucket.
-// Merge the route handler below into the existing Worker rather than replacing
-// your current official Burning Man API routes.
+// Memory Depot route module for the existing playa-companion-api Worker.
+// Private R2 via the existing Memories binding. No R2 credentials reach the browser.
 
 const ALLOWED_ORIGINS = new Set(['https://dmitrirumschlag1989.github.io']);
+const MAX_UPLOAD_BYTES = 100 * 1024 * 1024;
+const UPLOAD_TTL_SECONDS = 15 * 60;
+const PAGE_LIMIT = 50;
 
-function cors(origin) {
-  const allow = ALLOWED_ORIGINS.has(origin) ? origin : 'https://dmitrirumschlag1989.github.io';
-  return {'Access-Control-Allow-Origin':allow,'Access-Control-Allow-Methods':'GET,POST,DELETE,OPTIONS','Access-Control-Allow-Headers':'Content-Type,Accept','Access-Control-Max-Age':'86400',Vary:'Origin'};
-}
-function json(data,status=200,origin){return new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8',...cors(origin)}})}
-function safeName(name='upload'){return String(name).toLowerCase().replace(/[^a-z0-9._-]+/g,'-').slice(-120)}
+function bucket(env) { return env.Memories || env.MEMORIES || null; }
+function cors(origin) { return { 'Access-Control-Allow-Origin': ALLOWED_ORIGINS.has(origin) ? origin : 'https://dmitrirumschlag1989.github.io', 'Access-Control-Allow-Methods': 'GET,POST,PUT,DELETE,OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type,Accept,X-Upload-Token', 'Access-Control-Max-Age': '86400', Vary: 'Origin' }; }
+function json(data, status = 200, origin = '') { return new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json; charset=utf-8', ...cors(origin) } }); }
+function safeName(name = 'upload') { return String(name).toLowerCase().replace(/[^a-z0-9._-]+/g, '-').slice(-120); }
+function safeText(value, max) { return String(value || '').trim().slice(0, max); }
+function mediaKind(contentType) { if (/^image\/(jpeg|png|webp|gif|heic|heif)$/i.test(contentType)) return 'image'; if (/^video\//i.test(contentType)) return 'video'; return null; }
+function dateParts(date = new Date()) { const iso = date.toISOString(); return { year: iso.slice(0, 4), monthDay: iso.slice(5, 10) }; }
+function extension(contentType) { const known = { 'image/jpeg':'jpg','image/png':'png','image/webp':'webp','image/gif':'gif','image/heic':'heic','image/heif':'heif','video/mp4':'mp4','video/quicktime':'mov','video/webm':'webm','video/mpeg':'mpeg','video/ogg':'ogv' }; return known[contentType.toLowerCase()] || contentType.split('/')[1]?.replace(/[^a-z0-9]/gi, '') || 'bin'; }
+function memoryKey(id, contentType, date = new Date()) { const { year, monthDay } = dateParts(date); return `memories/${year}/${monthDay}/${id}.${extension(contentType)}`; }
+function metaKey(id, date = new Date()) { const { year, monthDay } = dateParts(date); return `memories/${year}/${monthDay}/${id}.json`; }
+function uploadKey(token) { return `memories/_uploads/${token}.json`; }
+async function readJsonObject(r2, key) { const object = await r2.get(key); if (!object) return null; try { return await object.json(); } catch { return null; } }
+async function listMemories(r2, limit = PAGE_LIMIT, cursor) { const listed = await r2.list({ prefix: 'memories/', limit: 1000, cursor }); const memories = []; for (const object of listed.objects) { if (!object.key.endsWith('.json') || object.key.includes('/_uploads/')) continue; const item = await readJsonObject(r2, object.key); if (item) memories.push(item); } memories.sort((a, b) => String(b.uploadedAt).localeCompare(String(a.uploadedAt))); return { memories: memories.slice(0, limit), cursor: listed.truncated ? listed.cursor : null }; }
 
-export async function handleMemoryDepot(request,env){
-  const url=new URL(request.url);
-  if(!url.pathname.startsWith('/memories')) return null;
-  const origin=request.headers.get('Origin')||'';
-  if(request.method==='OPTIONS') return new Response(null,{status:204,headers:cors(origin)});
-  if(!env.MEMORIES) return json({error:'R2 binding MEMORIES is not configured'},500,origin);
-  const match=url.pathname.match(/^\/memories(?:\/([^/]+))?(?:\/content)?$/);
-  if(!match) return null;
-  const id=match[1]?decodeURIComponent(match[1]):null;
-  const isContent=/\/content$/.test(url.pathname);
+export async function handleMemoryDepot(request, env) {
+  const url = new URL(request.url); if (!url.pathname.startsWith('/memories')) return null;
+  const origin = request.headers.get('Origin') || '';
+  if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: cors(origin) });
+  const r2 = bucket(env); if (!r2) return json({ error: 'Memory Depot R2 binding is not configured', expectedBinding: 'Memories' }, 500, origin);
 
-  if(request.method==='GET'&&!id){
-    const listed=await env.MEMORIES.list({prefix:'meta/',limit:200});
-    const memories=[];
-    for(const object of listed.objects){const item=await env.MEMORIES.get(object.key);if(!item)continue;try{memories.push(await item.json())}catch(_){} }
-    memories.sort((a,b)=>String(b.created_at).localeCompare(String(a.created_at)));
-    return json({memories},200,origin);
+  if (request.method === 'GET' && (url.pathname === '/memories' || url.pathname === '/memories/feed')) { const requestedLimit = Number(url.searchParams.get('limit') || PAGE_LIMIT); const limit = Math.min(Math.max(Number.isFinite(requestedLimit) ? requestedLimit : PAGE_LIMIT, 1), PAGE_LIMIT); const result = await listMemories(r2, limit, url.searchParams.get('cursor') || undefined); return json({ memories: result.memories, nextCursor: result.cursor }, 200, origin); }
+
+  if (request.method === 'POST' && url.pathname === '/memories/upload') {
+    let payload = {}; const contentType = request.headers.get('Content-Type') || ''; if (contentType.includes('application/json')) { try { payload = await request.json(); } catch { return json({ error: 'Invalid JSON' }, 400, origin); } }
+    const requestedType = safeText(payload.contentType, 120); const kind = mediaKind(requestedType); if (!kind) return json({ error: 'A supported image or video contentType is required' }, 415, origin);
+    const id = crypto.randomUUID(); const token = crypto.randomUUID().replace(/-/g, ''); const createdAt = new Date().toISOString();
+    const pending = { id, token, contentType: requestedType, kind, expiresAt: Date.now() + UPLOAD_TTL_SECONDS * 1000, createdAt, metadata: { uploadedBy: safeText(payload.uploadedBy, 80), caption: safeText(payload.caption, 1000), day: safeText(payload.day, 20), eventId: safeText(payload.eventId, 120), eventName: safeText(payload.eventName, 200), location: safeText(payload.location, 160) }, originalName: safeName(payload.originalName || 'upload') };
+    await r2.put(uploadKey(token), JSON.stringify(pending), { httpMetadata: { contentType: 'application/json; charset=utf-8' } });
+    return json({ id, uploadUrl: `${url.origin}/memories/upload/${encodeURIComponent(id)}?token=${encodeURIComponent(token)}`, method: 'PUT', expiresIn: UPLOAD_TTL_SECONDS, maxBytes: MAX_UPLOAD_BYTES, contentType: requestedType }, 201, origin);
   }
-  if(request.method==='GET'&&id&&isContent){
-    const media=await env.MEMORIES.get(`media/${id}`);if(!media)return json({error:'Memory not found'},404,origin);
-    const headers=new Headers(cors(origin));headers.set('Content-Type',media.httpMetadata?.contentType||'application/octet-stream');headers.set('Cache-Control','public, max-age=31536000, immutable');if(media.httpEtag)headers.set('ETag',media.httpEtag);return new Response(media.body,{headers});
+
+  const uploadMatch = url.pathname.match(/^\/memories\/upload\/([^/]+)$/);
+  if (request.method === 'PUT' && uploadMatch) {
+    const id = decodeURIComponent(uploadMatch[1]); const token = url.searchParams.get('token') || request.headers.get('X-Upload-Token'); if (!token) return json({ error: 'Upload token required' }, 401, origin);
+    const pending = await readJsonObject(r2, uploadKey(token)); if (!pending || pending.id !== id) return json({ error: 'Upload session not found' }, 404, origin); if (Date.now() > pending.expiresAt) { await r2.delete(uploadKey(token)); return json({ error: 'Upload session expired' }, 410, origin); }
+    const requestType = request.headers.get('Content-Type') || pending.contentType; if (requestType !== pending.contentType) return json({ error: 'Content-Type does not match upload authorization' }, 400, origin);
+    const contentLength = Number(request.headers.get('Content-Length') || 0); if (contentLength && contentLength > MAX_UPLOAD_BYTES) return json({ error: 'File exceeds 100 MB limit' }, 413, origin);
+    const createdDate = new Date(pending.createdAt); const key = memoryKey(id, pending.contentType, createdDate);
+    await r2.put(key, request.body, { httpMetadata: { contentType: pending.contentType }, customMetadata: { kind: pending.kind, original_name: pending.originalName } });
+    const memory = { id, key, type: pending.kind, url: `${url.origin}/memories/${encodeURIComponent(id)}`, contentUrl: `${url.origin}/memories/${encodeURIComponent(id)}/content`, uploadedAt: new Date().toISOString(), uploadedBy: pending.metadata.uploadedBy, caption: pending.metadata.caption, day: pending.metadata.day, eventId: pending.metadata.eventId, eventName: pending.metadata.eventName, location: pending.metadata.location, originalName: pending.originalName };
+    await r2.put(metaKey(id, createdDate), JSON.stringify(memory), { httpMetadata: { contentType: 'application/json; charset=utf-8' } }); await r2.delete(uploadKey(token)); return json(memory, 201, origin);
   }
-  if(request.method==='POST'&&!id){
-    const form=await request.formData(),file=form.get('file');
-    if(!(file instanceof File))return json({error:'file is required'},400,origin);
-    if(!/^image\/(jpeg|png|webp|gif)|^video\//i.test(file.type||''))return json({error:'Only image and video files are accepted'},415,origin);
-    if(file.size>25*1024*1024)return json({error:'File exceeds 25 MB limit'},413,origin);
-    const idValue=crypto.randomUUID(),kind=file.type.startsWith('video/')?'video':'photo',created_at=new Date().toISOString();
-    const memory={id:idValue,kind,author:String(form.get('author')||'').trim().slice(0,80),caption:String(form.get('caption')||'').trim().slice(0,1000),day:String(form.get('day')||'').trim().slice(0,20),location:String(form.get('location')||'').trim().slice(0,160),event:String(form.get('event')||'').trim().slice(0,200),created_at,url:`${url.origin}/memories/${idValue}/content`,original_name:safeName(file.name)};
-    await env.MEMORIES.put(`media/${idValue}`,file.stream(),{httpMetadata:{contentType:file.type||'application/octet-stream'},customMetadata:{kind,original_name:safeName(file.name)}});
-    await env.MEMORIES.put(`meta/${idValue}.json`,JSON.stringify(memory),{httpMetadata:{contentType:'application/json; charset=utf-8'}});
-    return json(memory,201,origin);
-  }
-  if(request.method==='DELETE'&&id){await env.MEMORIES.delete(`media/${id}`);await env.MEMORIES.delete(`meta/${id}.json`);return json({ok:true,id},200,origin)}
-  return json({error:'Method not allowed'},405,origin);
+
+  if (request.method === 'GET') { const match = url.pathname.match(/^\/memories\/([^/]+)$/); if (match) { const memory = (await listMemories(r2, 1000)).memories.find((item) => item.id === decodeURIComponent(match[1])); if (!memory) return json({ error: 'Memory not found' }, 404, origin); return json(memory, 200, origin); } }
+  if (request.method === 'GET') { const match = url.pathname.match(/^\/memories\/([^/]+)\/content$/); if (match) { const memory = (await listMemories(r2, 1000)).memories.find((item) => item.id === decodeURIComponent(match[1])); if (!memory) return json({ error: 'Memory not found' }, 404, origin); const object = await r2.get(memory.key); if (!object) return json({ error: 'Memory content not found' }, 404, origin); const headers = new Headers(cors(origin)); headers.set('Content-Type', object.httpMetadata?.contentType || 'application/octet-stream'); headers.set('Cache-Control', 'private, max-age=3600'); if (object.httpEtag) headers.set('ETag', object.httpEtag); return new Response(object.body, { headers }); } }
+  if (request.method === 'DELETE') { const match = url.pathname.match(/^\/memories\/([^/]+)$/); if (match) { const memory = (await listMemories(r2, 1000)).memories.find((item) => item.id === decodeURIComponent(match[1])); if (!memory) return json({ error: 'Memory not found' }, 404, origin); await r2.delete(memory.key); await r2.delete(memory.key.replace(/\.[^.]+$/, '.json')); return json({ ok: true, id: memory.id }, 200, origin); } }
+  return json({ error: 'Method not allowed' }, 405, origin);
 }

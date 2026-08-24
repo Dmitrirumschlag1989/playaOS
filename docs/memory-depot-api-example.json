@@ -1,0 +1,31 @@
+{
+  "list": {
+    "method": "GET",
+    "path": "/memories",
+    "exampleResponse": {
+      "memories": [],
+      "nextCursor": null
+    }
+  },
+  "uploadSession": {
+    "method": "POST",
+    "path": "/memories/upload",
+    "request": {
+      "contentType": "image/jpeg",
+      "originalName": "playa.jpg",
+      "uploadedBy": "Dmitri",
+      "caption": "What a night.",
+      "eventId": "event-123",
+      "eventName": "Booty Hour",
+      "location": "6&E"
+    },
+    "exampleResponse": {
+      "id": "abc123",
+      "uploadUrl": "https://playa-companion-api.dmitrirumschlag1989.workers.dev/memories/upload/abc123?token=TEMPORARY_TOKEN",
+      "method": "PUT",
+      "expiresIn": 900,
+      "maxBytes": 104857600,
+      "contentType": "image/jpeg"
+    }
+  }
+}

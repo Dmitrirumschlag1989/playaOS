@@ -1,1 +1,66 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f4eee5"><title>Playa Memory Depot</title><link rel="stylesheet" href="styles.css?v=20260823-8"></head><body><main><header><div><div class="eyebrow">PLAYA COMPANION · COLLECTIVE MEMORY</div><h1>Memory Depot</h1><p>One shared place for the photos, videos, notes and little moments we don't want to lose.</p></div><a class="pill" href="./index.html">← Playa Companion</a></header><section class="memoryHero card"><div><h2>Drop it on the Playa</h2><p>Upload photos or videos, add a name and optional day/location/event. The depot is designed for the whole crew.</p></div><label class="uploadButton primary">＋ Add memories<input id="files" type="file" accept="image/*,video/*" multiple hidden></label></section><section class="toolbar memoryToolbar"><input id="memorySearch" placeholder="Search memories…"><select id="memoryDay"><option value="all">All days</option></select><select id="memoryKind"><option value="all">Photos + video + notes</option><option value="photo">Photos</option><option value="video">Video</option><option value="note">Notes</option></select></section><section id="memoryGrid" class="memoryGrid"></section><dialog id="memoryDialog"><form id="memoryForm"><h2>Add to the memory dump</h2><div id="preview"></div><label>Your name<input id="memoryAuthor" required placeholder="Dmitri"></label><label>Caption / memory<textarea id="memoryCaption" rows="3" placeholder="What happened? Who was there?"></textarea></label><label>Day<select id="memoryDayForm"><option value="">Unknown / not tagged</option></select></label><label>Location or camp<input id="memoryLocation" placeholder="Optional"></label><label>Event<input id="memoryEvent" placeholder="Optional — event or DJ"></label><div class="actions"><button type="button" class="ghost" id="cancelMemory">Cancel</button><button class="primary">Add to depot</button></div></form></dialog><footer>Playa Companion · shared memories</footer></main><script src="api-config.js?v=20260823-1"></script><script src="memory-depot.js?v=20260823-2"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4eee5">
+  <title>Playa Memory Depot</title>
+  <link rel="stylesheet" href="styles.css?v=20260823-8">
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <div class="eyebrow">PLAYA COMPANION · COLLECTIVE MEMORY</div>
+        <h1>Memory Depot</h1>
+        <p>One shared place for the photos, videos, notes and little moments we don't want to lose.</p>
+      </div>
+      <a class="pill" href="./index.html">← Playa Companion</a>
+    </header>
+
+    <section class="memoryHero card">
+      <div>
+        <h2>Drop it on the Playa</h2>
+        <p>Upload photos or videos, add a name and optional day/location/event. The depot is designed for the whole crew.</p>
+      </div>
+      <label class="uploadButton primary">
+        ＋ Add memories
+        <input id="files" type="file" accept="image/*,video/*" multiple hidden>
+      </label>
+    </section>
+
+    <section class="toolbar memoryToolbar">
+      <input id="memorySearch" placeholder="Search memories…">
+      <select id="memoryDay"><option value="all">All days</option></select>
+      <select id="memoryKind">
+        <option value="all">Photos + video</option>
+        <option value="photo">Photos</option>
+        <option value="video">Video</option>
+      </select>
+    </section>
+
+    <section id="memoryGrid" class="memoryGrid"></section>
+
+    <dialog id="memoryDialog">
+      <form id="memoryForm">
+        <h2>Add to the memory dump</h2>
+        <div id="preview"></div>
+        <label>Your name<input id="memoryAuthor" required placeholder="Dmitri"></label>
+        <label>Caption / memory<textarea id="memoryCaption" rows="3" placeholder="What happened? Who was there?"></textarea></label>
+        <label>Day<select id="memoryDayForm"><option value="">Unknown / not tagged</option></select></label>
+        <label>Location or camp<input id="memoryLocation" placeholder="Optional"></label>
+        <label>Event<input id="memoryEvent" placeholder="Optional — event or DJ"></label>
+        <div class="actions">
+          <button type="button" class="ghost" id="cancelMemory">Cancel</button>
+          <button class="primary">Add to depot</button>
+        </div>
+      </form>
+    </dialog>
+
+    <footer>Playa Companion · shared memories</footer>
+  </main>
+
+  <script src="api-config.js?v=20260823-1"></script>
+  <script src="memory-depot.js?v=20260824-1"></script>
+</body>
+</html>
