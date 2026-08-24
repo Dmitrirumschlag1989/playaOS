@@ -45,16 +45,15 @@ def parse_page(day_index):
     r = requests.get(url, timeout=30, headers={'User-Agent':'PlayaOS/1.0'})
     r.raise_for_status()
     soup = BeautifulSoup(r.text, 'html.parser')
-    # The PlayaEvents heading contains nested markup/whitespace, so matching
-    # the heading's .string attribute is brittle and was producing zero events.
     heading = next((h for h in soup.find_all(['h2','h3']) if re.search(r'Events for', h.get_text(' ', strip=True), re.I)), None)
     if not heading:
         raise RuntimeError(f'No Events heading found for day {day_index}')
     heading_text = heading.get_text(' ', strip=True)
-    mday = re.search(r'(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday),\s+([A-Za-z]+\.?)\s+(\d{1,2}),\s+(\d{4})', heading_text)
+    mday = re.search(r'(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday),\s+([A-Za-z]+)\.?\s+(\d{1,2}),\s+(\d{4})', heading_text)
     if not mday:
         raise RuntimeError(f'Could not parse date for day {day_index}: {heading_text}')
-    date = datetime.strptime(f'{mday.group(2)} {mday.group(3)} {mday.group(4)}','%b %d %Y').strftime('%Y-%m-%d')
+    month = mday.group(2).rstrip('.')
+    date = datetime.strptime(f'{month} {mday.group(3)} {mday.group(4)}','%b %d %Y').strftime('%Y-%m-%d')
     events=[]
     for node in heading.find_all_next(['li','p']):
         txt=node.get_text(' ', strip=True)
