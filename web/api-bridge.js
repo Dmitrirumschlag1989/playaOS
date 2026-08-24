@@ -10,6 +10,7 @@
   const nameKey=v=>cleanString(v).toLowerCase().replace(/[’']/g,"'").replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
   const idString=v=>{if(v==null)return '';if(typeof v==='string'||typeof v==='number')return String(v).trim();if(typeof v==='object')return String(v.uid||v.id||v.camp_uid||v.hosted_by_camp||'').trim();return ''};
   const campName=camp=>cleanString(camp?.name||camp?.title||camp?.camp_name);
+  const seedLocationForCamp=name=>{const k=nameKey(name);for(const [nameHint,loc] of Object.entries(seedLocations)){if(nameKey(nameHint)===k)return normalizeLocation(loc)}return ''};
   const normalizeLocation=v=>{
     let s=cleanString(v);if(!s)return '';
     s=s.replace(/[–—]/g,'-').replace(/\s+/g,' ').trim().replace(/\b(?:ESP|ESPL|ESPLANADE ST)\b/ig,'Esplanade');
@@ -27,7 +28,7 @@
       const front=l.frontage||l.street||'',inter=l.intersection||l.cross_street||'',type=l.intersection_type||'&';
       if(front&&inter)return normalizeLocation(`${front} ${type} ${inter}`);
     }
-    return '';
+    return seedLocationForCamp(campName(camp));
   };
   const eventLocation=e=>{
     const candidates=[e?.location,e?.location_string,e?.location_data,e?.other_location];
@@ -50,9 +51,9 @@
       const hostedUid=idString(e.hosted_by_camp||e.hosted_by_camp_uid||e.camp_uid||e.camp_id);
       const hostedName=nameKey(e.hosted_by_camp_name||e.camp_name||e.hosted_by_camp?.name);
       const rawLocation=eventLocation(e);
-      const locationName=nameKey(e.other_location||e.location_string||'');
+      const locationName=nameKey(typeof e.other_location==='string'?e.other_location:(typeof e.location_string==='string'?e.location_string:''));
       const camp=byUid.get(hostedUid)||byName.get(hostedName)||byName.get(locationName)||null;
-      const location=campLocation(camp)||rawLocation;
+      const location=campLocation(camp)||rawLocation||seedLocationForCamp(e.other_location||e.camp_name||e.hosted_by_camp_name);
       for(let i=0;i<occurrences.length;i++){
         const o=occurrences[i]||{},start=timeParts(o.start_time),end=timeParts(o.end_time),date=dateParts(o.start_time);if(!date||!start)continue;
         const key=`${String(e.title||'').trim().toLowerCase()}|${date}|${start}`,seed=seedMap.get(key);
@@ -70,8 +71,8 @@
       if(!er.ok||!cr.ok)throw new Error('official cache unavailable');
       const [events,camps,seedPayload]=await Promise.all([er.json(),cr.json(),sr.ok?sr.json():Promise.resolve({events:[]})]);
       const seedMap=new Map(asArray(seedPayload).map(e=>[`${String(e.title||'').trim().toLowerCase()}|${e.date}|${e.start}`,e]));
-      const normalized=normalize(events,asArray(camps),seedMap);if(normalized.length)return new Response(JSON.stringify({schema_version:'2.3.0',source:'Burning Man Public API',events:normalized}),{status:200,headers:{'Content-Type':'application/json'}});
+      const normalized=normalize(events,asArray(camps),seedMap);if(normalized.length)return new Response(JSON.stringify({schema_version:'2.4.0',source:'Burning Man Public API',events:normalized}),{status:200,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
     }catch(_){/* use seed dataset */}
-    const response=await originalFetch(input,init);if(!response.ok)return response;try{return new Response(JSON.stringify(enrichSeed(await response.json())),{status:response.status,statusText:response.statusText,headers:{'Content-Type':'application/json'}})}catch(_){return response}
+    const response=await originalFetch(input,init);if(!response.ok)return response;try{return new Response(JSON.stringify(enrichSeed(await response.json())),{status:response.status,statusText:response.statusText,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}})}catch(_){return response}
   };
 })();
