@@ -1,0 +1,30 @@
+name: Memory Depot Check
+
+on:
+  pull_request:
+    paths:
+      - 'workers/memory-depot-worker.js'
+      - 'workers/memories-cors.json'
+      - 'workers/*.md'
+      - 'docs/memory-depot-*.md'
+      - 'docs/memory-depot-api-example.json'
+  push:
+    branches:
+      - main
+      - 'feature/memory-depot-*'
+    paths:
+      - 'workers/memory-depot-worker.js'
+      - 'workers/memories-cors.json'
+      - 'workers/*.md'
+      - 'docs/memory-depot-*.md'
+      - 'docs/memory-depot-api-example.json'
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Worker JavaScript syntax
+        run: node --check workers/memory-depot-worker.js
+      - name: Validate JSON fixtures
+        run: node -e "JSON.parse(require('fs').readFileSync('workers/memories-cors.json','utf8')); JSON.parse(require('fs').readFileSync('docs/memory-depot-api-example.json','utf8'))"
