@@ -25995,12 +25995,12 @@
     "accepting_campers": false,
     "location": {
       "frontage": "C",
-      "intersection": "4:45",
+      "intersection": "5:15",
       "intersection_type": "&",
-      "dimensions": "50 x 50",
-      "exact_location": "Mid-block facing man"
+      "dimensions": "50 x 100",
+      "exact_location": "Mid-block facing mountain"
     },
-    "location_string": "C & 4:45",
+    "location_string": "C & 5:15",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/yinwk1zdki/jpeg/a1XVI00000FedQD2AZ-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx"
