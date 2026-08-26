@@ -9422,13 +9422,13 @@
     "landmark": "Large U Shaped Bar with a Light Canopy",
     "accepting_campers": false,
     "location": {
-      "frontage": "3:00",
-      "intersection": "I",
+      "frontage": "I",
+      "intersection": "3:15",
       "intersection_type": "&",
-      "dimensions": "150 x 200",
-      "exact_location": "Corner - facing mountain & 2:00"
+      "dimensions": "200 x 150",
+      "exact_location": "Mid-block facing man"
     },
-    "location_string": "3:00 & I",
+    "location_string": "I & 3:15",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/milsnvpjlc/jpeg/a1XVI00000FLBvt2AH-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx"
@@ -22741,7 +22741,7 @@
       "frontage": "3:00",
       "intersection": "J",
       "intersection_type": "&",
-      "dimensions": "150 x 200",
+      "dimensions": "150 x 250",
       "exact_location": "Corner - facing man & 2:00"
     },
     "location_string": "3:00 & J",
