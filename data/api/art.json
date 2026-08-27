@@ -5735,37 +5735,6 @@
     "needs_volunteers": false
   },
   {
-    "uid": "a2IVI000002iNKj2AM",
-    "name": "OptimeyeZ",
-    "year": 2026,
-    "url": "https://www.instagram.com/nuclearflowerplantfactory/",
-    "contact_email": null,
-    "hometown": "Indianapolis, IN, United States",
-    "description": "OptimeyeZ takes its name from the idea of optimizing one's experience at Burning Man. A pair of comically large, seven-inch googly eyes placed on a first timer's tent, capturing the playful absurdity of the playa, sparking inspiration to build them bigger. The installation reflects fleeting moments of joy—distant smiles, radiant lights, and unbridled bliss across Black Rock. Beneath its humor lies the enduring symbolism of the eye in art history, representing perception and awareness. The piece embodies core principles of the burn, especially radical inclusivity, expressing that all are seen, all are welcome, and all belong.",
-    "artist": "Anthony (Dancy) Chabenne",
-    "category": "Open Playa",
-    "program": "Self-Funded",
-    "donation_link": null,
-    "location": {
-      "hour": 10,
-      "minute": 49,
-      "distance": 5400,
-      "category": "Open Playa",
-      "gps_latitude": 40.797830563591795,
-      "gps_longitude": -119.20469378320868
-    },
-    "location_string": "10:49 5400', Open Playa",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/rh2gfyihwy/jpeg/a2IVI000002iNKj2AM-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
-        "gallery_ref": null
-      }
-    ],
-    "guided_tours": false,
-    "self_guided_tour_map": false,
-    "needs_volunteers": false
-  },
-  {
     "uid": "a2IVI000002iSST2A2",
     "name": "Piko",
     "year": 2026,
@@ -9628,14 +9597,14 @@
     "program": "ManPavGrant",
     "donation_link": null,
     "location": {
-      "hour": null,
-      "minute": null,
-      "distance": null,
-      "category": null,
-      "gps_latitude": 0.0,
-      "gps_longitude": 0.0
+      "hour": 7,
+      "minute": 30,
+      "distance": 10,
+      "category": "Man Pavilion",
+      "gps_latitude": 40.78324193409669,
+      "gps_longitude": -119.2079071609512
     },
-    "location_string": null,
+    "location_string": "7:30 10', Man Pavilion",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/d5frybstqj/jpeg/a2IVI0000037FF72AM-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
@@ -9659,14 +9628,14 @@
     "program": "ManPavGrant",
     "donation_link": null,
     "location": {
-      "hour": null,
-      "minute": null,
-      "distance": null,
-      "category": null,
-      "gps_latitude": 0.0,
-      "gps_longitude": 0.0
+      "hour": 10,
+      "minute": 30,
+      "distance": 10,
+      "category": "Man Pavilion",
+      "gps_latitude": 40.78326938057099,
+      "gps_longitude": -119.20787108702972
     },
-    "location_string": null,
+    "location_string": "10:30 10', Man Pavilion",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/oekpxaji39/jpeg/a2IVI0000037TDF2A2-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
@@ -9690,14 +9659,14 @@
     "program": "ManPavGrant",
     "donation_link": null,
     "location": {
-      "hour": null,
-      "minute": null,
-      "distance": null,
-      "category": null,
-      "gps_latitude": 0.0,
-      "gps_longitude": 0.0
+      "hour": 6,
+      "minute": 0,
+      "distance": 10,
+      "category": "Man Pavilion",
+      "gps_latitude": 40.78322259241309,
+      "gps_longitude": -119.2078965081071
     },
-    "location_string": null,
+    "location_string": "6:00 10', Man Pavilion",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/0jnk4hszet/jpeg/a2IVI0000037U9J2AU-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
@@ -9721,14 +9690,14 @@
     "program": "ManPavGrant",
     "donation_link": null,
     "location": {
-      "hour": null,
-      "minute": null,
-      "distance": null,
-      "category": null,
-      "gps_latitude": 0.0,
-      "gps_longitude": 0.0
+      "hour": 6,
+      "minute": 0,
+      "distance": 20,
+      "category": "Man Pavilion",
+      "gps_latitude": 40.78320318482056,
+      "gps_longitude": -119.20792201619929
     },
-    "location_string": null,
+    "location_string": "6:00 20', Man Pavilion",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/atbxcwpwfw/jpeg/a2IVI0000037WSr2AM-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
@@ -10000,14 +9969,14 @@
     "program": "ManPavGrant",
     "donation_link": null,
     "location": {
-      "hour": null,
-      "minute": null,
-      "distance": null,
-      "category": null,
-      "gps_latitude": 0.0,
-      "gps_longitude": 0.0
+      "hour": 1,
+      "minute": 30,
+      "distance": 10,
+      "category": "Man Pavilion",
+      "gps_latitude": 40.783242065892026,
+      "gps_longitude": -119.20783483904872
     },
-    "location_string": null,
+    "location_string": "1:30 10', Man Pavilion",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/tckadoyyjc/jpeg/a2IVI000003CVG12AO-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
@@ -10231,6 +10200,58 @@
         "gallery_ref": null
       }
     ],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003HaVB2A0",
+    "name": "Tree of Light",
+    "year": 2026,
+    "url": "http://www.astrothebaptist.space",
+    "contact_email": "studio@astrothebaptist.space",
+    "hometown": "Los Angeles, CA, United States",
+    "description": "Tree of Light is a sculputre of a tree made of dichroic glass. astrothebaptist puppets a single source of light to create a live light show to music.",
+    "artist": "astrothebaptist",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003HcYb2AK",
+    "name": "holding it down",
+    "year": 2026,
+    "url": "http://stephandouglasduval.com",
+    "contact_email": "holdingitdown@mail.stephandouglasduval.com",
+    "hometown": "Edmonton, Canada",
+    "description": "August 23, 20205 Burning Man a wind storm tears through a perfectly set up camp, in a perfectly set up city.  Fifteen minutes of panic, fear and resilience as shelter, art and equipment were taken by a fierce and unyielding wind. Holding it down is this moment in time- frozen- where we stood firm against a force of nature.  Standing solid on shaking ground, in a hard minute, a hard year, a small fraction of a wonderful shared life.",
+    "artist": "Stephan DuVal",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 11,
+      "minute": 22,
+      "distance": 3400,
+      "category": "ARTery",
+      "gps_latitude": 40.79161892565528,
+      "gps_longitude": -119.20250726684513
+    },
+    "location_string": "11:22 3400', ARTery",
+    "images": [],
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
