@@ -2493,13 +2493,13 @@
     "donation_link": "https://www.solarlibrary.info/gifting",
     "location": {
       "hour": 11,
-      "minute": 30,
-      "distance": 1150,
+      "minute": 18,
+      "distance": 1170,
       "category": "Open Playa",
-      "gps_latitude": 40.785972681665385,
-      "gps_longitude": -119.20580032770854
+      "gps_latitude": 40.786171690668006,
+      "gps_longitude": -119.2061593925322
     },
-    "location_string": "11:30 1150', Open Playa",
+    "location_string": "11:18 1170', Open Playa",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/z3qfsby928/jpeg/a2IVI000002dy3B2AQ-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
