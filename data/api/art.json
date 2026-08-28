@@ -10286,5 +10286,31 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003I4cv2AC",
+    "name": "Seven Weeks",
+    "year": 2026,
+    "url": null,
+    "contact_email": "jessomatt@gmail.com",
+    "hometown": "Harlem, NY, United States",
+    "description": "This piece explores the the vice and virtue of the Three Wise Monkeys re-imagined in the fabric and sculptural heritage of the Edo people of Nigeria. \n\nThree figures sit together: Hear No Evil. See No Evil. Speak No Evil. We call it wisdom, but when is it ignorance? What does it leave behind - honor or regret? Faith or grief? \n\nThe layers: Grief becomes part of what we are made of. You can see what each of us is carrying or you can see through it. \n\nThe blue fabric: This color harkens back to the bottle trees of West Africa and the American South, which trap evil spirits and grant safe passage to the good. The fabric was made in Nigeria. \n\nThe cowrie shells: The shells represent protection and connection to the spiritual realm.",
+    "artist": "Jessica O. Matthews aka Dragon Heart",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 11,
+      "minute": 22,
+      "distance": 2350,
+      "category": "ARTery",
+      "gps_latitude": 40.78903196041538,
+      "gps_longitude": -119.20416385827637
+    },
+    "location_string": "11:22 2350', ARTery",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
