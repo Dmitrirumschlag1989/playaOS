@@ -6417,6 +6417,68 @@
     "needs_volunteers": true
   },
   {
+    "uid": "a2IVI000002lEWD2A2",
+    "name": "oVo",
+    "year": 2026,
+    "url": null,
+    "contact_email": null,
+    "hometown": "Seattle, WA",
+    "description": null,
+    "artist": null,
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 9,
+      "minute": 45,
+      "distance": 1900,
+      "category": "Open Playa",
+      "gps_latitude": 40.78804348473518,
+      "gps_longitude": -119.21051572555916
+    },
+    "location_string": "9:45 1900', Open Playa",
+    "images": [
+      {
+        "thumbnail_url": "https://burningman.widen.net/content/zsv8cfclca/jpeg/a2IVI000002lEWD2A2-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "gallery_ref": null
+      }
+    ],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000002lFSH2A2",
+    "name": "The Elements",
+    "year": 2026,
+    "url": null,
+    "contact_email": null,
+    "hometown": "Oakland, CA",
+    "description": null,
+    "artist": null,
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 11,
+      "minute": 30,
+      "distance": 2900,
+      "category": "Open Playa",
+      "gps_latitude": 40.790127995782896,
+      "gps_longitude": -119.20264897790878
+    },
+    "location_string": "11:30 2900', Open Playa",
+    "images": [
+      {
+        "thumbnail_url": "https://burningman.widen.net/content/708qhnymsk/jpeg/a2IVI000002lFSH2A2-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "gallery_ref": null
+      }
+    ],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
     "uid": "a2IVI000002lQ2j2AE",
     "name": "Time Drop",
     "year": 2026,
@@ -6750,37 +6812,6 @@
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/yv5vlra31a/jpeg/a2IVI000002ndDZ2AY-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
-        "gallery_ref": null
-      }
-    ],
-    "guided_tours": false,
-    "self_guided_tour_map": false,
-    "needs_volunteers": false
-  },
-  {
-    "uid": "a2IVI000002nf8v2AA",
-    "name": "VORTEX",
-    "year": 2026,
-    "url": null,
-    "contact_email": "claytonblake.art@gmail.com",
-    "hometown": "Currumbin, Australia",
-    "description": "VORTEX is a trio of illuminated cubes set against the open desert, scaled at 2m, 3m, and 4m. Each form is wrapped in a continuous black-and-white spiral printed onto tensioned Lycra, creating the illusion of a deep, collapsing void. By day, the stark geometry fractures perception against the horizon; by night, the cubes glow from within, transforming into luminous beacons. The work explores perception as unstable and subjective, compressing a sense of infinite depth into finite form and revealing how reality shifts through movement, light, and perspective.",
-    "artist": "Clayton Blake Art",
-    "category": "Open Playa",
-    "program": "Self-Funded",
-    "donation_link": null,
-    "location": {
-      "hour": 9,
-      "minute": 3,
-      "distance": 2060,
-      "category": "Open Playa",
-      "gps_latitude": 40.78732394144948,
-      "gps_longitude": -119.21301198115441
-    },
-    "location_string": "9:03 2060', Open Playa",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/qqi4zf0p4m/jpeg/a2IVI000002nf8v2AA-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
