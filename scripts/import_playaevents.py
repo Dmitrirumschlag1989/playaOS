@@ -53,7 +53,12 @@ def parse_page(day_index):
     if not mday:
         raise RuntimeError(f'Could not parse date for day {day_index}: {heading_text}')
     month = mday.group(2).rstrip('.')
-    date = datetime.strptime(f'{month} {mday.group(3)} {mday.group(4)}','%b %d %Y').strftime('%Y-%m-%d')
+    # PlayaEvents uses both "Sep" and "Sept"; normalize both abbreviated forms.
+    month = {'Sept': 'Sep', 'Sept.': 'Sep'}.get(month, month)
+    try:
+        date = datetime.strptime(f'{month} {mday.group(3)} {mday.group(4)}','%b %d %Y').strftime('%Y-%m-%d')
+    except ValueError:
+        date = datetime.strptime(f'{month} {mday.group(3)} {mday.group(4)}','%B %d %Y').strftime('%Y-%m-%d')
     events=[]
     for node in heading.find_all_next(['li','p']):
         txt=node.get_text(' ', strip=True)
