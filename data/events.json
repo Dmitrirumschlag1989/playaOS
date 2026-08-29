@@ -4,7 +4,7 @@
   "event_name": "Axis Mundi",
   "source": "https://playaevents.burningman.org/",
   "source_status": "imported",
-  "updated_at": "2026-08-28T22:22:03Z",
+  "updated_at": "2026-08-29T16:44:29Z",
   "events": [
     {
       "id": "pe-2026-08-30-960c8df007",
@@ -24031,19 +24031,6 @@
       "overnight": false
     },
     {
-      "id": "pe-2026-09-01-4950fd23d0",
-      "date": "2026-09-01",
-      "start": "14:00",
-      "end": "16:00",
-      "title": "Introduction to the S.O.U.L.",
-      "camp": "Shamandome",
-      "category": "other",
-      "priority": "maybe",
-      "status": "verified",
-      "source_url": "https://playaevents.burningman.org/2026/playa_events/03/",
-      "overnight": false
-    },
-    {
       "id": "pe-2026-09-01-9957cdd554",
       "date": "2026-09-01",
       "start": "14:00",
@@ -24473,19 +24460,6 @@
       "overnight": false
     },
     {
-      "id": "pe-2026-09-01-36b9eeeb49",
-      "date": "2026-09-01",
-      "start": "14:00",
-      "end": "17:00",
-      "title": "Tarot Reading",
-      "camp": "Celestial Bodies",
-      "category": "other",
-      "priority": "maybe",
-      "status": "verified",
-      "source_url": "https://playaevents.burningman.org/2026/playa_events/03/",
-      "overnight": false
-    },
-    {
       "id": "pe-2026-09-01-cea83b8199",
       "date": "2026-09-01",
       "start": "14:00",
@@ -24493,6 +24467,19 @@
       "title": "Tarot Reading",
       "camp": "Vietnamese Iced Coffee Experience",
       "category": "food",
+      "priority": "maybe",
+      "status": "verified",
+      "source_url": "https://playaevents.burningman.org/2026/playa_events/03/",
+      "overnight": false
+    },
+    {
+      "id": "pe-2026-09-01-36b9eeeb49",
+      "date": "2026-09-01",
+      "start": "14:00",
+      "end": "17:00",
+      "title": "Tarot Reading",
+      "camp": "Celestial Bodies",
+      "category": "other",
       "priority": "maybe",
       "status": "verified",
       "source_url": "https://playaevents.burningman.org/2026/playa_events/03/",
@@ -26761,12 +26748,12 @@
       "overnight": false
     },
     {
-      "id": "pe-2026-09-01-a7674ffe83",
+      "id": "pe-2026-09-01-7a19ce0265",
       "date": "2026-09-01",
       "start": "16:00",
       "end": "18:00",
       "title": "Truth or Dare Game Show",
-      "camp": "Center Camp",
+      "camp": "Center Camp Canopy",
       "category": "games",
       "priority": "maybe",
       "status": "verified",
@@ -26774,12 +26761,12 @@
       "overnight": false
     },
     {
-      "id": "pe-2026-09-01-7a19ce0265",
+      "id": "pe-2026-09-01-a7674ffe83",
       "date": "2026-09-01",
       "start": "16:00",
       "end": "18:00",
       "title": "Truth or Dare Game Show",
-      "camp": "Center Camp Canopy",
+      "camp": "Center Camp",
       "category": "games",
       "priority": "maybe",
       "status": "verified",
