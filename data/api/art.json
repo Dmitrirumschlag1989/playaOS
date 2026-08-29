@@ -694,14 +694,14 @@
     "program": "Self-Funded",
     "donation_link": null,
     "location": {
-      "hour": 9,
-      "minute": 0,
-      "distance": 4815,
-      "category": "Plaza",
-      "gps_latitude": 40.792541221607955,
-      "gps_longitude": -119.22021414782972
+      "hour": 11,
+      "minute": 5,
+      "distance": 2350,
+      "category": "Open Playa",
+      "gps_latitude": 40.78938325790495,
+      "gps_longitude": -119.20533492606572
     },
-    "location_string": "9:00 4815', Plaza",
+    "location_string": "11:05 2350', Open Playa",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/0foam9virc/jpeg/a2IVI000002asbp2AA-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
@@ -1159,14 +1159,14 @@
     "program": "Self-Funded",
     "donation_link": null,
     "location": {
-      "hour": 2,
-      "minute": 3,
-      "distance": 3215,
+      "hour": 1,
+      "minute": 52,
+      "distance": 3200,
       "category": "Plaza",
-      "gps_latitude": 40.780761631119994,
-      "gps_longitude": -119.19671647524287
+      "gps_latitude": 40.78159031547476,
+      "gps_longitude": -119.19650706536366
     },
-    "location_string": "2:03 3215', Plaza",
+    "location_string": "1:52 3200', Plaza",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/vhrsvio0rd/jpeg/a2IVI000002cNfB2AU-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
@@ -1609,37 +1609,6 @@
     ],
     "guided_tours": false,
     "self_guided_tour_map": false,
-    "needs_volunteers": false
-  },
-  {
-    "uid": "a2IVI000002d3BN2AY",
-    "name": "Limen",
-    "year": 2026,
-    "url": null,
-    "contact_email": "hello@taylordeanharrison.com",
-    "hometown": "Penngrove, CA, United States",
-    "description": "Limen is a sculptural installation centered on vertically oriented steel forms constructed from layered sheet metal. A patterned outer skin and perforated interior skin create shifting effects of surface, depth, and shadow. By day, the metal responds to changing light conditions; by night, internal illumination casts patterns into the surrounding space. Drawing on the visual languages of circuitry, topography, camouflage, wood grain, and abstracted mazes, the work creates a hybrid techno-organic vocabulary shaped by uncertainty, adaptation, and emergence.",
-    "artist": "Taylor Dean Harrison",
-    "category": "Open Playa",
-    "program": "Honorarium",
-    "donation_link": null,
-    "location": {
-      "hour": 12,
-      "minute": 13,
-      "distance": 3400,
-      "category": "Open Playa",
-      "gps_latitude": 40.7890543704875,
-      "gps_longitude": -119.1982666288685
-    },
-    "location_string": "12:13 3400', Open Playa",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/ahd0qglxna/jpeg/a2IVI000002d3BN2AY-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
-        "gallery_ref": null
-      }
-    ],
-    "guided_tours": false,
-    "self_guided_tour_map": true,
     "needs_volunteers": false
   },
   {
@@ -5485,37 +5454,6 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
-  },
-  {
-    "uid": "a2IVI000002iDMz2AM",
-    "name": "Crystal Sanctum",
-    "year": 2026,
-    "url": "https://www.instagram.com/crystalsanctum.project/",
-    "contact_email": "crystalsanctumproject@gmail.com",
-    "hometown": "Miranda, CA",
-    "description": "Crystal Sanctum symbolizes resilience, transformation, and inner strength. Formed under immense pressure over time, it reflects the human experience of growth through adversity—how challenges shape us into stronger, more multifaceted versions of ourselves. Its many facets represent the complexities of life: struggle and triumph, fragility and endurance, darkness and illumination. Though light passes through and refracts across its surfaces, the diamond itself remains unbroken, embodying the enduring strength of the human spirit.\r\n\r\nWithin the vastness and harshness of the desert, the diamond becomes a sanctuary of reflection and presence. It reminds us that beauty and wisdom can emerge through pressure, and that even in difficult conditions, the human spirit has the capacity to remain luminous, grounded, and whole.",
-    "artist": "Laura Peters",
-    "category": "Open Playa",
-    "program": "Self-Funded",
-    "donation_link": "https://crowdfundr.com/02jSC7?ref=sh_bEyAk8_ab_5ThI1PSUzX15ThI1PSUzX1",
-    "location": {
-      "hour": 1,
-      "minute": 0,
-      "distance": 750,
-      "category": "Open Playa",
-      "gps_latitude": 40.783778240330264,
-      "gps_longitude": -119.20525300847989
-    },
-    "location_string": "1:00 750', Open Playa",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/jqrbuibrxd/jpeg/a2IVI000002iDMz2AM-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
-        "gallery_ref": null
-      }
-    ],
-    "guided_tours": false,
-    "self_guided_tour_map": false,
-    "needs_volunteers": true
   },
   {
     "uid": "a2IVI000002iDgM2AU",
@@ -10308,6 +10246,58 @@
       "gps_longitude": -119.20416385827637
     },
     "location_string": "11:22 2350', ARTery",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003I9pV2AS",
+    "name": "Reverie",
+    "year": 2026,
+    "url": null,
+    "contact_email": "alicia@worldwidelovestory.com",
+    "hometown": "Las Vegas, NV, United States",
+    "description": "A compass rose in the desert not found on a map.  A place for traveller to reflect on love, find inspiration, leave it for others. And carry love forward.",
+    "artist": "Alicia Mejia",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 1,
+      "minute": 22,
+      "distance": 4900,
+      "category": "Open Playa",
+      "gps_latitude": 40.78420874945312,
+      "gps_longitude": -119.19019801352849
+    },
+    "location_string": "1:22 4900', Open Playa",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IAAT2A4",
+    "name": "Octogon",
+    "year": 2026,
+    "url": null,
+    "contact_email": "jamieslynnscenic@gmail.com",
+    "hometown": "Glendale, CA, United States",
+    "description": "EMT pine making a pitched tent with a small foyer invites heart kin to explore a canopy of vines and nature in the playa, taking up a space that normally holds vengeance and jest. Savasana. Stillness. Tangled chaos. Take a moment and gel.",
+    "artist": "Octogon",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
     "images": [],
     "guided_tours": false,
     "self_guided_tour_map": false,
