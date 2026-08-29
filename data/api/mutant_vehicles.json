@@ -1,28 +1,5 @@
 [
   {
-    "uid": "a6BVI000000Le0r2AC",
-    "name": "Moebius Omnibus",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "p4l@hotmail.com",
-    "hometown": "Oakley, CA",
-    "description": "An 8' round omnidirectional \"flying saucer\" morphed into a comfy couch with umbrella for about 12 participants to interact on.",
-    "artist": "Phil 'pEEf' Sadow",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/2lfmpwe5fq/jpeg/a3OVI00000D1Dwb2AF.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Round",
-      "Flying Saucer",
-      "Circular",
-      "Umbrella",
-      "Couch"
-    ]
-  },
-  {
     "uid": "a6BVI000000Le2T2AS",
     "name": "Humblebee",
     "year": 2026,
@@ -65,27 +42,6 @@
       "shrooms",
       "fuzzy",
       "boomers"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Le5h2AC",
-    "name": "Time Bandit!",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "South Lake Tahoe, CA",
-    "description": "Junkyard, Steampunk Time Machine. Bending space-time & playa while bumpin' popup dance parties at the portos since 2016.",
-    "artist": "Time Bandit! by  Alex Domingo",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/p0n3mdyy9b/jpeg/a3OVI00000D1POH2A3.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "time machine",
-      "steampunk",
-      "copper"
     ]
   },
   {
@@ -528,29 +484,6 @@
       "spacious",
       "large",
       "slow"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LkuH2AS",
-    "name": "The Magic Flying Carpet",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "hookahdaddy@gmail.com",
-    "hometown": "Castro Valley, CA",
-    "description": "The O.G. flying carpet",
-    "artist": "The Magic Flying Carpet by Soren Curry and friends",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/xkgrbfli6y/jpeg/a3OVI00000D2FjR2AV.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Magic",
-      "Flying",
-      "Carpet",
-      "Hookah",
-      "Bubble Butt"
     ]
   },
   {
@@ -1017,29 +950,6 @@
       "Cuboid",
       "mid-sized",
       "Playground"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LuK92AK",
-    "name": "Glorious Wet Spot",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Seabeck",
-    "description": "The lighted oasis and fun spot for cruising the playa. Dance with us on the upper deck or chill out on the couches down below.",
-    "artist": "Melvin Schmittler",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/dr1nuighaa/jpeg/a3OVI00000DFE4n2AH.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Palm fronds",
-      "Bamboo",
-      "Misters",
-      "Lights",
-      "Couches"
     ]
   },
   {
@@ -1612,27 +1522,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000MEM52AO",
-    "name": "El Pulpo Magnifico",
-    "year": 2026,
-    "url": "https://www.instagram.com/elpulpomecanico/",
-    "donation_link": "https://www.instagram.com/elpulpomecanico/",
-    "contact_email": "andreweligoff@gmail.com",
-    "hometown": "Humboldt County",
-    "description": "A popular and friendly flaming scrap metal octopus.",
-    "artist": "El Pulpo Magnifico by Duane Flatmo",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/cerjy0nx8t/jpeg/a3OVI00000D6E412AF.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Flaming",
-      "Octopus",
-      "pulpo"
-    ]
-  },
-  {
     "uid": "a6BVI000000MFOb2AO",
     "name": "Bone Voyage",
     "year": 2026,
@@ -1724,29 +1613,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000MIuL2AW",
-    "name": "Queen of the Galaxy",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "San Francisco",
-    "description": "The Queen of the Galaxy is a mobile light show (tunnel of lights) with a Barbarella theme (think mirrored tiles with pink and white fur).",
-    "artist": "The Queen of the Galaxy by Van Der Keuken",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/lnhbk3m7ed/jpeg/a3OVI00000D6Xcv2AF.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "mirrored",
-      "silver",
-      "tubes",
-      "leds",
-      "fur"
-    ]
-  },
-  {
     "uid": "a6BVI000000MOoT2AW",
     "name": "XS Baggage",
     "year": 2026,
@@ -1835,52 +1701,6 @@
       "Shimmering Gold Leaf",
       "3D sculpted tiles",
       "Elegant Uplighting"
-    ]
-  },
-  {
-    "uid": "a6BVI000000MZn72AG",
-    "name": "Light Party'cle",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Reno Nevada",
-    "description": "What happens if you caught up with particle of light? This question, posed by a 16-year-old Einstein, is the inspiration behind our mutant vehicle, \"Party'cle of Light.\" Hop in Einstein!",
-    "artist": "Light Party'cle by Gian Paolo Altomari",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/z3l4wyvltt/jpeg/a3OVI00000D8J612AF.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "photon",
-      "light",
-      "particle",
-      "limosine",
-      "led"
-    ]
-  },
-  {
-    "uid": "a6BVI000000MZqL2AW",
-    "name": "Shack-To-Hell-U-Ride",
-    "year": 2026,
-    "url": "https://shacktohelluride.com",
-    "donation_link": "https://gofund.me/a8fc54ce5",
-    "contact_email": null,
-    "hometown": "Tucson",
-    "description": "A mobile miner's \"shack\" that is right at home in the Black Rock Desert where miners and prospectors still roam.  It looks like a historic miner's shack, a bit mysterious, with untold stories and rituals to divulge or be imagined of days gone by…but with a roof on fire…",
-    "artist": "The Shack-To-Hell-U-Ride",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/rsdar0rjrp/jpeg/a3OVI00000DK66b2AD.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Shack",
-      "Flaming",
-      "Old",
-      "Wooden",
-      "Metal"
     ]
   },
   {
@@ -2035,29 +1855,6 @@
       "Moby",
       "Rainbow",
       "Fish"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Mdlt2AC",
-    "name": "ShroomVroom",
-    "year": 2026,
-    "url": "https://flic.kr/s/aHsmbeCCdz",
-    "donation_link": null,
-    "contact_email": "dustcircus@gmail.com",
-    "hometown": "Santa Clara, CA",
-    "description": "The ShroomVroom is the motorized stump of a great tree adorned with a giant mushroom - on which a wise hookahsmoking\ncaterpillar has taken residence. Inspired by \"Alice's Adventures in Wonderland\" - the classic Lewis Carroll novel.",
-    "artist": "Shroom Vroom by the Dust Circus Team",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/pu2u6gobqy/jpeg/a3OVI00000DPST42AP.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Magic Mushroom",
-      "Alice at Wonderland",
-      "Caterpillar",
-      "Lights",
-      "Small"
     ]
   },
   {
@@ -2444,29 +2241,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000MgF72AK",
-    "name": "Playa Predator",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Boulder Colorado",
-    "description": "A friendly little shark car with a voracious appetite for pleasing people. The flame system\nprovides a unique elevated flame pit that is a beacon at night.",
-    "artist": "Playa Predator by Playa Predator",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/ppk300ahoy/jpeg/a3OVI00000DANQV2A5.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Shark",
-      "Smiling",
-      "Approachable",
-      "Small/Medium",
-      "Flame Nest"
-    ]
-  },
-  {
     "uid": "a6BVI000000MgGj2AK",
     "name": "SS Mezcal",
     "year": 2026,
@@ -2639,29 +2413,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Monl2AC",
-    "name": "Earth and Sky",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "surprisekirby@gmail.com",
-    "hometown": "Pinole, CA",
-    "description": "The Earth and Sky is a fully transformed Mutant Vehicle that bears no resemblance to its base chassis. The vehicle presents as a 10-foot diameter extraterrestrial scout craft resting on armored tank treads. All automotive cues have been eliminated. No visible car body panels, headlights, bumpers, or stock framing remain.\nThe sculpted fiberglass hull, integrated lighting band, and open-air square cockpit establish a complete visual transformation consistent with Burning Man's Mutant Vehicle requirements. The craft reads clearly as an art object first and transportation second.",
-    "artist": "Dr. Surprise",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/ss4jdmhys8/jpeg/a3OVI00000DBcFU2A1.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Silver",
-      "saucer",
-      "treads",
-      "metallic",
-      "Treads"
-    ]
-  },
-  {
     "uid": "a6BVI000000MopN2AS",
     "name": "The Nudibranch",
     "year": 2026,
@@ -2727,29 +2478,6 @@
       "Square",
       "Glowing",
       "Glorbious"
-    ]
-  },
-  {
-    "uid": "a6BVI000000MpdN2AS",
-    "name": "Fishtank",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Fernley Nevada",
-    "description": "The Fishtank..the lovable beast from the deep wellcomes all to come ride/chill or dance",
-    "artist": "Fishtank Art Car Crew",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/hhk6borqxa/jpeg/a3OVI00000DBqi92AD.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "orange",
-      "anglerfish",
-      "fins",
-      "tank-treads",
-      "underbite"
     ]
   },
   {
@@ -2995,29 +2723,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000MuwP2AS",
-    "name": "DragonRider",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "DragonCampArmory@gmail.com",
-    "hometown": "Orange County, CA",
-    "description": "DragonRider is a delightful recreation of a 20 foot captured green Sea Dragon restrained on top of a small Viking Longboat. \nWatch in fascination as he shakes her head snaps her jaws flaps her fins, shakes her tail and bellows in complaint at her capture. Watch out she may spray you with a mist of seawater if you get too close!",
-    "artist": "DragonRider by DragonCamp Armory Team",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/9ultvdkgci/jpeg/a3OVI00000DCeTd2AL.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Green SeaDragon",
-      "Viking Ship",
-      "Animatronic Dragon",
-      "Interactive",
-      "Personable"
-    ]
-  },
-  {
     "uid": "a6BVI000000Mwzp2AC",
     "name": "Judgment Island",
     "year": 2026,
@@ -3082,29 +2787,6 @@
       "Angular",
       "Iconic",
       "Reknown"
-    ]
-  },
-  {
-    "uid": "a6BVI000000N0Yn2AK",
-    "name": "Chicken Dragon - Hatchery Gone Wrong",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Rochester, NY",
-    "description": "Chicken Dragon is a hatchery contained in the dungeon in an old castle.  We have tried to obtain and hatch dragon eggs, but there have been issues, resulting in creatures that look a bit more like chickens.   Visitors to our dungeon will see that we are hard at work trying to produce new dragons or chickens, we are not sure what we will get next.  Our best hatchling grew large and protects our castle.  His fire comes from his comb though, not his mouth.  Nothing has gone quite right in the hatchery, but dancing in the dungeon and on the top of the castle will make up for our dragon-less frustration!",
-    "artist": "Chicken Dragon by Kate and Dave Ackerman",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/25p7hnkate/jpeg/a3OVI00000DLXsj2AH.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Castle",
-      "Dragon",
-      "Chicken",
-      "Dungeon",
-      "Eggs"
     ]
   },
   {
@@ -3236,29 +2918,6 @@
       "Two-story",
       "Tree-inspired",
       "LED-lit"
-    ]
-  },
-  {
-    "uid": "a6BVI000000N5wf2AC",
-    "name": "Burning Man Bunny Car",
-    "year": 2026,
-    "url": "https://www.instagram.com/pinkfurbunnycar/",
-    "donation_link": null,
-    "contact_email": "thebunnycar@proton.me",
-    "hometown": "Los Angeles, CA",
-    "description": "Take a break from the everyday and hop into the pink fur-lined world of The Bunny Car—Burning Man's heartwarming mutant vehicle.\nMore than just a vehicle, The Bunny Car lifts spirits, sparks laughter, and leaves a dusty trail of memories and wonder.\n\nGet in. Hold on. And let The Bunny Car take you there.",
-    "artist": "Burning Man Bunny Car",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/edr0w8agnu/jpeg/a3OVI00000DERld2AH.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Bunny",
-      "Pink",
-      "Fur",
-      "Carrot",
-      "Orange"
     ]
   },
   {
@@ -3445,28 +3104,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000NEGn2AO",
-    "name": "Cow",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Colton",
-    "description": "Ride-able cow",
-    "artist": "Matthew McGee",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/s7kijdqojm/jpeg/a3OVI00000DGSx12AH.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Cow",
-      "Small",
-      "Spotted",
-      "Bell"
-    ]
-  },
-  {
     "uid": "a6BVI000000NEIP2A4",
     "name": "A Streetcar Named DESIRE",
     "year": 2026,
@@ -3487,28 +3124,6 @@
       "Flatbed",
       "Classic",
       "Moop-Patrol"
-    ]
-  },
-  {
-    "uid": "a6BVI000000NEK12AO",
-    "name": "Whiskers",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Los Angeles, CA",
-    "description": "A purrfectly playful rideable cat!",
-    "artist": "Andrea Edwards & Matt McGee",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/ivkddwitno/jpeg/a3OVI00000DGXAG2A5.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Cat",
-      "Pink",
-      "Furry",
-      "Small"
     ]
   },
   {
@@ -3890,28 +3505,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000NnEX2A0",
-    "name": "The Lightbringer",
-    "year": 2026,
-    "url": "https://www.facebook.com/lightbringerbrc",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Oakland CA",
-    "description": null,
-    "artist": "Adam Phelps and the Lightbringer Crew",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/bz9m8cmgfs/jpeg/a3OVI00000DUi7U2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Large",
-      "Silver",
-      "Metal",
-      "Spaceship"
-    ]
-  },
-  {
     "uid": "a6BVI000000NpQ12AK",
     "name": "Favela Culture",
     "year": 2026,
@@ -4253,28 +3846,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000OI3p2AG",
-    "name": "Earth Exploration Vehicle 101",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "john_youden@hotmail.com",
-    "hometown": "SILVER SPGS",
-    "description": "A small manned exploration rover, built to observe the creatures of Earth among their routine day to day lives.",
-    "artist": "John Youden",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/9avzbed4ai/jpeg/a3OVI00000DT67N2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Gray",
-      "Rover",
-      "Spacecraft",
-      "Industrial"
-    ]
-  },
-  {
     "uid": "a6BVI000000OJ1V2AW",
     "name": "HAL: Lunar Rover-Redux",
     "year": 2026,
@@ -4429,29 +4000,6 @@
       "Flashy",
       "Artsy",
       "Critter"
-    ]
-  },
-  {
-    "uid": "a6BVI000000ONt72AG",
-    "name": "Monstrosity",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Reno",
-    "description": "Monstrosity is a steampunk-era peace keeping vehicle used to transport passengers into new time dimensions. Its artistic design, details, and lighting will astound and inspire",
-    "artist": "Monstrosity",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/7n2il5qxhk/jpeg/a3OVI00000DQZIr2AP.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Steampunk",
-      "Gold",
-      "metalic",
-      "medium",
-      "bi level"
     ]
   },
   {
@@ -4744,27 +4292,6 @@
       "Shade",
       "Fabric",
       "Chill"
-    ]
-  },
-  {
-    "uid": "a6BVI000000OsVV2A0",
-    "name": "Cleo",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Palo Alto",
-    "description": "Cerberus, the three headed dog",
-    "artist": "Cleo by Cleo Art Car Team",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/gcilqo51cd/jpeg/a3OVI00000DXorN2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Dog",
-      "Three",
-      "Cerberus"
     ]
   },
   {
@@ -5076,29 +4603,6 @@
       "tentacles",
       "mist",
       "ridable"
-    ]
-  },
-  {
-    "uid": "a6BVI000000PTRp2AO",
-    "name": "Der Stier",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Austin",
-    "description": "Des Stier is a small mutant vehicle based on the game MineCraft.  German for 'The Bull', it is a longhorn steer/bull built around a pedal assist electric bike surrey.",
-    "artist": "Der Stier by Texas Joe",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/o0f8v7tneh/jpeg/a3OVI00000DXt9V2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "bull",
-      "minecraft",
-      "longhorn",
-      "stier",
-      "orange"
     ]
   },
   {
@@ -6472,27 +5976,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000SvPx2AK",
-    "name": "SubLime",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "hello@lemonade.art",
-    "hometown": "Austin, TX",
-    "description": "Ready for a truly Sublime experience? Catch a ride on our glowing yellow submarine!",
-    "artist": "Fresh Squeezed!",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/37-5ecf341adfb570b8c01132df4700af05_sublime-day.jpeg"
-      }
-    ],
-    "tags": [
-      "Yellow",
-      "Led",
-      "Sub"
-    ]
-  },
-  {
     "uid": "a6BVI000000SvTB2A0",
     "name": "BiPolar Express 1",
     "year": 2026,
@@ -6757,27 +6240,6 @@
       "80s",
       "couch",
       "loveseat"
-    ]
-  },
-  {
-    "uid": "a6BVI000000TH2H2AW",
-    "name": "Playa Laundromat",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "777carse777@gmail.com",
-    "hometown": "Novato California",
-    "description": null,
-    "artist": "Playa Laundromat",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/weaunjzwva/jpeg/a3OVI00000DspUI2AZ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "washing machines",
-      "dryers",
-      "dirty/clean laundry"
     ]
   },
   {
@@ -7075,29 +6537,6 @@
       "Sun",
       "Phases",
       "Temple"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Ttqj2AC",
-    "name": "PPP Art Car",
-    "year": 2026,
-    "url": "https://www.instagram.com/playapeaceproject",
-    "donation_link": "https://playapeaceproject.org/",
-    "contact_email": "playapeaceproject@gmail.com",
-    "hometown": "Las Vegas, Nevada",
-    "description": "The Playa Peace Project is here to keep the peace! Come cruise with us as we rescue curious burners in deep playa, support art projects with our music and lights, and relax upstairs in our Hat Lounge and Cuddle Deck!",
-    "artist": "PPP Art Car by Playa Peace Project",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/162-c9be40ff21f13790d1dd4f8316524f91_IMG_4136.jpg"
-      }
-    ],
-    "tags": [
-      "Bright",
-      "Hat",
-      "Peacekeeper",
-      "Beautiful",
-      "Art"
     ]
   },
   {
@@ -7418,28 +6857,6 @@
       "Phoenix",
       "Metal",
       "Martini"
-    ]
-  },
-  {
-    "uid": "a6BVI000000UXub2AG",
-    "name": "For The Record",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Reno, NV",
-    "description": "For the Record is a gigantic record player and speakers, a living homage to physical media.",
-    "artist": "Santos Design & Arts, Kahn Design & Fabrication",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/15-2137ca62763832dbc53dc2a2d9900f85_FTR_DMV_R3.jpg"
-      }
-    ],
-    "tags": [
-      "Record",
-      "Turntable",
-      "Vinyl",
-      "Music player"
     ]
   },
   {
@@ -9930,28 +9347,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000W4ID2A0",
-    "name": "LemonCraft",
-    "year": 2026,
-    "url": "https://www.lemonade.art",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Austin",
-    "description": "Delivering almost ice-cold lemonade to Participants on the Playa.",
-    "artist": "Fresh Squeezed!",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/199-8ee1c2fd246876fc67a62da28b2909df_IMG_3916.jpeg"
-      }
-    ],
-    "tags": [
-      "Lemon",
-      "Yellow",
-      "LED",
-      "Metal"
-    ]
-  },
-  {
     "uid": "a6BVI000000W4N32AK",
     "name": "The Lonely Reef",
     "year": 2026,
@@ -10647,29 +10042,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000ZDdV2AW",
-    "name": "Peter Panda",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "Carltemple81@gmail.com",
-    "hometown": "Los Angeles",
-    "description": "Peter Panda is a small Mutant Vehicle that was conceived as a mode of transportation that will be enjoyable for all that ride on it.",
-    "artist": "Peter Panda by Jake Walsh and Les Soltes",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/77-987dc25f8a0484af47c6abc8493844aa_20230826_152109.jpg"
-      }
-    ],
-    "tags": [
-      "4 Ears",
-      "White",
-      "Dual faces",
-      "Glowing",
-      "Inviting"
-    ]
-  },
-  {
     "uid": "a6BVI000000ZE1h2AG",
     "name": "The Ticket Booth",
     "year": 2026,
@@ -10688,29 +10060,6 @@
       "drink tickets",
       "orange striped",
       "dj booth"
-    ]
-  },
-  {
-    "uid": "a6BVI000000ZEHp2AO",
-    "name": "Satan's Calliope",
-    "year": 2026,
-    "url": null,
-    "donation_link": "https://www.gofundme.com/f/help-lucy-stay-in-her-dragon-lair",
-    "contact_email": null,
-    "hometown": "Santa Cruz CA",
-    "description": "Satan's Calliope, a fire breathing version of the X-34 land speeder",
-    "artist": "Lucy Hosking",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/15-e3ecaf29d89bc1b18091e8d428c17eb8_SC_night_fire.jpg"
-      }
-    ],
-    "tags": [
-      "Land-speeder",
-      "Organ",
-      "fire-breathing",
-      "loud",
-      "hot"
     ]
   },
   {

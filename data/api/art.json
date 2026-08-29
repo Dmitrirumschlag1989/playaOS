@@ -10302,5 +10302,31 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IDgD2AW",
+    "name": "Temporal Anomoly Organ",
+    "year": 2026,
+    "url": null,
+    "contact_email": "jamzc@proton.me",
+    "hometown": "San FraNCISCO, CA, United States",
+    "description": "This is a interpretation of A church organ, as it would be found in a distant temple of a space faring culture. It features a Yonic design in the pipe feature, which allows you to see through the piece and it frames the world though it. For the music, the organ has gone analog for the playa, featuring a Xylophone to play. The temporal anomaly organ encourages you to take your time.",
+    "artist": "J∆MS X10Zen",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 4,
+      "minute": 45,
+      "distance": 1700,
+      "category": null,
+      "gps_latitude": 40.77862565959972,
+      "gps_longitude": -119.20865866849815
+    },
+    "location_string": "4:45 1700'",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
