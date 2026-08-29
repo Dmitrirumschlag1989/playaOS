@@ -1,28 +1,5 @@
 [
   {
-    "uid": "a6BVI000000Gent2AC",
-    "name": "TEST Hilary's MV 2026 #1",
-    "year": 2026,
-    "url": "https://google.com",
-    "donation_link": "https://www.wordplaycafe.orf",
-    "contact_email": "hilary.somers@gmail.com",
-    "hometown": "Palo Alto, CA",
-    "description": "Avoid using special characters and symbols or URL links.",
-    "artist": "Hilary Somers and the Pencil Team",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/3mvqcji2tx/jpeg/a3OVI00000CQfv32AD.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "yellow",
-      "pink",
-      "pointy",
-      "Words",
-      "tea"
-    ]
-  },
-  {
     "uid": "a6BVI000000Le0r2AC",
     "name": "Moebius Omnibus",
     "year": 2026,
@@ -302,52 +279,6 @@
       "Easter Island",
       "Moai",
       "Tiki"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LfY12AK",
-    "name": "Lola Montez Saloon",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Newcastle, California",
-    "description": "A cozy, old west saloon serving up spirits and spirited conversation.",
-    "artist": "Lola Montez Saloon",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/k1jtlu3vvr/jpeg/a3OVI00000D1SUD2A3.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Interactive",
-      "saloon",
-      "old west",
-      "wood",
-      "welcoming"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LfZd2AK",
-    "name": "Dust Bunny",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "Bunny with big eyes, ears, and teeth",
-    "hometown": "Reno, Nevada",
-    "description": null,
-    "artist": "Dust Bunny by Jenny Herz and Peter Millar",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/igangothbm/jpeg/a3OVI00000D4teL2AR.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Bunny",
-      "furry",
-      "eyes",
-      "ears",
-      "teeth"
     ]
   },
   {
@@ -2751,27 +2682,6 @@
       "playful",
       "undulating",
       "spikey"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Mosb2AC",
-    "name": "Bumpy",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": null,
-    "description": "Take a ride on Bumpy to relive the excitement and fun of your childhood carnival experiences.",
-    "artist": "Bumpy Hank Smedley",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/3ijzhvvzjo/jpeg/a3OVI00000DBlTx2AL.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Red",
-      "Bumper",
-      "Car"
     ]
   },
   {
@@ -10666,28 +10576,6 @@
       "Heron",
       "Winged",
       "Illuminated"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Yv8j2AC",
-    "name": "UFoART CART",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Sunnyvale",
-    "description": "The UFoART CART is taking specimens material data of the peculiarities and oddities located at 40° 47' 13.1352'' N 119° 12' 14.688'' W,\nEarth, Solar System, Orion Arm, Milky Way, Local Group, Virgo Supercluster, Laniakea Supercluster, and Universe.\n\nThere have been reports of anomalous behaviors in the mammalian sub-groups. \n\nInvestigations underway.",
-    "artist": "Doosh Doosh",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/bwy4thjh6b/jpeg/a3OVI00000EJwt52AD.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "UFO",
-      "Clouds",
-      "Pink",
-      "Possum"
     ]
   },
   {
