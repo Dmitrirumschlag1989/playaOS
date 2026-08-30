@@ -7082,12 +7082,12 @@
     "location": {
       "hour": 12,
       "minute": 53,
-      "distance": 5500,
+      "distance": 6000,
       "category": "Open Playa",
-      "gps_latitude": 40.78805322818201,
-      "gps_longitude": -119.18902406575353
+      "gps_latitude": 40.78849046050561,
+      "gps_longitude": -119.18731057269368
     },
-    "location_string": "12:53 5500', Open Playa",
+    "location_string": "12:53 6000', Open Playa",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/2cbpsvwyde/jpeg/a2IVI000002oqTh2AI-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
@@ -10428,6 +10428,58 @@
       "gps_longitude": -119.1906393530539
     },
     "location_string": "12:55 5000', Open Playa",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IFlF2AW",
+    "name": "Alien Welcome Center",
+    "year": 2026,
+    "url": null,
+    "contact_email": "michelle.windmoeller@gmail.com",
+    "hometown": "Earth, NV, United States",
+    "description": "Welcome to Earth! Some interstellar beings have joined us in our nomadic travels and we've learned that not all feel welcome here on Earth. Bah! We've opened our welcome center to make sure they feel human love.",
+    "artist": "Chappy Timmy and S for Steve",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 4,
+      "minute": 45,
+      "distance": 8000,
+      "category": "Airport",
+      "gps_latitude": 40.761517998495655,
+      "gps_longitude": -119.21157672100531
+    },
+    "location_string": "4:45 8000', Airport",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IFq52AG",
+    "name": "Untitled",
+    "year": 2026,
+    "url": "https://www.josephloughborough.co.uk/",
+    "contact_email": null,
+    "hometown": "Canning Town, United Kingdom",
+    "description": "Joseph Loughborough spent his formative years exploring the derelict boatyards and creeks of Portsmouth, UK. Honesty, expressionism and catharsis can be read from his impulsive and intuitive mark making, which strive to grasp a comprehension of the human condition. Couples and groups of people cling together searching for an antidote to the revelations of their existence. No specific conclusions can be made to the meaning of his individual works aside from the acknowledgement and indulgence of image, expression and technique. Joseph Loughborough sadly passed away in 2025, this triptyque was brought to honor the boldness, curiosity and freedom that lived through his art and his life.",
+    "artist": "Joseph Loughborough",
+    "category": "Cafe Art",
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
     "images": [],
     "guided_tours": false,
     "self_guided_tour_map": false,
