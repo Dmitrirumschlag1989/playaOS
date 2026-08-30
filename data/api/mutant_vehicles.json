@@ -222,29 +222,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Lk7t2AC",
-    "name": "Abu the Horsefly",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Sacramento, CA",
-    "description": "Abu is inspired by the 1986 animated movie by Studio Miyazaki \"Nausicaa of the Valley of the Wind.\" This is the first insect that Princess Nausicaa defends from the angry mob. She helps Abu to find its way home. Abu teaches us that fear and mistrust are the real evils in this world, and only together we can make a difference.",
-    "artist": "Abu the Horsefly and Abu Crew",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/hb7v9gjqmu/jpeg/a3OVI00000D1rCT2AZ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Miyazaki",
-      "insect",
-      "Nausicaa",
-      "whimsical",
-      "interactive"
-    ]
-  },
-  {
     "uid": "a6BVI000000LkEL2A0",
     "name": "Sphere Car",
     "year": 2026,
@@ -286,29 +263,6 @@
       "F-15",
       "Fighter",
       "Jet"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LlQX2A0",
-    "name": "Flotilla",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "willisb101@icloud.com",
-    "hometown": "Crested Butte, Colorado",
-    "description": "Six wheeled retro 70s pontoon land yacht",
-    "artist": "flotilla by Willis Barnette and TMain",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/x1dg3rsgf6/jpeg/a3OVI00000D22xX2AR.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "pontoon",
-      "boat",
-      "70s Retro",
-      "land Yacht",
-      "vessel"
     ]
   },
   {
@@ -943,29 +897,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000MCaP2AW",
-    "name": "The Wonder Wagon",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "tacoma washington",
-    "description": "Electric vehicle stagecoach propelled by 10 wonder ponies.",
-    "artist": "The Wonder Wagon",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/lwjskjy4kb/jpeg/a3OVI00000D63292AB.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "small",
-      "stagecoach",
-      "ponies",
-      "electric",
-      "Not Santa"
-    ]
-  },
-  {
     "uid": "a6BVI000000MFOb2AO",
     "name": "Bone Voyage",
     "year": 2026,
@@ -1325,52 +1256,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000MfED2A0",
-    "name": "La Playa Familia",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Tallinn",
-    "description": "La Playa Familia is an art car inspired by the breathtaking beauty of La Sagrada Familia and the spirit of human connection. Just as the Playa brings together people from around the world to share, create, and connect, Familia offers a space where everyone feels welcome—a moving sanctuary of belonging, unity, and shared experience.",
-    "artist": "La Playa Familia by Stonians",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/n5diawt4ov/jpeg/a3OVI00000DF4Wr2AL.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Majestic",
-      "Airy",
-      "Copper",
-      "Soft",
-      "Arches"
-    ]
-  },
-  {
-    "uid": "a6BVI000000MfHR2A0",
-    "name": "Hel's Diner",
-    "year": 2026,
-    "url": "http://www.helsdiner.com",
-    "donation_link": "http://www.campporta.org",
-    "contact_email": "info@campporta.org",
-    "hometown": "Gerlach",
-    "description": "Hel's Diner is that Art Car with the two tall red towers that has food, a bar and music.",
-    "artist": "Hel's Diner",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/suuhvjgysw/jpeg/a3OVI00000D9n212AB.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "colorful",
-      "flames",
-      "tall",
-      "potstickers",
-      "music"
-    ]
-  },
-  {
     "uid": "a6BVI000000MfJ32AK",
     "name": "Tauntaun",
     "year": 2026,
@@ -1435,28 +1320,6 @@
       "Happy",
       "Colorful",
       "Playful"
-    ]
-  },
-  {
-    "uid": "a6BVI000000MfXZ2A0",
-    "name": "Salt Cube",
-    "year": 2026,
-    "url": "https://www.instagram.com/the.salt.cube/",
-    "donation_link": "https://www.gofundme.com/f/help-bring-salt-cube-art-car-to-burning-man",
-    "contact_email": "the.salt.cube@gmail.com",
-    "hometown": "Salt Lake City, Utah",
-    "description": "An interactive exploration of scale and logic, Salt Cube transforms classic toys into a large light installation on wheels. This bright yellow construction toy truck carries a 6-foot LED cube synced to a handheld tactile controller. As participants manipulate the puzzle cube in their hand, the larger-than-life LED cube on the truck responds in real-time, reflecting every twist and turn of the colors. It's a collective childhood memory, amplified for the open playa.",
-    "artist": "PK and Xeli of Catsle",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/9gqykwt6n4/jpeg/a3OVI00000DA2aX2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Yellow",
-      "Toy-truck",
-      "Cube",
-      "Puzzle"
     ]
   },
   {
@@ -1699,29 +1562,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000MsOL2A0",
-    "name": "Playa Del Soul",
-    "year": 2026,
-    "url": "https://www.instagram.com/playadelsoul.mv",
-    "donation_link": null,
-    "contact_email": "nick@tech-life.com",
-    "hometown": "Austin, TX",
-    "description": "Playa Del Soul is an Oasis on the playa. A giant Beach Lounge Chair for the masses. Hop on up and get a ride or just enjoy the padded daytime shade or vibrant night time light show.",
-    "artist": "PLAYA DEL SOUL BY MR. PICKLES",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/1gpojkyvhp/jpeg/a3OVI00000DCAKK2A5.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Large",
-      "White",
-      "Beach",
-      "Lounge",
-      "Chair"
-    ]
-  },
-  {
     "uid": "a6BVI000000Mskv2AC",
     "name": "SM Cascabel",
     "year": 2026,
@@ -1832,29 +1672,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000My3x2AC",
-    "name": "Rocket 'n Roll",
-    "year": 2026,
-    "url": "https://rocketnroll.lotushocuspocus.com",
-    "donation_link": null,
-    "contact_email": "RnR@lotushocuspocus.com",
-    "hometown": "Lotus, CA",
-    "description": "The Rocket n Roll mutant vehicle is a rocket powered, old time Juke Box designed to bring joy, light and fantastic music to Black Rock City. Catch a ride with us as we explore the deep Playa, dance to the eclectic, surprising music playing on the huge Juke box, bath in the glow of our mirror balls and experience the juicy red lips and tongue that lead the Rocket 'n Roll through dusty adventures every night!",
-    "artist": "Rocket 'n Roll by The Lotus Art Car Team",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/sozchs4xbh/jpeg/a3OVI00000DDIPR2A5.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Jukebox",
-      "rockets",
-      "lips",
-      "tongue",
-      "mirrorball"
-    ]
-  },
-  {
     "uid": "a6BVI000000MydR2AS",
     "name": "Wanda",
     "year": 2026,
@@ -1873,29 +1690,6 @@
       "Angular",
       "Iconic",
       "Reknown"
-    ]
-  },
-  {
-    "uid": "a6BVI000000N5IL2A0",
-    "name": "The Frog Prince",
-    "year": 2026,
-    "url": "https://amazingfunctionalart.com",
-    "donation_link": null,
-    "contact_email": "Zafodbeatlebrox@gmail.com",
-    "hometown": "Park City, Utah",
-    "description": "The Frog Prince is a giant frog with a golden crown and kissable purple lips. Rock out with your friends on 2 decks. Leave only frog prints behind.",
-    "artist": "Frog Prince by Zafod Beatlebrox",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/kssikmi9ai/jpeg/a3OVI00000DEXxV2AX.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "frog",
-      "green",
-      "decks",
-      "crown",
-      "lips"
     ]
   },
   {
@@ -2342,27 +2136,6 @@
       "Dust",
       "Glow",
       "Tentacles"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Nhdl2AC",
-    "name": "Grand Lind Voyager",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Tallinn",
-    "description": "Grand Lind Voyager (In Estonian \"lind\" meaning \"bird\") is a mutant vehicle built by Estonian Burners. Like migrating birds, Estonians fly over the clouds to the Black Rock Desert. Almost every year, some since 2008.",
-    "artist": "Camp Estonia",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/ex570tfcji/jpeg/a3OVI00000DJkpF2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Wings",
-      "Cloud",
-      "Cozy"
     ]
   },
   {
@@ -3245,28 +3018,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Pqt32AC",
-    "name": "Mad Hatter",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "mrkenlew@aol.com",
-    "hometown": "santa clarita",
-    "description": null,
-    "artist": "Mad Hatter by the Dome Crew",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/245-c43eb1976e4507af254bea52333f1a16_Screenshot_2026-03-25_212135.jpg"
-      }
-    ],
-    "tags": [
-      "fish",
-      "hat",
-      "metal",
-      "scales"
-    ]
-  },
-  {
     "uid": "a6BVI000000Q0KX2A0",
     "name": "The Scarab Art Car",
     "year": 2026,
@@ -3941,29 +3692,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000RsHF2A0",
-    "name": "HELLIBUS jr",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": null,
-    "description": "Helibus is a nod to the absurd. We/us believe that if you can imagine it you can make it. We are a crew of dreamers and athletes who love serving up good food at least once a burn and solid beats and playful vibes the rest of the time. We have cold treats and all the sports at all times. Our bus is your bus so get in z choopa and let’s roll",
-    "artist": "HELIBUS Junior, Chuck Sean &  Helibus Hanger Crew",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/241-04b88c6c768bea2c1ada7cfc61ebdb37_21433.jpg"
-      }
-    ],
-    "tags": [
-      "bus",
-      "yellow",
-      "Flying",
-      "cartoon",
-      "Magic"
-    ]
-  },
-  {
     "uid": "a6BVI000000RssL2AS",
     "name": "Taking Back The Tea Party",
     "year": 2026,
@@ -4276,27 +4004,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000T1bp2AC",
-    "name": "Bubblegasm",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "acaribgirl@yahoo.com",
-    "hometown": "Reno NV",
-    "description": "Bubblegasm was  built to spread joy with all who ride on her or dance and play around her. Bubbles are a metaphor for life, fleeting and fragile and are a reminder about how precious our time is while we are here, and to make the most of each moment. And like each bubble, each person and their life is beautiful and unique. Bubbles are also temporary and once they pop they become part of the universe, just as we do when we die. When people encounter bubbles it is a like a rare moment of magic. They symbolize our childhood innocence, reminding us of a time when life was simple and carefree. When we see these glass-like orbs dancing in the air they remind us to live in the moment, let go, dance with a stranger, be silly - have a bubblegasm!",
-    "artist": "BUBBLEGASM",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/37-5f6cd1900d13e7d1696699756d7a63b7_thumbnail_%282%29.jpg"
-      }
-    ],
-    "tags": [
-      "Bubbles",
-      "Furry",
-      "Lights"
-    ]
-  },
-  {
     "uid": "a6BVI000000TEKX2A4",
     "name": "Classic Slide",
     "year": 2026,
@@ -4517,29 +4224,6 @@
       "Googly-eyes",
       "Soft",
       "Irridecent-toenails"
-    ]
-  },
-  {
-    "uid": "a6BVI000000TU2m2AG",
-    "name": "Sparky McFly",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Eugene, OR",
-    "description": "Sparky McFly: A small rocketship powered by the sun",
-    "artist": "Justin Schumacher",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/37-04ffef949f3c62958e57c7c28bfaac7d_sparky-2025-1.jpg"
-      }
-    ],
-    "tags": [
-      "Rocket",
-      "Silver",
-      "Electric",
-      "Trike",
-      "Thruster"
     ]
   },
   {
@@ -4796,29 +4480,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000UAZp2AO",
-    "name": "The Universe in a Nutshell",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Seattle, WA",
-    "description": "The Universe in a Nutshell, a half walnut shell art car containing a part of the universe, which wanders around the greater universe that is Burning Man.",
-    "artist": "The Universe in a Nutshell by David Berg",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/240-57416ba48f928d3d0085658728453037_1.jpg"
-      }
-    ],
-    "tags": [
-      "galaxy",
-      "universe",
-      "atom",
-      "celestial",
-      "nutshell"
-    ]
-  },
-  {
     "uid": "a6BVI000000UHxu2AG",
     "name": "Byrdhaüs",
     "year": 2026,
@@ -4934,29 +4595,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000UmAT2A0",
-    "name": "Eileen, The Pearl Peacock",
-    "year": 2026,
-    "url": "https://www.facebook.com/EileenThePearlPeacock/",
-    "donation_link": null,
-    "contact_email": "jbernste03@gmail.com",
-    "hometown": "Bay Area and Sacremento",
-    "description": "\"Eileen\" the Pearl Peacock has five majestic metal tail feathers and white lace body. At night she shines bright on the playa. This piece is a homage to creativity and storytelling from around the world.",
-    "artist": "Rainbows and Dragons Camp",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/199-0cb8519c419f486d28460eecd8766f6b_fileuploads_101590_6047425_108-9bda5946d86726202ec67781edccc741_4-a9e009a70de2596e249c80e54e016626_NIGHTTuesBurn2019_211-X2_copy.jpg"
-      }
-    ],
-    "tags": [
-      "Peacock",
-      "Feathers",
-      "Lace",
-      "White",
-      "Benches"
-    ]
-  },
-  {
     "uid": "a6BVI000000UpjR2AS",
     "name": "Ghost of The Lady Washington",
     "year": 2026,
@@ -5023,28 +4661,6 @@
       "Screens",
       "Neon",
       "Supercomputer"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Uxc92AC",
-    "name": "Harvey Disco Kitty",
-    "year": 2026,
-    "url": "https://www.instagram.com/harveydiscokitty/",
-    "donation_link": null,
-    "contact_email": "sailmakership@gmail.com",
-    "hometown": "Hudson",
-    "description": null,
-    "artist": "Harvey Disco Kitty - Maker Ship Org",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/77-cfef0ddc85bf2565cd8111a2ed5939ef_Harveyday.png"
-      }
-    ],
-    "tags": [
-      "Disco",
-      "Kitty",
-      "Steel",
-      "geometric"
     ]
   },
   {
@@ -5603,29 +5219,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000VfV72AK",
-    "name": "Sleigher",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Wellington, nv",
-    "description": "sleigher is here to help you sleigh the night away",
-    "artist": "SLEIGHER",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/240-2b0762a84da4f202fdd3bd38df0ad540_IMG_3583.jpeg"
-      }
-    ],
-    "tags": [
-      "spirited",
-      "magical",
-      "wholesome",
-      "joyful",
-      "fun!"
-    ]
-  },
-  {
     "uid": "a6BVI000000VfYL2A0",
     "name": "Secret Weapon",
     "year": 2026,
@@ -6139,29 +5732,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Vt0D2AS",
-    "name": "Magic Shoe Bus Ride",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "Candice.sloan@gmail.com",
-    "hometown": "Atlanta",
-    "description": "Come take a ride on the Magic Shoe Bus  - come kick it with us",
-    "artist": "Magic Shoe Bus Ride by Candice Sloan & Co",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/5xueyrrqyh/jpeg/a3OVI00000E6q2I2AR.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Sneaker Car",
-      "LIT laces",
-      "Platform Shoe Ride",
-      "High Top Experience",
-      "Light up Bus"
-    ]
-  },
-  {
     "uid": "a6BVI000000Vt1p2AC",
     "name": "PlayaBoot",
     "year": 2026,
@@ -6406,28 +5976,6 @@
       "Bright",
       "Crescent",
       "Lunar"
-    ]
-  },
-  {
-    "uid": "a6BVI000000VzVR2A0",
-    "name": "Anubis",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "ryker@me.com",
-    "hometown": "Sacramento, CA",
-    "description": "Anubis is a majestic Egyptian palanquin, borne aloft by four articulated statues of the god Anubis. Atop the lavishly adorned platform, the Pharaoh and their passengers embark on a journey through the veil of the afterlife. Intricately detailed with tapestries, flowing drapery, and exquisite cast and carved artworks, the vehicle radiates an otherworldly presence, illuminated by vibrant colored lights.",
-    "artist": "Anubis by Burning Egypt",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/162-cff1274fd47957004e8acad29f7a5dbd_AnubisNight2.jpeg"
-      }
-    ],
-    "tags": [
-      "Egyptian",
-      "Historical",
-      "Festive",
-      "Muscular"
     ]
   },
   {
@@ -7168,28 +6716,6 @@
       "playful",
       "white",
       "ball"
-    ]
-  },
-  {
-    "uid": "a6BVI000000WIcv2AG",
-    "name": "Dirty Bird Art Car",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "jesusj2112@gmail.com",
-    "hometown": "Phoenix, AZ",
-    "description": "In 2017, the vehicle was introduced to playa. As an artist, I was completely inspired by what I was able to witness in 2016. As a result, I undertook a huge responsibility to create a brand new art car that would display my artistic vision. I started building the art car in 2016. Since it was my first year building an art car, I under estimated the amount of time it took to prepare something of that magnitude. In 2016, I was responsible for the design, fabrication, transportation, sound and operation of the vehicle.  In 2017, I reached out to every professional I knew for advise. Fortunately, I got assistance with sound, lighting and construction. The result was spectacular. Our team did exceptional in preparing the vehicle.",
-    "artist": "Jesus Jaramillo",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/211-0bd925b78f14c06bdc8481d15f485818_Image.jpeg"
-      }
-    ],
-    "tags": [
-      "Flamingo",
-      "Steel",
-      "Rusted",
-      "Dirty Bird"
     ]
   },
   {

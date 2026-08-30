@@ -10368,14 +10368,14 @@
     "program": "Self-Funded",
     "donation_link": null,
     "location": {
-      "hour": null,
-      "minute": null,
-      "distance": null,
-      "category": null,
-      "gps_latitude": 0.0,
-      "gps_longitude": 0.0
+      "hour": 3,
+      "minute": 5,
+      "distance": 1340,
+      "category": "ARTery",
+      "gps_latitude": 40.7805428511839,
+      "gps_longitude": -119.20458891733634
     },
-    "location_string": null,
+    "location_string": "3:05 1340', ARTery",
     "images": [],
     "guided_tours": false,
     "self_guided_tour_map": false,
