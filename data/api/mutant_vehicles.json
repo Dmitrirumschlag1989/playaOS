@@ -1,27 +1,5 @@
 [
   {
-    "uid": "a6BVI000000Le2T2AS",
-    "name": "Humblebee",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Orovada",
-    "description": "Humblebee is a polygonal adaptation of Bumblebee.  The wings will unfold on deep playa and the legs will move while driving.",
-    "artist": "Humblebee by Team Swiss",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/aunrmhafhx/jpeg/a3OVI00000D1E9V2AV.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "bumblebee",
-      "wings",
-      "metallic",
-      "hybrid"
-    ]
-  },
-  {
     "uid": "a6BVI000000Le452AC",
     "name": "the Mushroom Patch",
     "year": 2026,
@@ -88,70 +66,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000LeC92AK",
-    "name": "Lucky Fucky Ducky",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "info@theegg.ca",
-    "hometown": "Vancouver, BC",
-    "description": "Once upon a splash, there lived a duck who was too big for the bathtub.\nHe was a trickster at heart, always stirring up\nmischief, charming the flock, and dreaming of\ngolden horizons. Some say he's looking for trouble.\nOthers say he's running from bubbles.\nEither way, if you see him driving by,\nfeathers gleaming gold, his\ndaring soul shining through\nthe stripper pole, jump on\nand take a spin.",
-    "artist": "by Peter Blitz",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/dfywpmunkf/jpeg/a3OVI00000D1KtF2AV.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Rubber Duck",
-      "Dance Pole",
-      "Yellow"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LeDl2AK",
-    "name": "Pumablanco",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "pumamarco@me.com",
-    "hometown": "Solana Beach",
-    "description": "Pumablanco is an all white, furry, rolling mattress during the day...transforming to a psychedelic light show at night.",
-    "artist": "Pumablanco by Damien Otis, Ulli Bu & Puma",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/iexroagocm/jpeg/a3OVI00000D1AaY2AV.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Furry",
-      "Comfy",
-      "Joystick"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LeGz2AK",
-    "name": "Fluffy",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "DuanesWhirld@gmail.com",
-    "hometown": "Burlington",
-    "description": "Fluffy is accessible public transit masquerading as a wafting cloud to elicit and excite your dreams. A wheelchair lift and Braille rails make a mutant vehicle experience\naccessible to that many more Burners. Gifting forays provide iced liquid refreshment in\nthe heat of the day (Deep Playa Beer Delivery) and warm gooey treats in the chill of the\nnight (Smores). Come Fluffy with us.",
-    "artist": "Fluffy by Duane's Whirld",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/2zekcfm9u8/jpeg/a3OVI00000D1J7a2AF.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Clouds",
-      "Light",
-      "Flame",
-      "Accessible"
-    ]
-  },
-  {
     "uid": "a6BVI000000LeKD2A0",
     "name": "Eye Of Providence",
     "year": 2026,
@@ -213,51 +127,6 @@
       "Easter Island",
       "Moai",
       "Tiki"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Lfcr2AC",
-    "name": "Chester",
-    "year": 2026,
-    "url": "https://www.instagram.com/chesteronfire?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Reno",
-    "description": "A more apropriate name would be, DARK HORSE OF THE APOCALYPSE!\" It's a long story.",
-    "artist": "Jason Anderholm",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/t7prulo55k/jpeg/a3OVI00000D1UxR2AV.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Fire",
-      "Scary",
-      "Apocalyptic",
-      "Beautiful",
-      "Masterpiece"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LfeT2AS",
-    "name": "USS Nevada",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Carson City",
-    "description": "USS Nevada is the oldest pirate ship on the Playa, bringing pirate joy and mischief all over the Playa!",
-    "artist": "USS Nevada by Gallavant",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/jesuoqon2h/jpeg/a3OVI00000D1VIP2A3.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Brown",
-      "Lighted",
-      "Ship",
-      "Mast"
     ]
   },
   {
@@ -352,29 +221,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Lfpl2AC",
-    "name": "Re-In-Karma",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Reno, Nevada",
-    "description": "Re-in-Karma is the stunning, double-decker beauty — now very familiar to long-time Burners. She is immediately recognizable when you see the shimmering pink wonder cruising by with a warm lie-down lower lounge and a high upper level viewing platform.\nRe-in-Karma has an especially wide-open design that offers a wonderful invitation to passing pedestrian Burners. She is often seen carrying the marvelous band from Playa Jazz Cafe to entertain at special events on the playa.",
-    "artist": "Re-In-Karma by artist Sarah Plaia Davidson",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/t85giiebbl/jpeg/a3OVI00000D1aA12AJ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Double-decker",
-      "Comfy Lower Lounge",
-      "360 View Upstairs",
-      "Glowing",
-      "Pink"
-    ]
-  },
-  {
     "uid": "a6BVI000000Lg5t2AC",
     "name": "Pillow Talk",
     "year": 2026,
@@ -444,29 +290,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Ll0j2AC",
-    "name": "Great American Phoenix",
-    "year": 2026,
-    "url": "https://www.michaelverdon.com/gap",
-    "donation_link": null,
-    "contact_email": "ecnocyte04@yahoo.com",
-    "hometown": "Washington DC",
-    "description": "Come join us in the nest of the Great American Phoenix! It's sure to be a bright and exciting time to soar across the playa together.",
-    "artist": "Michael Verdon",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/owxzjdurro/jpeg/a3OVI00000D26jN2AR.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Bird",
-      "Nest",
-      "Fire",
-      "Articulating",
-      "Beautiful"
-    ]
-  },
-  {
     "uid": "a6BVI000000Ll5Z2AS",
     "name": "F-15 Interceptor - Black Rock Air Force",
     "year": 2026,
@@ -508,27 +331,6 @@
       "70s Retro",
       "land Yacht",
       "vessel"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Llf32AC",
-    "name": "Yaba Daba Do Me",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "chris.renohome@gmail.com",
-    "hometown": "RENO",
-    "description": "A bitchin' two story Flintstone mobile",
-    "artist": "Yaba daba do me by Scooby/Chris Mcclintock",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/xlrnncgzxx/jpeg/a3OVI00000D26Ek2AJ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Prehistoric",
-      "flintstone",
-      "Mobile"
     ]
   },
   {
@@ -643,27 +445,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Lndd2AC",
-    "name": "Shutterbuggy",
-    "year": 2026,
-    "url": "https://www.facebook.com/groups/Shutterbuggy",
-    "donation_link": null,
-    "contact_email": "info@theegg.ca",
-    "hometown": "Vancouver, BC",
-    "description": "The Shutterbuggy is a mobile photo booth modeled after a 1940s camera. You and your friends can get souvenir photos to commemorate your Burning Man experience.",
-    "artist": "by Peter Blitz",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/ddjgrist6l/jpeg/a3OVI00000D2RO12AN.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Photobooth",
-      "Camera",
-      "Electric"
-    ]
-  },
-  {
     "uid": "a6BVI000000Lngr2AC",
     "name": "Sweet Ride (was Candy Cart)",
     "year": 2026,
@@ -726,29 +507,6 @@
       "Disco",
       "Snail",
       "LED"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LoUr2AK",
-    "name": "Pingüina",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "pinguinaartcar@gmail.com",
-    "hometown": "Las Vegas/Reno + Raleigh, NC",
-    "description": "As I waddle and slide across Black Rock City, I scatter sparks of presence, love, and joy through the dusty wake behind me. With a glowing heart and wandering flippers, I come to play, to dance beneath the stars, and help facilitate moments of wonder. Grateful for the chance to share this wild, fleeting life with you. Until we meet…\r\nWith love, Pingüina\"",
-    "artist": "Pingüina by RADAR, Artcarium, & Pingüina Crew",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/ncowtkf3pg/jpeg/a3OVI00000D2VGQ2A3.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Penguin",
-      "Bright",
-      "Comfortable",
-      "Deck",
-      "Couches"
     ]
   },
   {
@@ -816,52 +574,6 @@
       "Fringe",
       "Lights",
       "Accessible"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LtUX2A0",
-    "name": "Elektra",
-    "year": 2026,
-    "url": "https://elektradragon.art",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Oakland, CA",
-    "description": "Elektra is a fire breathing dragon with 60' wings swathed in remarkable addressable and sequenced LEDs.",
-    "artist": "Elektra by Engineered Artworks",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/1bnookac6x/jpeg/a3OVI00000E17PC2AZ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "dragon",
-      "white",
-      "LED",
-      "fire",
-      "wings"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LtpV2AS",
-    "name": "Alladin's Lamp: Making Playa Dreams Come True",
-    "year": 2026,
-    "url": null,
-    "donation_link": "https://www.gofundme.com/manage/help-alladins-lamp-shine-at-burning-man-2026",
-    "contact_email": null,
-    "hometown": "Montezuma, Colorado",
-    "description": "Alladin's Lamp is a work of mobile art recreating the \"bottom of the genie bottle\" experience for those in need of comfort in the midst of the desert. Riders are surrounded by colorful cushions and blankets, excellently curated music, and an opportunity to ride the Playa with their fellow burners.",
-    "artist": "Kristi Haverhals and the Alladin’s Lamp Team",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/awkcpiza8j/jpeg/a3OVI00000D3XmL2AV.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Shiny",
-      "Black",
-      "Gold",
-      "Lamp",
-      "Teapot"
     ]
   },
   {
@@ -933,27 +645,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000LuVR2A0",
-    "name": "Eagle 5",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Fernley,NV",
-    "description": "It's a well represented copy of the iconic Spaceballs rv .",
-    "artist": "Mini Eagle 5",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/gbuntnlxny/jpeg/a3OVI00000D4Fll2AF.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Interactive",
-      "Iconic",
-      "Inclusive"
-    ]
-  },
-  {
     "uid": "a6BVI000000LuX32AK",
     "name": "Gramma Dorothy's Loveseat",
     "year": 2026,
@@ -1020,51 +711,6 @@
       "comical",
       "blingy",
       "inspiring"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LvL32AK",
-    "name": "The Golden Calf",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "bdsmith21@gmail.com",
-    "hometown": "San Francisco, CA / Cookeville, TN",
-    "description": "A quiet space for meditation, reflection, and contemplation during the day, a party with music, dancing, flames, and entertainment with a unique light-hearted sacrilegious twist at night.",
-    "artist": "The Golden Calf by Brian Smith",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/qevevweqmh/jpeg/a3OVI00000DpliC2AR.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Gold",
-      "Idol",
-      "Altar",
-      "Fire"
-    ]
-  },
-  {
-    "uid": "a6BVI000000LvMf2AK",
-    "name": "SpaceGrab",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Sacramento, California",
-    "description": "The inspiration for SpaceGrab was a small black stuffed alien I thrifted in 1996 as a gift to my son. Years passed, and before leaving for college he gifted it back to me because, \"Mom, this little guy was meant to stay with you.\" A couple years later SpaceGrab was born! Debuting on playa in 2010, his whimsical presence has been my annual pleasure to share with our playa family. \r\n     SpaceGrab can't wait to make it back to the dust again to share his expression of love and acceptance of all humans. It's his favorite time of year! If you see us on playa, come give the alien a hug, literally, he is a giant stuffed animal!",
-    "artist": "SpaceGrab by Sweet Alice",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/pwg87f87mc/jpeg/a3OVI00000ENqgz2AD.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "alien",
-      "space ship",
-      "white or pastel",
-      "flowers",
-      "green glow underbody"
     ]
   },
   {
@@ -1159,29 +805,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000LvZZ2A0",
-    "name": "The Big Cheese",
-    "year": 2026,
-    "url": "https://www.facebook.com/thebigcheesecar",
-    "donation_link": null,
-    "contact_email": "thebigcheesecar@gmail.com",
-    "hometown": "Oakland",
-    "description": "Bringing nostalgia, warmth and cheesy puns to the playa, The Big Cheese is a unique ride.",
-    "artist": "The Big Cheese by The Big Cheese Art Car Crew",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/jawticgmlk/jpeg/a3OVI00000D4uQj2AJ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Cheese",
-      "Yellow",
-      "Wedge",
-      "Bright",
-      "Warm"
-    ]
-  },
-  {
     "uid": "a6BVI000000M0Cf2AK",
     "name": "El Mango",
     "year": 2026,
@@ -1248,28 +871,6 @@
       "antigravity",
       "VRILL",
       "illuminating"
-    ]
-  },
-  {
-    "uid": "a6BVI000000M12H2AS",
-    "name": "Big Bunny",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "jondavidianlevy@gmail.com",
-    "hometown": "Park City, UT",
-    "description": "The Big Bunny is pink, furry, welcoming, loving…good vibes only! Dj driven playing funky dirty house music we have a great sound system to get down to. GET ON THE BUNNY ❤️",
-    "artist": "Jon Levy, The Pink Spot",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/i5hduraw2y/jpeg/a3OVI00000D5Sll2AF.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Pink",
-      "Bunny",
-      "Furry",
-      "Sound"
     ]
   },
   {
@@ -1384,29 +985,6 @@
       "ponies",
       "electric",
       "Not Santa"
-    ]
-  },
-  {
-    "uid": "a6BVI000000MD0D2AW",
-    "name": "The Last Giant Otter",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "tucker.q.houston@gmail.com",
-    "hometown": "Helsinki, Finland",
-    "description": "Meet *Cuddles the Otter*, a floating, illuminated pod of otters rolling across the playa on the belly of the mother otter. Wrapped in fur, light, music, and mischief, Cuddles invites dusty wanderers to climb aboard, stay connected, and drift together through the currents of Black Rock City.",
-    "artist": "Otter Art Car by Engineered Artworks",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/nrutslsi33/jpeg/a3OVI00000D66T32AJ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Otter",
-      "whimsical",
-      "furry",
-      "floating",
-      "illuminated"
     ]
   },
   {
@@ -1546,29 +1124,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000MWMD2A4",
-    "name": "The Struggle Bus",
-    "year": 2026,
-    "url": "https://www.instagram.com/strugglebus_driver",
-    "donation_link": "https://gofund.me/ba2d977b",
-    "contact_email": "joelroberts57@yahoo.com",
-    "hometown": "Phoenix, AZ",
-    "description": "A fusion of train, submarine, and bus, The Struggle Bus is a steampunk spectacle on wheels, rolling through Black Rock City with a mission to help, transport, and entertain. Clad in decorative metal, porthole windows, and a fire-shooting smokestack, it's equal parts mutant vehicle and mobile adventure. By day, it hosts playful art tours with witty banter, and by night, it transforms into a Cyberpunk light show, streaking across the playa with flowing LED trails, and bursts of flame.  Whether offering a ride, a laugh, or a much-needed assist, The Struggle Bus ensures that no burner struggles alone!",
-    "artist": "The Struggle Bus by Jen and Joel Roberts",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/40rkc9wbpm/jpeg/a3OVI00000D7rRV2AZ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Steampunk",
-      "Mixed-Metal",
-      "Submarine",
-      "Train",
-      "Smokestack"
-    ]
-  },
-  {
     "uid": "a6BVI000000MYCj2AO",
     "name": "Infini-Tea Spot",
     "year": 2026,
@@ -1612,29 +1167,6 @@
       "Roomy",
       "Spacious",
       "Cozy"
-    ]
-  },
-  {
-    "uid": "a6BVI000000MaZV2A0",
-    "name": "The Dusty Fantasy",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "events@eoslounge.com",
-    "hometown": "Santa Barbara",
-    "description": "Introducing the Dusty Fantasia Artcar - a captivating fusion of retro nostalgia and innovative design, crafted to immerse you in a 70's summer beach club experience like never before. Picture yourself cruising the playa, surrounded by the sounds of funky beats, tantalizing refreshments, and cool treats, all aboard a unique vessel that promises an unforgettable journey. As you follow the boat on its drives, you'll find yourself drawn into a world of good music, engaging conversation, and water, providing the perfect respite from the desert heat.  venture out into the deep playa and join us for dance parties under the stars.",
-    "artist": "Dusty Fantasea",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/7qevpnlble/jpeg/a3OVI00000D8HH72AN.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Pink",
-      "Dusty",
-      "Speed Boat",
-      "70's",
-      "Retro"
     ]
   },
   {
@@ -1838,29 +1370,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000MeOb2AK",
-    "name": "Ghost Slipper",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "tyeckley@me.com",
-    "hometown": "Houston, Texas",
-    "description": "This vehicle is shaped like an Alladins Slipper. It is usually wearing a blue dress, but can occasionally be out on the play on a silver one.  It is covered in over 1,000 individually addressable LED Lights and contains a very discrete 11 speaker Sound System.",
-    "artist": "The Ghost Slipper",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/djrpq1q0vb/jpeg/a3OVI00000D90HU2AZ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Shoe",
-      "Blue",
-      "Lights",
-      "Music",
-      "Awards"
-    ]
-  },
-  {
     "uid": "a6BVI000000MeTR2A0",
     "name": "Third Eye Scream",
     "year": 2026,
@@ -1881,29 +1390,6 @@
       "Pyramid",
       "Rays",
       "Illuminati"
-    ]
-  },
-  {
-    "uid": "a6BVI000000MeoP2AS",
-    "name": "Prodigal Swan",
-    "year": 2026,
-    "url": "https://www.instagram.com/prodigal_swan/",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Las Vegas",
-    "description": "Prodigal Swan is an interactive art car designed to evoke wonder and connection. With illuminated wings and a dramatic flame effect, it offers a visually stunning experience. More than just a vehicle, it's a moving piece of art that invites engagement and fosters community.",
-    "artist": "Prodigal Swan by Ryan Doherty",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/tbrmhssuwo/jpeg/a3OVI00000DEEZt2AP.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Majestic",
-      "Innovative",
-      "Community",
-      "Fusion",
-      "Wonder"
     ]
   },
   {
@@ -2392,29 +1878,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Msub2AC",
-    "name": "Lil' Playa Plane",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Nevada",
-    "description": "The Lil' Playa Plane was created to bring out the Lil' People in all of us. It is designed to bring back the memories of childhood,\nwhen we were all fascinated with the simplest of interactions. Sounds, Lights, and Fun Simple Songs. Whether watching it drive by or jumping aboard the Lil' Playa Plane brings smiles and nostalgia from everyone who comes in contact with it. The Lil' Playa Plane is loved by everyone and still has the unofficial title as the \"cutest\"\nart car on the playa.",
-    "artist": "Lil' Playa Plane and Playa Plane Ground Crew",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/e5tucz6nd9/jpeg/a3OVI00000DCJiX2AX.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "airplane",
-      "toy",
-      "blue",
-      "green",
-      "wings"
-    ]
-  },
-  {
     "uid": "a6BVI000000MtDx2AK",
     "name": "The Great Sammich Ride",
     "year": 2026,
@@ -2502,29 +1965,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Mu5B2AS",
-    "name": "Red Hot Beverly -- The Fire \"Extinguisher\"",
-    "year": 2026,
-    "url": "https://www.facebook.com/redhotbeverly",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "San Francisco",
-    "description": "Red Hot Beverly -- The Fire \"Extinguisher\" welcomes everyone with dirty beats and giant fire to keep you toasty on chilly nights. Come dance with us or jump on board to roam the playa and see all the amazing art. Eventually, we'll see you at the trash fence!",
-    "artist": "Red Hot Beverly by Crisis Labs",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/yhuwzn7vne/jpeg/a3OVI00000DCcoP2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Giant",
-      "Red",
-      "Fire",
-      "Exintinguisher",
-      "Breaks"
-    ]
-  },
-  {
     "uid": "a6BVI000000Mwzp2AC",
     "name": "Judgment Island",
     "year": 2026,
@@ -2592,50 +2032,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000N2if2AC",
-    "name": "Ha-Ha-Ha Harvey",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Reno, NV",
-    "description": "Reclaimed 1970 Glastron Speedboat hull mounted on a reclaimed 1994 G5 Yamaha Golf Cart Chassis. Painted ocean\nwave skirts, seating for 12 people, bike racks, LED light strings throughout including up the mast with white strobes on\ntop, groovy sound system, shade Bimini Top, sounding bell, plus a buckled reclaimed kayak that appears smashed on\nthe bow. Hop aboard, matey!",
-    "artist": "The HA-HA-HA Harvey",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/pa6mkaqrza/jpeg/a3OVI00000DDS0b2AH.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Boat",
-      "Wavy",
-      "Lit",
-      "Bouncy",
-      "bluish"
-    ]
-  },
-  {
-    "uid": "a6BVI000000N4Vx2AK",
-    "name": "Helga",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "mark@brownchicken.com",
-    "hometown": "Truckee Ca",
-    "description": "Helga the Viking Ship",
-    "artist": "Mark Bjornson",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/z5kwzi2vl5/jpeg/a3OVI00000DDoHF2A1.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Viking",
-      "Boat",
-      "Norse"
-    ]
-  },
-  {
     "uid": "a6BVI000000N4qv2AC",
     "name": "Suck",
     "year": 2026,
@@ -2654,28 +2050,6 @@
       "Vacuum",
       "Suck",
       "Suck you up"
-    ]
-  },
-  {
-    "uid": "a6BVI000000N4vq2AC",
-    "name": "Kevin",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "dh_gibbs@comcast.net",
-    "hometown": "Salt Lake City",
-    "description": "'Kevin' One Of The Most Beloved Small Art Cars On The Playa.",
-    "artist": "MV Kevin brought to you by The Tequila Bees",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/vgjnu7s02b/jpeg/a3OVI00000DDuma2AD.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Loveable",
-      "Messerizing",
-      "Colorful",
-      "Cute"
     ]
   },
   {
@@ -2788,29 +2162,6 @@
       "Playful",
       "Shrimp",
       "Boat"
-    ]
-  },
-  {
-    "uid": "a6BVI000000NCwX2AW",
-    "name": "Ziggy Star Duster",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "marcabouaf@gmail.com",
-    "hometown": "San Diego",
-    "description": "Ziggy Starduster is a retro desert speeder inspired by the classic sci fi vehicles many of us remember from childhood. It started life as a small convertible and was rebuilt with a custom welded frame and aluminum body panels to create a low floating landspeeder style vehicle. The glowing rear engines and ground lighting give it the feeling that it is hovering just above the playa at night. During the day it rolls across the dust like something from another world. Our goal is simple, bring a little desert sci fi imagination to Black Rock City and share rides and good vibes with fellow burners along the way.",
-    "artist": "Marc Abouaf & Vernon Rich (Ziggy Star Duster)",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/thstb1aur0/jpeg/a3OVI00000DUoCr2AL.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Sci-fi",
-      "Retro",
-      "spaceship",
-      "floating",
-      "landspeeder"
     ]
   },
   {
@@ -3215,29 +2566,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000NlRF2A0",
-    "name": "Playa Pizza Portage",
-    "year": 2026,
-    "url": "https://www.instagram.com/playa_pizza_portage",
-    "donation_link": null,
-    "contact_email": "rustytheburner@gmail.com",
-    "hometown": "San Mateo",
-    "description": "The Playa Pizza Portage is a happy and bright little slice, traveling the Playa, to bring joy and sustenance to adventurers anywhere they find us.",
-    "artist": "Playa Pizza Portage by Rusty & Kinky Pizza",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/lxyttj7o0c/jpeg/a3OVI00000DKO9y2AH.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Pizza",
-      "Slice",
-      "Pepperoni",
-      "Pizza Cart",
-      "Food"
-    ]
-  },
-  {
     "uid": "a6BVI000000Nn1d2AC",
     "name": "CHEESUS SAVES (formerly blue cheese)",
     "year": 2026,
@@ -3330,29 +2658,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Ntv32AC",
-    "name": "Souper Lounge",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "San Francisco",
-    "description": "Welcome to the Souper Lounge—your floating, funky soup bowl on wheels! This art car is a neon-lit, noodle-pillow paradise, complete with veggie plushies, fuzzy carpets, and a whole lotta cozy vibes. We're serving up hot broths and soups straight from the back to keep you warm or cool (depending on how much fun you're having). Hop in, chill out, and let's get saucy! The Souper Lounge is your new favorite hangout, where soup, silliness, and community come together in the most deliciously ridiculous way. We will have intimate DJ sets, open mic nights, sound healings and more as we cruise around the playa! Come for the broth, stay for the friends—and maybe a veggie plushie or two!",
-    "artist": "Brad Morisoli & Kayla Morisoli",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/ukqr6lg4o7/jpeg/a3OVI00000DLnfo2AD.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Soup",
-      "Bowl",
-      "Neon",
-      "Cozy",
-      "Warm"
-    ]
-  },
-  {
     "uid": "a6BVI000000O1kX2AS",
     "name": "Gema",
     "year": 2026,
@@ -3395,29 +2700,6 @@
       "Fire",
       "Sound",
       "Alien"
-    ]
-  },
-  {
-    "uid": "a6BVI000000O2v72AC",
-    "name": "Proto",
-    "year": 2026,
-    "url": "https://campflyburningman.github.io/Web-Page/Camp-Fly-Home-Preview.html",
-    "donation_link": "https://campflyburningman.github.io/Web-Page/Camp-Fly-Home-Preview.html",
-    "contact_email": null,
-    "hometown": "Denver, CO",
-    "description": "Proto is a steam punk inspired, fire breathing dragonfly time machine that is named after the extinct order of gigantic dragonfly's known as Protodonata. We offer rides to everyone-please ask when you see us!",
-    "artist": "Dragonfly Swarm by Chris Merrick and Camp Fly",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/vivace2ukp/jpeg/a3OVI00000DN09V2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Dragonfly",
-      "Fire",
-      "Music",
-      "group",
-      "beautiful"
     ]
   },
   {
@@ -3739,28 +3021,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000OO9F2AW",
-    "name": "Chatterbox",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "chatterboxartcar@gmail.com",
-    "hometown": "Salt Lake City, UT",
-    "description": "Immerse yourself in the vibrant cacophony of creativity with the Chatterbox Art Car. This rolling masterpiece serves as a mobile platform for spontaneous conversations, fueled by the energy of the playa. Adorned with mesmerizing humans and pulsating with music, the Chatterbox invites participants to engage in dynamic dialogues, forging connections that transcend boundaries. Join the journey aboard this mobile marvel and experience the magic of community, expression, laughter and exploration!",
-    "artist": "Chatterbox Art Car by Cassie Plant and Crew",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/rf0pfrlnar/jpeg/a3OVI00000DQglh2AD.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Chatter",
-      "Teeth",
-      "Smile",
-      "Chomp"
-    ]
-  },
-  {
     "uid": "a6BVI000000OUkv2AG",
     "name": "Flux Capacitor",
     "year": 2026,
@@ -3851,27 +3111,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000OZUT2A4",
-    "name": "Love Blossom",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Tahoe City, CA",
-    "description": "Love Blossom helps love, connection and compassion bloom on the playa",
-    "artist": "Love Blossom by Camp Cohere",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/rmwusfhhbp/jpeg/a3OVI00000DRZDW2A5.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Pink",
-      "Flowing Flowers",
-      "Hearts"
-    ]
-  },
-  {
     "uid": "a6BVI000000OZnp2AG",
     "name": "Hsssisss - the Baby Sea Dragon",
     "year": 2026,
@@ -3918,52 +3157,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000OgpJ2AS",
-    "name": "Electric Candy Car",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "nealmilch@gmail.com",
-    "hometown": "New York City",
-    "description": "Electric Candy Car, the colorful bursting bag of candies which invites you to hop on for a\nsweet, joyful journey.",
-    "artist": "Electric Candy Car by Neal Milch",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/gxzysimieb/jpeg/a3OVI00000DSAUn2AP.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Sweet",
-      "Joyful",
-      "Modest",
-      "Friendly",
-      "Unpretentious"
-    ]
-  },
-  {
-    "uid": "a6BVI000000OhBt2AK",
-    "name": "Heavy Meta",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Reno, NV",
-    "description": "Heavy Meta is a terrifying, hand-cut sheet metal-clad fire-breathing dragon. Featuring interactive flame, sound and light effects, Heavy Meta can accommodate up to 30 people, and will be traversing the open playa day and night.",
-    "artist": "Heavy Meta Dragon",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/x5ouy5jmno/jpeg/a3OVI00000DSJTI2A5.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Dragon",
-      "Fire",
-      "Steel",
-      "Wings",
-      "Sound"
-    ]
-  },
-  {
     "uid": "a6BVI000000OhDV2A0",
     "name": "Iron Butterfly",
     "year": 2026,
@@ -3984,50 +3177,6 @@
       "Shade",
       "Fabric",
       "Chill"
-    ]
-  },
-  {
-    "uid": "a6BVI000000OtjJ2AS",
-    "name": "The Dirty Sardine",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "yellow911@nvbell.net",
-    "hometown": "Reno",
-    "description": "The Dirty Sardine is a mutant vehicle designed to look like an open sardine can with a purpose to pack in and meet fellow burners on the playa.",
-    "artist": "The Dirty Sardine by Ken Zimmerman",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/m2ooevisnt/jpeg/a3OVI00000DicoV2AR.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Metal",
-      "Can",
-      "Sardine",
-      "Fish"
-    ]
-  },
-  {
-    "uid": "a6BVI000000OtrN2AS",
-    "name": "Fjörgyn",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "FjorgynVikingShip@gmail.com",
-    "hometown": "Carson City, NV",
-    "description": "The Fjorgyn is a 42 foot  Viking longboat with a crows nest and billowing multicolored sail. To look upon it will bring you back to the days of the original pirates of Nordic times.",
-    "artist": "Fjörgyn by Troy/Jeannie Morgan & Dennis Alumbaugh",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/4kz6tmjy5x/jpeg/a3OVI00000DTysY2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Ship",
-      "Crows Nest",
-      "Sails",
-      "Viking"
     ]
   },
   {
@@ -4073,29 +3222,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000P4rd2AC",
-    "name": "Sound Cabin",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "tomburningman@gmail.com",
-    "hometown": "South Lake Tahoe",
-    "description": "The Sound Cabin was built mainly for DJ to perform with fire playing to their music. It was also built to drive around the Playa and support other big sound art cars performing.",
-    "artist": "Sound Cabin by Tom Linck",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/7rdm52gwuz/jpeg/a3OVI00000DVviT2AT.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Wood",
-      "Speakers",
-      "Flames",
-      "Inside Shelter",
-      "Deck"
-    ]
-  },
-  {
     "uid": "a6BVI000000P4wT2AS",
     "name": "Jolly the incredibly annouying chimp II",
     "year": 2026,
@@ -4116,29 +3242,6 @@
       "creepy",
       "memorable",
       "Fun"
-    ]
-  },
-  {
-    "uid": "a6BVI000000P4y52AC",
-    "name": "Playatech Flaming Castle",
-    "year": 2026,
-    "url": "https://playatech.com/playatech-motors-the-flaming-castle/",
-    "donation_link": null,
-    "contact_email": "support@playatech.com",
-    "hometown": "Fair Oaks, CA",
-    "description": "The Playatech Flaming Castle presents as smoldering 20'x12'x12' castle, made of Playatech slotted plywood parts with plush royal red décor and flame-like lighting, over a bronze-colored steel framework and armature, which are welded over a chopped '91 Volvo 240 sedan that is completely hidden except windshield and front side windows. By night, The Castle's bright red tower can be seen across the playa, while closer in it offers a subtle welcoming fire-like lighting experience.",
-    "artist": "Sunshine & Playatech",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/bu6g0ckdon/jpeg/a3OVI00000DVrRy2AL.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "castle",
-      "red fur",
-      "Playatech",
-      "playhouse",
-      "regal"
     ]
   },
   {
@@ -4751,52 +3854,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000QhCb2AK",
-    "name": "AquaZone Mobile Hydration Station",
-    "year": 2026,
-    "url": "https://photos.app.goo.gl/JhGRrRcSbaqsNMPt8",
-    "donation_link": null,
-    "contact_email": "aquazone-2026@usa.net",
-    "hometown": "Berkeley, CA",
-    "description": "a beacon of hydration... A blue wave rising high in the midst of one of the driest places on earth, promising to slake your thirst and provide respite... a true oasis on wheels.",
-    "artist": "AquaZone Mobile Hydration Station by Team BoyScout",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/192-de0e778dfbe71df289fe48ddc15362fa_BM24_Aquazone_Car_Center_Camp_PM.jpg"
-      }
-    ],
-    "tags": [
-      "blue",
-      "ice water",
-      "wavy",
-      "dancing pole",
-      "accessible"
-    ]
-  },
-  {
-    "uid": "a6BVI000000QpA92AK",
-    "name": "Throwin Shade",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Seattle",
-    "description": "\"Throwing Shade\" is the grooviest little big lamp shade on playa",
-    "artist": "Throwin Shade by Artist Carter Lee and Best Butts",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/208-12b95d6ca8528dd05de81f8a11ace6eb_20260405_115847.jpg"
-      }
-    ],
-    "tags": [
-      "LAMP",
-      "Cozy",
-      "Illuminating",
-      "Shadows",
-      "UV"
-    ]
-  },
-  {
     "uid": "a6BVI000000QvCL2A0",
     "name": "Playa Trolly / Fun House",
     "year": 2026,
@@ -4862,29 +3919,6 @@
       "Metal",
       "Spacecraft",
       "Butterflies"
-    ]
-  },
-  {
-    "uid": "a6BVI000000R95d2AC",
-    "name": "Fox Art Car",
-    "year": 2026,
-    "url": "https://www.instagram.com/foxartcar/ https://flic.kr/s/aHBqjCLmu2",
-    "donation_link": "https://account.venmo.com/u/Carolyn-Gardella-FOXCAR",
-    "contact_email": "foxartcar@gmail.com",
-    "hometown": "Breckenridge, Colorado",
-    "description": "The Fox Art Car is a fully transformed electric vehicle reimagined as a glowing, geometric fox that roams the playa. Built from a welded steel frame and wrapped in repurposed sailcloth, it comes alive at night with color changing LEDs and deep green glowing eyes. Designed to be open and social, riders sit facing one another, creating space for connection, laughter, and shared experience. More than a vehicle, it is an interactive, moving sculpture that invites participation,\nsparks curiosity, and brings playful, mischievous energy to the community.",
-    "artist": "Fox Art Car by Carolyn Gardella and the Fox Pack",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/211-288c0bfcf1f5db2f64474ff563815b2f_FoxCar_Profile.jpg"
-      }
-    ],
-    "tags": [
-      "Fox",
-      "Geometric",
-      "Illuminated",
-      "Green-eyed",
-      "Bushy-Tailed"
     ]
   },
   {
@@ -5066,29 +4100,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Rc612AC",
-    "name": "Odo Duo",
-    "year": 2026,
-    "url": "https://campflyburningman.github.io/Web-Page/Camp-Fly-Preview.html",
-    "donation_link": "https://campflyburningman.github.io/Web-Page/Camp-Fly-Preview.html",
-    "contact_email": null,
-    "hometown": "Denver",
-    "description": "A larger than life robotic dragonfly that can fit up to 4 people.",
-    "artist": "Odo Duo by Chris Merrick and Camp Fly",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/115-1bc6dfa262405cdb05f9d786f6ad90b0_Odo_duo_photo_2.jpg"
-      }
-    ],
-    "tags": [
-      "Dragonfly",
-      "Lit",
-      "Swarm",
-      "Mechanical",
-      "Beautiful"
-    ]
-  },
-  {
     "uid": "a6BVI000000Rden2AC",
     "name": "Boy Lady Bug",
     "year": 2026,
@@ -5108,29 +4119,6 @@
       "Cute",
       "Winged",
       "Black dots"
-    ]
-  },
-  {
-    "uid": "a6BVI000000Rdmr2AC",
-    "name": "King",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Auburn, WA",
-    "description": "Multi-story knights armor helmet. King provides a viewing platform for Burners to\nexperience the Playa from a height of 15'+ above ground level.",
-    "artist": "King Mutant Vehicle by Ken and Sheraine",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/77-f5eedb99158097915ff60a7e831381d0_King_Angle.JPG"
-      }
-    ],
-    "tags": [
-      "Knights Helmet",
-      "Silver",
-      "Multi-story",
-      "Skull Face",
-      "Crown"
     ]
   },
   {
@@ -5336,29 +4324,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Rsp72AC",
-    "name": "Big Bubby",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Tacoma, WA",
-    "description": "A custom designed and built, convertible, roaming, bike shop",
-    "artist": "Riley Hume",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/66-557bb852fdc6f53742fe3f62f136d79a_Morning.jpg"
-      }
-    ],
-    "tags": [
-      "Blue",
-      "Chandelier",
-      "Built-from-scratch",
-      "Wooden",
-      "Rustic"
-    ]
-  },
-  {
     "uid": "a6BVI000000RssL2AS",
     "name": "Taking Back The Tea Party",
     "year": 2026,
@@ -5515,28 +4480,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000SVGz2AO",
-    "name": "MAXA",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "info@maxacamp.com",
-    "hometown": "Mexico City",
-    "description": "Despite centuries of outside influence, the Huichol people have preserved their shamanic traditions and spiritual connection to nature. In their worldview, the search for higher knowledge is seen as a sacred journey guided by the Blue Deer, known as Kauyumari. The MAXA vehicle is inspired by this powerful symbol, featuring extended antlers at the front and interactive elements such as side swings. Designed to host up to 50 participants, the vehicle welcomes all who wish to experience its spirit of exploration. At night, performers inspired by Huichol traditions will share warm beverages and moments of comfort, evoking the timeless journey of seeking wisdom and inner discovery.",
-    "artist": "Maxa by Maxa",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/194-33909b4f4592e6837e7dc49ab18f2d80_IMG_4103.jpeg"
-      }
-    ],
-    "tags": [
-      "Deer",
-      "Stag",
-      "Antlers",
-      "Animal"
-    ]
-  },
-  {
     "uid": "a6BVI000000SeaP2AS",
     "name": "Gothic Dust",
     "year": 2026,
@@ -5576,50 +4519,6 @@
       "Glowing",
       "Snail",
       "Gary"
-    ]
-  },
-  {
-    "uid": "a6BVI000000SoJd2AK",
-    "name": "Franklin The Very Hungry Caterpillar",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "franklin@mbesto.com",
-    "hometown": "Austin, TX",
-    "description": "The Hungry Caterpillar is an all-electric illuminated art vehicle based on Eric Carle's beloved children's book. It features inflatable segments form the caterpillar's body backlit by LEDs that breathe and pulse with color. Inside: plush teddy-bear fabric, lounge seating, and a second-floor DJ booth. Zero emissions, zero generators. In 2027, the caterpillar will become a butterfly.",
-    "artist": "The Very Hungry Caterpillar by Mike Bestvina",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/115-a534e61df052a016b6c2443da58d5b24_franklin_day1.jpeg"
-      }
-    ],
-    "tags": [
-      "Caterpillar",
-      "Inflatable",
-      "Glowing",
-      "Segmented"
-    ]
-  },
-  {
-    "uid": "a6BVI000000SvOL2A0",
-    "name": "The ZoomBox",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "zackmorris@live.com",
-    "hometown": "BOISE",
-    "description": "A rad, larger than life-size boom box for your very own playa pop up dance party.",
-    "artist": "The ZoomBox by Zack Morris and friends",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/211-7e8413978a8701796feb8ef39a506886_ZoomBox2025.1.jpg"
-      }
-    ],
-    "tags": [
-      "Flashy",
-      "Bright",
-      "Bumpin",
-      "Retro"
     ]
   },
   {
@@ -6256,52 +5155,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000UAA12AO",
-    "name": "Lepi, The Butterfly",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "gvbarnhill@gmail.com",
-    "hometown": "Denver",
-    "description": "A cross between a real butterfly and a steampunk metal robot butterfly that you can ride on the back of. \nthis is a complete custom build that is built out of new go kart wheels, suspension. \nA custom welded frame with a 6hp gas motor with a belt and chain drive. \nall metal construction painted in steampunk colors \nthe ability to disassemble the vehicle for transportation was a must. \nthe tail will also be lit up and will wag from side to side. \na balance between looking cool during the day and night will be struct",
-    "artist": "Lepi The Butterfly by Chris Merrick",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/66-08ef872c5aedc517a9846e5adf9da8ba_Lepi.jpg"
-      }
-    ],
-    "tags": [
-      "Giant",
-      "Colorful",
-      "Vibrant",
-      "Steampunk",
-      "Butterfly"
-    ]
-  },
-  {
-    "uid": "a6BVI000000UABd2AO",
-    "name": "Odo Tre, The Dragonfly",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "gvbarnhill@gmail.com",
-    "hometown": "Denver",
-    "description": "A larger than life Dragonfly that 4 people can ride on the back of while cruising the playa.",
-    "artist": "Odo Tre, The Dragonfly by Chris Merrick",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/211-636e147ecc66c666c19376380bf1055e_Odo_Tre.jpg"
-      }
-    ],
-    "tags": [
-      "Giant",
-      "Beautiful",
-      "mechanical",
-      "Steampunk",
-      "Dragonfly"
-    ]
-  },
-  {
     "uid": "a6BVI000000UAEr2AO",
     "name": "Raclette One",
     "year": 2026,
@@ -6322,27 +5175,6 @@
       "Red",
       "Space",
       "Cow"
-    ]
-  },
-  {
-    "uid": "a6BVI000000UAGT2A4",
-    "name": "Disco Space Shuttle",
-    "year": 2026,
-    "url": "https://www.facebook.com/discospaceshuttle",
-    "donation_link": null,
-    "contact_email": "discospaceshuttle@gmail.com",
-    "hometown": "San Francisco",
-    "description": "Join us on the Disco Space Shuttle, a warm chill-out refuge during deep playa music gatherings, positive music, and a ride home in the early morning for the weary.",
-    "artist": "Disco Space Shuttle by DSS Crew",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/25-31accc76ffd04317574392fa3014557a_DiscoSpaceShuttle1.png"
-      }
-    ],
-    "tags": [
-      "Disco",
-      "Space",
-      "Shuttle"
     ]
   },
   {
@@ -6392,52 +5224,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000ULJx2AO",
-    "name": "Rexan",
-    "year": 2026,
-    "url": "https://sundowners.org/",
-    "donation_link": "https://sundowners.org/",
-    "contact_email": null,
-    "hometown": "Reno",
-    "description": "Rexan is a safari-themed psychedelic experience on a mission to bring African social traditions and celebration to the playa. This ultimate safari experience takes daring citizens on wildlife tours of BRC, from deep playa to various watering holes. We track CAR-nimals, observe ART-ilopes on ARTery tours, and collect unique MAN-imals for study.",
-    "artist": "Rexan by Joshuah Vincent & the Sundowners",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/240-757d7e276d222ac7d6e35bddba72485a_1.jpeg"
-      }
-    ],
-    "tags": [
-      "Africa",
-      "Safari",
-      "Sundowners",
-      "Afrofuturism",
-      "DJ"
-    ]
-  },
-  {
-    "uid": "a6BVI000000ULrp2AG",
-    "name": "Cyber Puss",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Denver",
-    "description": "The Cyber Puss is an ultra futuristic kitty that prowls the streets of BRC mesmerizing all who see their reflection in her.",
-    "artist": "Cyber Puss by Craig Schapiro",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/211-27793cebc0a104992bcca2b5742fc353_CyberPussDust.jpeg"
-      }
-    ],
-    "tags": [
-      "Futuristic",
-      "Cat",
-      "Cyber",
-      "Reflective",
-      "Tail"
-    ]
-  },
-  {
     "uid": "a6BVI000000UMZN2A4",
     "name": "Immortal",
     "year": 2026,
@@ -6481,29 +5267,6 @@
       "balloon",
       "clouds",
       "solarpunk"
-    ]
-  },
-  {
-    "uid": "a6BVI000000UMeD2AW",
-    "name": "Arabella",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Oakland",
-    "description": "Arabella is a beautiful Art Nouveau phoenix with stunning lighting and dramatic flame effects as well as a luxurious bar and lounge area inside. \n\nArabella rises from the ashes of our last art car, the Dodo, which has gone the way of the dodo. As was the case with our lamented Dodo, we seek to make Arabella a traveling party, and to adapt the atmosphere to the situation. We hope that the bar will see philosophical debates, impromptu dance parties, and the beginning of more than a few lasting friendships. As such, we expect that you will often find languid burners relaxing in the bar area with delicious specialty cocktails. We also hope to have numerous performances on the roof deck from both DJs and live bands in the years to come.",
-    "artist": "Flamboyant ornithological society",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/77-d3bae082dcc24ddfb42834bb963f0f19_IMG_8813.jpg"
-      }
-    ],
-    "tags": [
-      "Fire",
-      "Chicken",
-      "Phoenix",
-      "Metal",
-      "Martini"
     ]
   },
   {
@@ -6596,29 +5359,6 @@
       "Mast",
       "Electric",
       "Quiet"
-    ]
-  },
-  {
-    "uid": "a6BVI000000UrJp2AK",
-    "name": "Spark the Firefly",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Reno",
-    "description": "Spark is a giant firefly brought to life on the playa, with a sculpted head, illuminated wings, and a glowing segmented abdomen that doubles as a cozy mobile lounge. At night, it pulses with warm light that echoes the rhythm of a real firefly, becoming a soft beacon in the desert. Designed for connection and shared experience, Spark offers a welcoming space for riders of all ages to gather, rest, and take in Black Rock City from a new perspective as it drifts gently through the night.",
-    "artist": "Sierra Scott and the Lightning Bug Crew",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/77-6ee3a4954598c18279d721fc485de5d0_Firefly_Day1.PNG"
-      }
-    ],
-    "tags": [
-      "Firefly",
-      "Wings",
-      "Glowing",
-      "Antennae",
-      "Golden"
     ]
   },
   {
@@ -7425,29 +6165,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000Vlyj2AC",
-    "name": "Pyramid",
-    "year": 2026,
-    "url": "https://rockymountainmoggers.com/rldp/pyramid2.html",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Boulder, Colorado USA",
-    "description": "The Pyramid is a mobile pyramid, with large flame effects, lit from within.",
-    "artist": "Cap'n Ron",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/240-2a728dc7f2c826db3a61df80f6b0ba46_Pyramid.jpg"
-      }
-    ],
-    "tags": [
-      "White",
-      "Pyramid",
-      "Lit",
-      "Fire",
-      "Small"
-    ]
-  },
-  {
     "uid": "a6BVI000000VmA12AK",
     "name": "Son of Hal",
     "year": 2026,
@@ -7604,29 +6321,6 @@
       "ornate",
       "Tastir",
       "fuzzy"
-    ]
-  },
-  {
-    "uid": "a6BVI000000VqGr2AK",
-    "name": "Zenith",
-    "year": 2026,
-    "url": "https://on.soundcloud.com/lHwwdiNixAOjtivb11",
-    "donation_link": null,
-    "contact_email": "Tyemarkey@gmail.com",
-    "hometown": "Santa Rosa, California",
-    "description": "Zenith is a desert yacht built for the journey as much as the destination. Cruise and settle in — we’re here to roam the Playa, stumble into magic, and pull up to wherever the night takes us.\r\nEvery design element on Zenith reaches upward, a visual nod to the name itself: zenith, meaning pinnacle — and tracing back further, peak experience. That’s the intention. Not just a ride, but a moment.\r\nIf you spot us rolling between sunset and sunrise, flag us down. We love meeting new people, and we usually have water or snacks if you need to replenish. Come say hi — the higher path is always better shared.",
-    "artist": "Tye Markey",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/115-1abedf95ac7356ed5809883c1bd8f792_IMG_2887.jpeg"
-      }
-    ],
-    "tags": [
-      "Cyber",
-      "padded",
-      "Zig-zag",
-      "open",
-      "colorful"
     ]
   },
   {
@@ -7873,28 +6567,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000VsnJ2AS",
-    "name": "The Fuckin' Arrr!",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "xillamonster@gmail.com",
-    "hometown": "Golden Colorado",
-    "description": "Rustic Pirate Ship",
-    "artist": "\"The Fuckin' Arrr!\" - car created by Xilla",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/115-eb328ea93cfa32d73c9f98555e9f4211_aluvia.jpg"
-      }
-    ],
-    "tags": [
-      "boat",
-      "pirate",
-      "rustic",
-      "detailed"
-    ]
-  },
-  {
     "uid": "a6BVI000000VsqX2AS",
     "name": "Spokes",
     "year": 2026,
@@ -8118,29 +6790,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000VtHx2AK",
-    "name": "Immortal Wolf",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "brink.Seth@gmail.com",
-    "hometown": "Portland, OR",
-    "description": "The spirit of the immortal wolf lives inside us all. Let your inner wolf roar at the universe and forever spiral out.",
-    "artist": "Seth Brink",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/nw6v7hanwp/jpeg/a3OVI00000E6sXE2AZ.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "white",
-      "glowing",
-      "fantasy",
-      "ferocious",
-      "soft"
-    ]
-  },
-  {
     "uid": "a6BVI000000VtJZ2A0",
     "name": "the red eyed rabbit",
     "year": 2026,
@@ -8182,29 +6831,6 @@
       "illuminated",
       "retro",
       "crazy"
-    ]
-  },
-  {
-    "uid": "a6BVI000000VtOP2A0",
-    "name": "The Skiff by The Western Boys",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "jeremy.watson@elevatedvibes.com",
-    "hometown": "Tempe, AZ",
-    "description": "The Skiff is a serene, retro-futuristic craft-inspired electric mutant vehicle designed to ferry curious souls across the playa. With no sound system and seating for up to 12 passengers, it invites meaningful conversation, shared wonder, and quiet exploration. Beneath its handcrafted benches lies a hidden cooler stocked with ice-cold drinks, gifted generously along the journey. Glowing softly at night with elegant ambient lighting, The Skiff is a floating sanctuary; offering presence over performance and meaningful connection over chaos.",
-    "artist": "The Skiff by The Western Boys",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/199-101bdf5b6e7ff309db42cef3650c15fa_Skiff_01.png"
-      }
-    ],
-    "tags": [
-      "Futuristic Boatlike",
-      "Silver Gold Leather",
-      "Art Decco",
-      "Metal Fab Sculpture",
-      "Light Show"
     ]
   },
   {
@@ -8297,29 +6923,6 @@
       "Bright",
       "Crescent",
       "Lunar"
-    ]
-  },
-  {
-    "uid": "a6BVI000000VzTp2AK",
-    "name": "Echolalia",
-    "year": 2026,
-    "url": "https://www.instagram.com/gspot.camp/",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Oakland, CA",
-    "description": "A multimedia synesthetic time portal  that fosters community, creativity, and play.",
-    "artist": "Echolalia by Ay Rider & Copper Rivet Studios",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/hxmgagfyr2/jpeg/a3OVI00000EDoDV2A1.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Copper",
-      "two-levels",
-      "futuristic",
-      "steampunk",
-      "ship"
     ]
   },
   {
@@ -8481,29 +7084,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000W0JR2A0",
-    "name": "The Galaxki",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Oakland",
-    "description": "Small but adventurous, the G-laxki travels far from her mothership Echolalia to collect curious beings and bring them home to Echolalia, where adventure and connections await",
-    "artist": "Galaxki by The G Spot & Copper Rivet Studios",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/199-f81d421d77f1f471d3f29c40fdec4a7b_IMG_2369.jpeg"
-      }
-    ],
-    "tags": [
-      "Spaceship",
-      "Taxi",
-      "Copper",
-      "Galaxy",
-      "Glowing"
-    ]
-  },
-  {
     "uid": "a6BVI000000W0Uj2AK",
     "name": "BeOnTv",
     "year": 2026,
@@ -8613,29 +7193,6 @@
       "Peacock",
       "2-story",
       "Awesome"
-    ]
-  },
-  {
-    "uid": "a6BVI000000W1gv2AC",
-    "name": "The Spynx",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "camomichael55@yahoo.com",
-    "hometown": "Isleton",
-    "description": "The Spynx of the Playa art car operated beside the Anubis art car with a crew of Egyptian inhabitants.",
-    "artist": "Michael &Kyle",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/194-72659225563030553755956980a341a3_Screenshot_20260302-093445.png"
-      }
-    ],
-    "tags": [
-      "Sphynx",
-      "Double-Decker",
-      "Heated",
-      "Cozy",
-      "Lit"
     ]
   },
   {
@@ -9020,29 +7577,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000W5EH2A0",
-    "name": "Deco Fish Twin #1",
-    "year": 2026,
-    "url": "http://www.deco.fish",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Placerville, CA",
-    "description": "The Deco Fish Twins are double decker, Art Deco-inspired deep sea fish with an intricate fully addressable LED lighting system, explosive flame effects from its antennae, and a 20,000 Watt pro audio sound system with three zones and room for a dozen bikes.",
-    "artist": "Deco Fish Twins by the Deco Fish Art Car Crew",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/25-3107319e14f2112310d80215c9818be3_Deco_FIsh_Profile_Pic.jpeg"
-      }
-    ],
-    "tags": [
-      "Fish",
-      "Antennae",
-      "Red",
-      "Deco",
-      "Fire"
-    ]
-  },
-  {
     "uid": "a6BVI000000W5Xd2AK",
     "name": "Rx",
     "year": 2026,
@@ -9062,29 +7596,6 @@
       "Pink",
       "Wellness",
       "Futuristic"
-    ]
-  },
-  {
-    "uid": "a6BVI000000W5sb2AC",
-    "name": "Vigorous Spirit",
-    "year": 2026,
-    "url": "https://chinavillage.org",
-    "donation_link": null,
-    "contact_email": "info@chinavillage.org",
-    "hometown": "China",
-    "description": "Vigorous Spirit is a large-scale mutant vehicle inspired by Eastern mythology and imagined mythical creatures. Built on a Ford F-150 truck chassis, it has been transformed with a welded steel frame, sculptural bodywork, illuminated scales, glowing eyes, and a bright tail design. At night, LED lighting and spotlights bring the creature to life across the playa. The project combines visual impact, ambient sound, and mobile interaction to create a calm, welcoming, and immersive art experience for the Burning Man community.",
-    "artist": "Vigorous Spirit By Dragon Fish Art Car Crew",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/37-beafca4e5ba66db25549c8eec884013d_Weixin_Image_20260429114444_188_6.jpg"
-      }
-    ],
-    "tags": [
-      "Eastern mythical",
-      "DJ stage",
-      "Interactive",
-      "Peculiar shape",
-      "Oriental music"
     ]
   },
   {
@@ -9128,28 +7639,6 @@
       "Lift",
       "Calm",
       "Opera"
-    ]
-  },
-  {
-    "uid": "a6BVI000000W6DZ2A0",
-    "name": "Chosen Yogurt",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "San Francisco",
-    "description": "Yogurt - Chosen",
-    "artist": "Alex Lamb",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/240-fb06a61726da0c8767fabc54c3b33c08_SwirlSupport_ArtCar_Daytime.jpg"
-      }
-    ],
-    "tags": [
-      "Yogurt",
-      "Cupcake",
-      "Inflatable",
-      "Rainbow"
     ]
   },
   {
@@ -9199,29 +7688,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000W7uP2AS",
-    "name": "Mirrorcore",
-    "year": 2026,
-    "url": "https://www.instagram.com/mirrorcore.car",
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Chicago, IL",
-    "description": "Mirrorcore is a reflective, futuristic sculpture on wheels—an immersive mutant vehicle crafted from a 2019 Ford Transit van and transformed with hand-shaped stainless steel and mirrored chrome elements. Designed by Luna Prysiazhniuk to mirror the beauty of the Playa and its people, it shifts throughout the day, capturing light, sky, dust, and movement. By night, it comes alive with dynamic LED lighting, becoming a glowing prism of motion and color. With a rooftop platform, interactive design, and custom bike trailer, Mirrorcore invites participants to climb aboard, connect, and ride into the surreal—reflecting the collective spirit of Black Rock City.",
-    "artist": "Mirror Core",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/kcnqeoo5wu/jpeg/a3OVI00000E7kpG2AR.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "reflection",
-      "illumination",
-      "absorbtion",
-      "stainless steel",
-      "chrome wirror"
-    ]
-  },
-  {
     "uid": "a6BVI000000WHqX2AW",
     "name": "Funklet",
     "year": 2026,
@@ -9245,28 +7711,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000WIUr2AO",
-    "name": "Wet Dream",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "rpalt@comcast.net",
-    "hometown": "Boulder Creek",
-    "description": "The Wet Dream was previously sea worthy vessel, now transformed into a playa vessel by mutating a fiber glass 1957 Dorset power boat with a 1969 VW Beatle. From interior and exterior, what is left from the VW beetle is not visible-visually is floating on the playa.\nThe Wet Dream has LED lighting. Blue for water effect around the bottom of the boat, mutable colors around the deck and mass, and red on staircase and hand rails. On top of the mass 18' off the playa is a crows nest with a multi colored LED party light sending out a 150' array of illumination down to the sea around the Wet Dream. Cabin ceiling, black light illuminating a hand painted night sky. There are lantern's and other spontaneous lighting affects as well )'(",
-    "artist": "Wet Dream",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/162-ea329725192ade2b99a93c2be4ea6ef6_09_03_BurningMan_28.jpg"
-      }
-    ],
-    "tags": [
-      "Ahoy",
-      "Boat",
-      "Craft",
-      "Calipso"
-    ]
-  },
-  {
     "uid": "a6BVI000000WIcv2AG",
     "name": "Dirty Bird Art Car",
     "year": 2026,
@@ -9286,28 +7730,6 @@
       "Steel",
       "Rusted",
       "Dirty Bird"
-    ]
-  },
-  {
-    "uid": "a6BVI000000WIjN2AW",
-    "name": "Smile High",
-    "year": 2026,
-    "url": "https://smilehighbrc.org",
-    "donation_link": null,
-    "contact_email": "smilehighbrc@gmail.com",
-    "hometown": "Dobbins, CA",
-    "description": "An interactive mutant installation practicing radical mutant gifting",
-    "artist": "SmileHigh",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/dexeqyqowa/jpeg/a3OVI00000E8Zes2AF.jpeg?w=328&keep=c&crop=yes&color=cccccc&quality=100&u=r3rtjx"
-      }
-    ],
-    "tags": [
-      "Shiny",
-      "flying",
-      "playa",
-      "bus"
     ]
   },
   {
@@ -9602,29 +8024,6 @@
     ]
   },
   {
-    "uid": "a6BVI000000eJ0j2AE",
-    "name": "Nice A Roli",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": null,
-    "hometown": "Reno, NV",
-    "description": "Nice A Roli is an all Electric SF Cable Car offering good vibes and fun rides to burners.",
-    "artist": "Nice A Roli crew",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/37-c8ec10b331a119b587b29b51ace113fe_Screenshot_2026-06-15_at_7.18.20%E2%80%AFPM.png"
-      }
-    ],
-    "tags": [
-      "Cable Car",
-      "San Francisco",
-      "Metal",
-      "Wood",
-      "LEDs"
-    ]
-  },
-  {
     "uid": "a6BVI000000exHV2AY",
     "name": "BLACK ROCK CIRCUS WAGON",
     "year": 2026,
@@ -9690,51 +8089,6 @@
       "Building",
       "Saloon",
       "Reddish-brown"
-    ]
-  },
-  {
-    "uid": "a6BVI000000n47J2AQ",
-    "name": "Fuzzy Bunny Head",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "TheRealFuzzyBunny@gmail.com",
-    "hometown": "Phoenix",
-    "description": "The Bunny is a Warm & Fuzzy, welcoming, soft, comfortable, place to meet new and wonderful strangers, while exploring Black Rock City and the unknown.",
-    "artist": "Fuzzy Bunny Art Car by Fuzzy Bunny & AZ Burners",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/25-9cf44cfbe53077ca590aba26c22d0851_BunnyAtNight1.png"
-      }
-    ],
-    "tags": [
-      "Fuzzy",
-      "Bunny",
-      "Inviting",
-      "Soft",
-      "Colorful"
-    ]
-  },
-  {
-    "uid": "a6BVI000000nDYn2AM",
-    "name": "The Purple Pearl",
-    "year": 2026,
-    "url": null,
-    "donation_link": null,
-    "contact_email": "amorrisdressage@gmail.com",
-    "hometown": "Leadville",
-    "description": "The Purple Pearl is a giant sea clam that holds six passengers as she galivants across the Playa. She is white in the daytime but has a technicolor nighttime glow that brings joy to all creatures in Black Rock City. She is more than just a mode of transportation but an epic travelling sea creature to be viewed near and far.",
-    "artist": "Annie Morris and Jeff Sadler",
-    "images": [
-      {
-        "thumbnail_url": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/101590/6047425/37-1f192ef765e7790b2905ae5fa7e9b2fd_IMG_7909.JPG"
-      }
-    ],
-    "tags": [
-      "Giant Clam",
-      "Starfish",
-      "Articulating Shell",
-      "Psychedelic"
     ]
   },
   {

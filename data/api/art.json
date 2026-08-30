@@ -10354,5 +10354,57 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IDxx2AG",
+    "name": "always. all ways.",
+    "year": 2026,
+    "url": null,
+    "contact_email": "emily.gregor@burningman.org",
+    "hometown": "Salida, CO, United States",
+    "description": "burning man as enormous permission engine: what happens if i turn that knob? open that door? talk with that new five minute friend? infinite possibilities, and all we know with reasonable certainty is what happens if we don't: nothing. \n\nfor millennia, labyrinths have existed across cultures and continents as permission engines to move at human speed, in whatever way fills the cup of the user. there is no wrong way to engage with a labyrinth. all are invited to meet the labyrinth where it as, as they are, and engage as their authentic selves. contemplative, meditative, somber, joyful: the labyrinth invites all comers. \n\nthe labyrinth also presents a study in human geography. \n\nthe title, \"always. all ways.\" is a love letter.",
+    "artist": "Liminal Living",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IE4P2AW",
+    "name": "MUTATED PIXEL",
+    "year": 2026,
+    "url": null,
+    "contact_email": "jjcf79@gmai.com",
+    "hometown": "alpine meadows, CA, United States",
+    "description": "Mutated Pixel .\nThe 2 mooninites characters urk & IkNack have come to export the playa and talk shit. But what happens when the pixel mutates. um like what the fuck is up with AI?????? \nurk says ... you and your 3 demesions .... our planet has 5000 demesions!!!!!!  . so go export and you may find a gift from our aline friends. We love bandanas!!!!! and yes FuCk Ur BURn.",
+    "artist": "Cameron Fauth",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 1,
+      "minute": 7,
+      "distance": 1680,
+      "category": "Open Playa",
+      "gps_latitude": 40.784169775469046,
+      "gps_longitude": -119.20192075024264
+    },
+    "location_string": "1:07 1680', Open Playa",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
