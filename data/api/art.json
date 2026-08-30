@@ -10406,5 +10406,31 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IFWj2AO",
+    "name": "The Clubhouse",
+    "year": 2026,
+    "url": null,
+    "contact_email": null,
+    "hometown": "San Anselmo, CA, United States",
+    "description": "The Clubhouse is a cozy spot for you to reconnect with your inner child.",
+    "artist": "Grace & Friends",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 12,
+      "minute": 55,
+      "distance": 5000,
+      "category": "Open Playa",
+      "gps_latitude": 40.78738889056134,
+      "gps_longitude": -119.1906393530539
+    },
+    "location_string": "12:55 5000', Open Playa",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
