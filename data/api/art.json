@@ -10328,5 +10328,31 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IDpt2AG",
+    "name": "I'm sorry",
+    "year": 2026,
+    "url": null,
+    "contact_email": null,
+    "hometown": "Irvine, CA, United States",
+    "description": "20,000 children have died during the genocide in Gaza. The UN and several human rights organizations have deemed this systemic termination of civlians a tragic genocide. What does 20,00 dead children look like? What is it like to hold a dead child in your arms and helplessly utter the words...I'm sorry. \n\nSee what 20,000 children represents at a tiny scale. Witness a casket with baby Layla.",
+    "artist": "The Forgotten",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 3,
+      "minute": 5,
+      "distance": 1340,
+      "category": null,
+      "gps_latitude": 40.7805428511839,
+      "gps_longitude": -119.20458891733634
+    },
+    "location_string": "3:05 1340'",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
