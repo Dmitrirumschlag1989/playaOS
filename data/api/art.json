@@ -10484,5 +10484,83 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IO8b2AG",
+    "name": "Emancipation Station",
+    "year": 2026,
+    "url": null,
+    "contact_email": "deanwydeven@yahoo.com",
+    "hometown": "Appleton, WI, United States",
+    "description": "The Emancipation Station is an interactive 3 step interactive artwork that invites participants  to derive 3 unique and individual numeric combination numbers which are used to unlock the  dial combination to enlightenment. The dial exists as a rotating \"pedistal\" which the participant stands on as he/she/they dial and unlock their ourney to enlightenment. Once their combination unlocks their ourney, they are presented with a 18mm amulet of playa dust which represents the Earth. The partcipant is then sent on a 709 ft. ourney (the relative distance from the Earth to the 79\" inflatable Sun located on the Playa... and their ourney of Enlightenment is complete.",
+    "artist": "Dean Wydeven",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IR012AG",
+    "name": "Do What You Love",
+    "year": 2026,
+    "url": "http://www.dowhatyoulove.art",
+    "contact_email": "dowhatyoulove.artist@gmail.com",
+    "hometown": "Los Angeles, CA, United States",
+    "description": "WE ARE ALL ARTISTS.\nWE ARE HERE TO CREATE.\nWE ARE HERE TO FIND OUR PURPOSE.\nWE ARE HERE TO BE HAPPY —\nAND DO WHAT WE LOVE.\n\nEVERYTHING CREATED WITH LOVE\nBECOMES ART.\n\nIT DOESN'T MATTER WHAT YOU DO.\nIT DOESN'T MATTER WHO YOU ARE —\n\nARTIST. SINGER. LAWYER. DANCER. DOCTOR. SCULPTOR. ENGINEER. DIRECTOR. MUSICIAN. PHOTOGRAPHER. PRODUCER. WRITER. SCIENTIST. TEACHER. CHEF. BARISTA. FLORIST. MODEL. ENTREPRENEUR. PROGRAMMER.  FIREFIGHTER. BUS DRIVER OR PARENT.\n\nWE ARE ALL CREATORS.\nIF IT IS CREATED FROM LOVE.\nTHIS IS ALL ART.\n\nTHE WAY WE THINK.\nTHE WAY WE SPEAK.\nTHE WAY WE MOVE.\nTHE WAY WE SMILE.\n\nWHATEVER YOU DO —\nDO IT WITH LOVE.\n\nMY ART —\nIS A REMINDER.\n\nLIFE IS TOO SHORT.\nDO WHAT YOU LOVE.",
+    "artist": "Do What You Love Artist",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IRxh2AG",
+    "name": "Teletree",
+    "year": 2026,
+    "url": null,
+    "contact_email": "raleigh@raleighillgen.com",
+    "hometown": "Osaka, Japan",
+    "description": "The Teletree is a physical embodiment of the seven Hermetic principles. It is a PVC trunk covered in silicone bark, 3D printed Hermetic symbols, artificial tree branches, and a turtle at the base, Turin, who holds the tree on his shell.",
+    "artist": "Raleigh & Reiko",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
