@@ -9245,14 +9245,14 @@
     "program": "Self-Funded",
     "donation_link": null,
     "location": {
-      "hour": 9,
-      "minute": 35,
-      "distance": 1700,
+      "hour": 10,
+      "minute": 40,
+      "distance": 2400,
       "category": "Open Playa",
-      "gps_latitude": 40.787365558835575,
-      "gps_longitude": -119.21072283617542
+      "gps_latitude": 40.78978970718627,
+      "gps_longitude": -119.2071353428194
     },
-    "location_string": "9:35 1700', Open Playa",
+    "location_string": "10:40 2400', Open Playa",
     "images": [
       {
         "thumbnail_url": "https://burningman.widen.net/content/2zqenaakul/jpeg/a2IVI00000321pV2AQ-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
@@ -10584,6 +10584,32 @@
       "gps_longitude": -119.19091412165356
     },
     "location_string": "1:38 4700', ARTery",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003IeZx2AK",
+    "name": "VTZ",
+    "year": 2026,
+    "url": null,
+    "contact_email": null,
+    "hometown": "Aberdeen, NJ, United States",
+    "description": "The two zebras brimg a digital fromtier to the playa. The weird world of Vaporwave,  a purely omlime music, aesthetic,amd experiemce. Accidemtly fimdimg a page with odd imagry, text, colors, amd soumd. The zebras stamd alome, with music audible omly if you happem to fimd them. Replicatimg this purely digital experiemce to physical form.",
+    "artist": "Geoff Oliver",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 11,
+      "minute": 37,
+      "distance": 6100,
+      "category": "Open Playa",
+      "gps_latitude": 40.79719123589315,
+      "gps_longitude": -119.19573799539691
+    },
+    "location_string": "11:37 6100', Open Playa",
     "images": [],
     "guided_tours": false,
     "self_guided_tour_map": false,
