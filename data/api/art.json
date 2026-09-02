@@ -10614,5 +10614,31 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003Ilpx2AC",
+    "name": "Persephone's Miniature Magic Library",
+    "year": 2026,
+    "url": null,
+    "contact_email": null,
+    "hometown": "Oakland, CA, United States",
+    "description": "Persephone's Miniature Magic Library offers a safe haven for citizens of Black Rock City to rest, restore, and nestle up with a magic book in deep playa when they need a rest. It is a wooden hand crafted mailbox made with love like mini free libraries you stumble upon on a quiet street when you need a pause for inspiration. Take book, read on the pillows nearby, and return the book when finished for others to share.",
+    "artist": "Stephanie Lowe",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": 3,
+      "minute": 30,
+      "distance": 2100,
+      "category": "Open Playa",
+      "gps_latitude": 40.77826927980953,
+      "gps_longitude": -119.20405855786822
+    },
+    "location_string": "3:30 2100', Open Playa",
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
