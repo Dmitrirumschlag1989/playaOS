@@ -4,7 +4,7 @@
   "event_name": "Axis Mundi",
   "source": "https://playaevents.burningman.org/",
   "source_status": "imported",
-  "updated_at": "2026-09-01T16:41:27Z",
+  "updated_at": "2026-09-02T16:36:01Z",
   "events": [
     {
       "id": "pe-2026-08-30-960c8df007",
@@ -33599,12 +33599,12 @@
       "overnight": false
     },
     {
-      "id": "pe-2026-09-02-ecce35f8a9",
+      "id": "pe-2026-09-02-d2d8eefc61",
       "date": "2026-09-02",
       "start": "09:00",
       "end": "11:00",
       "title": "Truth or Dare Game Show",
-      "camp": "Center Camp Canopy",
+      "camp": "Center Camp",
       "category": "games",
       "priority": "maybe",
       "status": "verified",
@@ -33612,12 +33612,12 @@
       "overnight": false
     },
     {
-      "id": "pe-2026-09-02-d2d8eefc61",
+      "id": "pe-2026-09-02-ecce35f8a9",
       "date": "2026-09-02",
       "start": "09:00",
       "end": "11:00",
       "title": "Truth or Dare Game Show",
-      "camp": "Center Camp",
+      "camp": "Center Camp Canopy",
       "category": "games",
       "priority": "maybe",
       "status": "verified",
@@ -43986,10 +43986,10 @@
       "overnight": false
     },
     {
-      "id": "pe-2026-09-02-209bf66e67",
+      "id": "pe-2026-09-02-7686fd60c3",
       "date": "2026-09-02",
       "start": "17:00",
-      "end": "19:30",
+      "end": "18:15",
       "title": "Black Rock Philharmonic",
       "camp": "The Gothic Folly",
       "category": "other",
@@ -43999,10 +43999,10 @@
       "overnight": false
     },
     {
-      "id": "pe-2026-09-02-7686fd60c3",
+      "id": "pe-2026-09-02-209bf66e67",
       "date": "2026-09-02",
       "start": "17:00",
-      "end": "18:15",
+      "end": "19:30",
       "title": "Black Rock Philharmonic",
       "camp": "The Gothic Folly",
       "category": "other",
@@ -44304,19 +44304,6 @@
       "end": "18:30",
       "title": "Mocktail Communion Happy Hour!",
       "camp": "Camp NOT a Cult!",
-      "category": "other",
-      "priority": "maybe",
-      "status": "verified",
-      "source_url": "https://playaevents.burningman.org/2026/playa_events/04/",
-      "overnight": false
-    },
-    {
-      "id": "pe-2026-09-02-8c5c581c6b",
-      "date": "2026-09-02",
-      "start": "17:00",
-      "end": "18:30",
-      "title": "Naked Canvas",
-      "camp": "Cold Yogis",
       "category": "other",
       "priority": "maybe",
       "status": "verified",
