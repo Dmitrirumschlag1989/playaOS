@@ -3265,7 +3265,7 @@
       "frontage": "9:45",
       "intersection": "G",
       "intersection_type": "&",
-      "dimensions": "100 x 150",
+      "dimensions": "100 x 100",
       "exact_location": "Corner - facing mountain & 10:00"
     },
     "location_string": "9:45 & G",
@@ -4841,7 +4841,7 @@
       "frontage": "2:30",
       "intersection": "E",
       "intersection_type": "&",
-      "dimensions": "200 x 250",
+      "dimensions": "200 x 275",
       "exact_location": "Corner - facing man & 6:00"
     },
     "location_string": "2:30 & E",
@@ -19547,12 +19547,12 @@
     "accepting_campers": false,
     "location": {
       "frontage": "9:45",
-      "intersection": "K",
+      "intersection": "I",
       "intersection_type": "&",
       "dimensions": "150 x 150",
       "exact_location": "Corner - facing mountain & 6:00"
     },
-    "location_string": "9:45 & K",
+    "location_string": "9:45 & I",
     "images": []
   },
   {
