@@ -10744,5 +10744,31 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003JfFS2A0",
+    "name": "The Interview",
+    "year": 2026,
+    "url": "http://theinterview.art/",
+    "contact_email": null,
+    "hometown": "Stockholm Sweden",
+    "description": "Its an interactive improv-theater interview, where you can be the interviewee or the interviewer, if you pick up the torch make sure to pass it on. Questions present in a briefcase to get things going. GSD(Get Shit Doe)is the ethos at The Interview! The space is yours, let your magic come out just by connecting with another person.",
+    "artist": "Andromeda",
+    "category": null,
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
