@@ -8773,37 +8773,6 @@
     "needs_volunteers": true
   },
   {
-    "uid": "a2IVI000002uMXl2AM",
-    "name": "Golden Ladder",
-    "year": 2026,
-    "url": "https://www.instagram.com/golden.ladder.official/",
-    "contact_email": null,
-    "hometown": "Santa Cruz, CA; Cologne, Germany; Katowice, Poland; Cuneo, Italy",
-    "description": "The Golden Ladder - Getting people high since 6.000 BC.\nEach step will take you higher, your perspective shifts, your fear goes. The EXIT is close. Turn around and see from where you came. Curious minds, standing high, you don't need to touch the stars, yet realize, every one of us is a star. Leave with freshly earned gains.",
-    "artist": "Mantis",
-    "category": "Open Playa",
-    "program": "Self-Funded",
-    "donation_link": null,
-    "location": {
-      "hour": 11,
-      "minute": 30,
-      "distance": 6400,
-      "category": "Open Playa",
-      "gps_latitude": 40.798438366771535,
-      "gps_longitude": -119.19634509489538
-    },
-    "location_string": "11:30 6400', Open Playa",
-    "images": [
-      {
-        "thumbnail_url": "https://burningman.widen.net/content/pvk86gcdrb/jpeg/a2IVI000002uMXl2AM-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
-        "gallery_ref": null
-      }
-    ],
-    "guided_tours": false,
-    "self_guided_tour_map": false,
-    "needs_volunteers": false
-  },
-  {
     "uid": "a2IVI000002uPsD2AU",
     "name": "The Paradox Post",
     "year": 2026,
