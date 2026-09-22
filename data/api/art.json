@@ -3866,7 +3866,7 @@
     "location_string": "9:05 930', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/iamhkr0bd7/jpeg/a2IVI000002ecyH2AQ-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/l3ynuiswmh/jpeg/a2IVI000002ecyH2AQ-Final-Optional.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -7555,7 +7555,7 @@
     "location_string": "11:49 4300', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/wgfhsp1aww/jpeg/a2IVI000002rWS12AM-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/ekhdkmdxqa/jpeg/a2IVI000002rWS12AM-Final-Optional.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -8268,7 +8268,7 @@
     "location_string": "3:27 1285', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/ijltedea3e/jpeg/a2IVI000002u9132AA-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/10ovfdszxx/jpeg/a2IVI000002u9132AA-Final-Optional.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -10615,7 +10615,12 @@
       "gps_longitude": -119.20428277904914
     },
     "location_string": "3:00 1400', Open Playa",
-    "images": [],
+    "images": [
+      {
+        "thumbnail_url": "https://burningman.widen.net/content/6jbqngw2ks/jpeg/a2IVI000003In3l2AC-Final-Optional.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "gallery_ref": null
+      }
+    ],
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
