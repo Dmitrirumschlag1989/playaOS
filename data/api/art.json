@@ -2285,7 +2285,7 @@
     "location_string": "11:00 1700', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/pkzg3ybake/jpeg/a2IVI000002dqf72AA-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/adcifdzwyf/jpeg/a2IVI000002dqf72AA-Final.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -2440,7 +2440,7 @@
     "location_string": "11:18 1170', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/z3qfsby928/jpeg/a2IVI000002dy3B2AQ-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/lit6f5brfi/jpeg/a2IVI000002dy3B2AQ-Final.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -10764,6 +10764,32 @@
     "hometown": "Munich, Germany",
     "description": "Interact with the display by waving your arms and legs slowly in front of it. Note how the live image reacts to your warmer body parts.\n\nThe display has several different effects which will change randomly within a few minutes.",
     "artist": "Col. Klink aka Wüstling",
+    "category": "Cafe Art",
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003Nrl32AC",
+    "name": "Peace on Earth",
+    "year": 2026,
+    "url": "http://www.mandimeix.com",
+    "contact_email": null,
+    "hometown": "San Diego, CA, United States",
+    "description": "As it relates to Axis Mundi the theme for 2026, Peace on Earth is a depiction of the world turtle and the associated four elements of nature. The background is further divided into our world tree, the heavens, and the underground or ether. Our world is between worlds, yet we are all one. Shanti Shanti Shanti.",
+    "artist": "Mandi + Evan",
     "category": "Cafe Art",
     "program": "Self-Funded",
     "donation_link": null,
