@@ -12549,7 +12549,11 @@
       "exact_location": "Corner - facing mountain & 6:00"
     },
     "location_string": "6:00 & D",
-    "images": []
+    "images": [
+      {
+        "thumbnail_url": "https://burningman.widen.net/content/1leuisapq5/jpeg/a1XVI00000FLqFt2AL-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx"
+      }
+    ]
   },
   {
     "uid": "a1XVI00000FLqHV2A1",

@@ -10728,5 +10728,57 @@
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003NqFV2A0",
+    "name": "Ragnarok: Severance of the Body from the Mind",
+    "year": 2026,
+    "url": null,
+    "contact_email": "helen.yu.cchem@gmail.com",
+    "hometown": "Berkeley, CA, United States",
+    "description": "*Ragnarok* is an immersive sculpture created from deconstructed doors and windows, transformed into geometric portals representing psychedelic experience. Doors contain black-light-reactive acrylic pours that evoke shifting visual perception, while windows become Sierpiński triangles filled with LED infinity mirrors. Molecular structures trace psychedelic compounds from Indigenous medicines and Shulgin-era discoveries to contemporary research. Forming half an icosahedron, the installation explores psychedelics as windows into consciousness and doors to changing perceptual, emotional, and psychological states.",
+    "artist": "Helen Yu",
+    "category": "Cafe Art",
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003NqYr2AK",
+    "name": "BurnMatrix",
+    "year": 2026,
+    "url": null,
+    "contact_email": "tempelmann@gmail.com",
+    "hometown": "Munich, Germany",
+    "description": "Interact with the display by waving your arms and legs slowly in front of it. Note how the live image reacts to your warmer body parts.\n\nThe display has several different effects which will change randomly within a few minutes.",
+    "artist": "Col. Klink aka Wüstling",
+    "category": "Cafe Art",
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
   }
 ]
