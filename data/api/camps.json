@@ -6753,7 +6753,7 @@
       "frontage": "A",
       "intersection": "8:15",
       "intersection_type": "&",
-      "dimensions": "50 x 100",
+      "dimensions": "75 x 100",
       "exact_location": "Mid-block facing mountain"
     },
     "location_string": "A & 8:15",
@@ -19749,7 +19749,7 @@
       "frontage": "Esplanade",
       "intersection": "8:00",
       "intersection_type": "&",
-      "dimensions": "200 x 400",
+      "dimensions": "200+ x 400",
       "exact_location": "Corner - facing man & 6:00"
     },
     "location_string": "Esplanade & 8:00",
@@ -25070,13 +25070,13 @@
     "landmark": "Giant blow up Santa Clause",
     "accepting_campers": false,
     "location": {
-      "frontage": "C",
+      "frontage": "D",
       "intersection": "8:45",
       "intersection_type": "&",
       "dimensions": "50 x 100",
-      "exact_location": "Mid-block facing man"
+      "exact_location": "Mid-block facing mountain"
     },
-    "location_string": "C & 8:45",
+    "location_string": "D & 8:45",
     "images": []
   },
   {
@@ -25633,7 +25633,7 @@
       "frontage": "8:30",
       "intersection": "J",
       "intersection_type": "&",
-      "dimensions": "150 x 500",
+      "dimensions": "150 x 550",
       "exact_location": "Corner - facing man & 10:00"
     },
     "location_string": "8:30 & J",
@@ -25954,13 +25954,13 @@
     "landmark": "Glowing seahorses.",
     "accepting_campers": false,
     "location": {
-      "frontage": "F",
-      "intersection": "9:15",
+      "frontage": "9:15",
+      "intersection": "G",
       "intersection_type": "&",
-      "dimensions": "50 x 100",
-      "exact_location": "Mid-block facing man"
+      "dimensions": "100 x 100",
+      "exact_location": "Corner - facing mountain & 10:00"
     },
-    "location_string": "F & 9:15",
+    "location_string": "9:15 & G",
     "images": []
   },
   {
