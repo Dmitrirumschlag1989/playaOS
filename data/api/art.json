@@ -8299,7 +8299,7 @@
     "location_string": "10:45 760', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/ysop46byx7/jpeg/a2IVI000002u9Yv2AI-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/6edqzoirpa/jpeg/a2IVI000002u9Yv2AI-Final-Optional.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -10010,7 +10010,7 @@
     "location_string": null,
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/fdj1drw4vd/jpeg/a2IVI000003E4bX2AS-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/s3suozmzev/jpeg/a2IVI000003E4bX2AS-Final.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -10868,6 +10868,32 @@
     "hometown": "Sacramento, CA, United States",
     "description": "With a history of loving and working on comic books, each year I recreate a classic comic book cover and reimagine it with the theme of the current year. This year's theme the \"Axis Mundi\" is often depicted by a tree. The most famous tree-type characters ever to appear in a comic is Marvel's \"Groot\", whose first appearance is Tales to Astonish #13. I have recreated this cover, with the Man in place of Groot, and several art pieces from this year's Burn in the background in place of the building on the original cover.",
     "artist": "Mike (Cap) Hampton",
+    "category": "Cafe Art",
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003O7bJ2AS",
+    "name": "Center Camp Spoken Word Stage Backdrop",
+    "year": 2026,
+    "url": "https://www.clarkstoeckley.com/",
+    "contact_email": "clarkstoeckley@gmail.com",
+    "hometown": "Kuwait and Minneapolis, MN",
+    "description": "Spray painted mural on wood combining Islamic patterns and sacred geometry served as a background for the spoken word stage at Center Camp.",
+    "artist": "Clark Stoeckley",
     "category": "Cafe Art",
     "program": "Self-Funded",
     "donation_link": null,
