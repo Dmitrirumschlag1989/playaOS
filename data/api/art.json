@@ -4052,7 +4052,7 @@
     "location_string": "8:00 1165', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/s0fdypjijo/jpeg/a2IVI000002f0Nt2AI-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/zfciw6jizx/jpeg/a2IVI000002f0Nt2AI-Final-Optional.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -9514,7 +9514,7 @@
     "location_string": "7:30 10', Man Pavilion",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/d5frybstqj/jpeg/a2IVI0000037FF72AM-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/jdpxvqu7yp/jpeg/a2IVI0000037FF72AM-Final.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -9545,7 +9545,7 @@
     "location_string": "10:30 10', Man Pavilion",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/oekpxaji39/jpeg/a2IVI0000037TDF2A2-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/lhnuuftkqq/jpeg/a2IVI0000037TDF2A2-Final.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -10894,6 +10894,84 @@
     "hometown": "Kuwait and Minneapolis, MN",
     "description": "Spray painted mural on wood combining Islamic patterns and sacred geometry served as a background for the spoken word stage at Center Camp.",
     "artist": "Clark Stoeckley",
+    "category": "Cafe Art",
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003ORrl2AG",
+    "name": "Strength From Tears",
+    "year": 2026,
+    "url": "https://www.instagram.com/p/DUrGqjcjsDw/",
+    "contact_email": "hlabounta@yahoo.com",
+    "hometown": "Minneapolis, MN, United States",
+    "description": "This small shaped painting was inspired by the resistance of people in the Twin Cities to the ICE invasion. It depicts the Rebel Loon design by Bernardo Anderson which has become an icon of resistance for our community in Minneapolis. It's an acrylic painting on a tear drop shaped wood panel, 25\"x16\". The loon is the Minnesota state bird, it is incorporated into a Star Wars type Rebel Alliance logo design.",
+    "artist": "Henry LaBounta",
+    "category": "Cafe Art",
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003ORuz2AG",
+    "name": "Give Two Fucks",
+    "year": 2026,
+    "url": "https://www.instagram.com/p/DQ5u8VQjT9K/?img_index=4",
+    "contact_email": "hlabounta@yahoo.com",
+    "hometown": "Minneapolis, MN, United States",
+    "description": "This small painting was created from a photo taken with the artists daughter in Chicago. It's a reaction to such a cruel, heartless, self serving and incompetent president. This gesture speaks clearly about how many people feel. The artist hopes it will encourage others to speak up as well. Acrylic on canvas 11\" x 14\" 2025.",
+    "artist": "Henry LaBounta",
+    "category": "Cafe Art",
+    "program": "Self-Funded",
+    "donation_link": null,
+    "location": {
+      "hour": null,
+      "minute": null,
+      "distance": null,
+      "category": null,
+      "gps_latitude": 0.0,
+      "gps_longitude": 0.0
+    },
+    "location_string": null,
+    "images": [],
+    "guided_tours": false,
+    "self_guided_tour_map": false,
+    "needs_volunteers": false
+  },
+  {
+    "uid": "a2IVI000003ORyD2AW",
+    "name": "Navalny",
+    "year": 2026,
+    "url": "https://www.instagram.com/p/C4n8T0tOU4X/",
+    "contact_email": "hlabounta@yahoo.com",
+    "hometown": "Minneapolis, MN, United States",
+    "description": "This is a small acrylic portrait of the Russian opposition leader Alexei Navalny. He died in 2024 from poisoning from the Russian state. It commemorates his bravery and dignity in standing for his principles and fighting for freedom. He should be remembered.",
+    "artist": "Henry LaBounta",
     "category": "Cafe Art",
     "program": "Self-Funded",
     "donation_link": null,
