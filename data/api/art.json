@@ -2998,7 +2998,7 @@
     "location_string": "11:12 2600', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/1nya5m3d12/jpeg/a2IVI000002eBDJ2A2-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/1zv2u0nh9j/jpeg/a2IVI000002eBDJ2A2-Final.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -3246,7 +3246,7 @@
     "location_string": "4:45 1400', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/xiojzv0xhc/jpeg/a2IVI000002eFGv2AM-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/sslvf02ho2/jpeg/a2IVI000002eFGv2AM-Final.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -3308,7 +3308,7 @@
     "location_string": "7:46 1600', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/oiresdhv6w/jpeg/a2IVI000002eFtd2AE-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/vnk4yeljlm/jpeg/a2IVI000002eFtd2AE-Final.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -4765,7 +4765,7 @@
     "location_string": "6:03 1800', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/vbjn0nilzp/jpeg/a2IVI000002h8Nl2AI-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/55jalpdpq1/jpeg/a2IVI000002h8Nl2AI-Final.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -9021,32 +9021,6 @@
     "needs_volunteers": false
   },
   {
-    "uid": "a2IVI0000030W4b2AE",
-    "name": "deputy test ccc 6/4/26",
-    "year": 2026,
-    "url": "http://artweb.com",
-    "contact_email": "public@email.com",
-    "hometown": "Reno and San Francisco",
-    "description": "Describe what your project looks like and its meaning.\nLimit your description to 750 characters.\nUse the third person, present tense.\nDo not give commands or invite people to do things.",
-    "artist": "artist attribution name for the website, should this really allow such a long name? this seems excessive  artist attribution name for the website, should this really allow such a long name? this seems excessive",
-    "category": "Cafe Art",
-    "program": "Self-Funded",
-    "donation_link": null,
-    "location": {
-      "hour": null,
-      "minute": null,
-      "distance": null,
-      "category": null,
-      "gps_latitude": 0.0,
-      "gps_longitude": 0.0
-    },
-    "location_string": null,
-    "images": [],
-    "guided_tours": false,
-    "self_guided_tour_map": false,
-    "needs_volunteers": false
-  },
-  {
     "uid": "a2IVI0000031JTV2A2",
     "name": "Conduit",
     "year": 2026,
@@ -9202,32 +9176,6 @@
     "needs_volunteers": false
   },
   {
-    "uid": "a2IVI0000032TPB2A2",
-    "name": "TRST Center Camp Mural 2026 spec",
-    "year": 2026,
-    "url": null,
-    "contact_email": "spec@burningman.org",
-    "hometown": "Nevada City, CA, United States",
-    "description": "It's a mural for Center Camp. I have no idea what it will be of yet, but I will figure it out.",
-    "artist": "spec lee",
-    "category": "Cafe Art",
-    "program": "Self-Funded",
-    "donation_link": null,
-    "location": {
-      "hour": null,
-      "minute": null,
-      "distance": null,
-      "category": null,
-      "gps_latitude": 0.0,
-      "gps_longitude": 0.0
-    },
-    "location_string": null,
-    "images": [],
-    "guided_tours": false,
-    "self_guided_tour_map": false,
-    "needs_volunteers": false
-  },
-  {
     "uid": "a2IVI0000032Ueb2AE",
     "name": "spec's TRST of Walking in 2026",
     "year": 2026,
@@ -9305,32 +9253,6 @@
       "gps_longitude": -119.18713101154943
     },
     "location_string": "11:59 8201', Open Playa",
-    "images": [],
-    "guided_tours": false,
-    "self_guided_tour_map": false,
-    "needs_volunteers": false
-  },
-  {
-    "uid": "a2IVI0000032gFx2AI",
-    "name": "WG Test CC Canopy Walk-In",
-    "year": 2026,
-    "url": "http://www.artinstallationwebsite.com",
-    "contact_email": "public@email.com",
-    "hometown": "San Francisco, CA and Boston, MA",
-    "description": "Public Description of Installation *\nDescribe what your project looks like and its meaning.\nLimit your description to 750 characters.\nUse the third person, present tense.\nDo not give commands or invite people to do things.",
-    "artist": "Artist Attribution",
-    "category": "Cafe Art",
-    "program": "Self-Funded",
-    "donation_link": null,
-    "location": {
-      "hour": null,
-      "minute": null,
-      "distance": null,
-      "category": null,
-      "gps_latitude": 0.0,
-      "gps_longitude": 0.0
-    },
-    "location_string": null,
     "images": [],
     "guided_tours": false,
     "self_guided_tour_map": false,
