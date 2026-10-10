@@ -8981,7 +8981,7 @@
     "location_string": "1:18 3900', Open Playa",
     "images": [
       {
-        "thumbnail_url": "https://burningman.widen.net/content/kevnlgxzn1/jpeg/a2IVI000002wvCr2AI-1.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "thumbnail_url": "https://burningman.widen.net/content/qfuvyzlulq/jpeg/a2IVI000002wvCr2AI-Final-Optional.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
         "gallery_ref": null
       }
     ],
@@ -10428,7 +10428,12 @@
       "gps_longitude": -119.20853681584207
     },
     "location_string": "10:25 4000', ARTery",
-    "images": [],
+    "images": [
+      {
+        "thumbnail_url": "https://burningman.widen.net/content/gbnikfv8md/jpeg/a2IVI000003IRxh2AG-Final-Optional.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "gallery_ref": null
+      }
+    ],
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
