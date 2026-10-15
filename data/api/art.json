@@ -10547,7 +10547,12 @@
       "gps_longitude": -119.20444196465039
     },
     "location_string": "3:05 1400'",
-    "images": [],
+    "images": [
+      {
+        "thumbnail_url": "https://burningman.widen.net/content/khealamxmv/jpeg/a2IVI000003InBp2AK-Final-Optional.jpeg?w=640&keep=c&crop=yes&color=cccccc&quality=80&u=r3rtjx",
+        "gallery_ref": null
+      }
+    ],
     "guided_tours": false,
     "self_guided_tour_map": false,
     "needs_volunteers": false
